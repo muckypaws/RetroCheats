@@ -9,9 +9,10 @@ Enjoy!
 
 ## Files
 
-MegaVault.bas 			= Type In Listing type this in and then insert the cassette.
+**MegaVault.bas** 			= Type In Listing type this in and then insert the cassette.
 
-MegaVaultCheat.tap		= TAP File you can load into an emulator.
+**MegaVaultCheat.tap**		= TAP File you can load into an emulator.
 
-MegaVaultCheat.asm		= Assembly Language of the Custom Header Built.
+**MegaVaultCheat.asm**		= Assembly Language of the Custom Header Built.
 
+**MegaVaultAssemblyForVICE.txt** 	= Assembly Language you can paste into VICE Emulator.
