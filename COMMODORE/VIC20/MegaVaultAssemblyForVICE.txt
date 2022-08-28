@@ -1,0 +1,27 @@
+    A $210
+	JSR $23E
+	LDA #$60
+	STA $1136
+	JSR $1100
+	JSR $23E
+	LDA #$60
+	STA $1040
+	LDA #$EA
+	LDX #$4
+	STA $1102,X
+	DEX
+	BNE $227
+	JSR $1010
+	JSR $23E
+	LDA #$EA
+	STA $118F
+	STA $1190
+	JMP $361
+	LDX #$01
+	LDY #$FF
+	JSR $FFBA		
+	LDA #$00
+	JSR $FFBD		
+	LDX #$FF
+	LDY #$FF
+	JMP $FFD5		
