@@ -12,6 +12,9 @@
 *.~
 *.DS_Store
 .DS_Store
+*.bbprojectd/Scratchpad.txt
+*.bbprojectd/Unix Worksheet.worksheet
+*.bbprojectd/jason.bbprojectsettings
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
