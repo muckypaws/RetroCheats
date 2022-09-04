@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HierarchyData</key>
+	<array>
+		<string>D04D3D0F-763E-43E5-9FBF-2F9879C5BECD</string>
+	</array>
+	<key>ProjectItems</key>
+	<dict>
+		<key>D04D3D0F-763E-43E5-9FBF-2F9879C5BECD</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9vaxQDAAAAAAQQMAAAAJfEqT3k7O1K0EchjgkbO0A6
+				GnlZc7f54ROgzQocyp0iEAIAAAQAAAADAwAAAAgAKAUA
+				AAABAQAAVXNlcnMAAAAFAAAAAQEAAGphc29uAAAACQAA
+				AAEBAABEb2N1bWVudHMAAAAKAAAAAQEAAFNvdXJjZUNv
+				ZGUAAAsAAAABAQAAUmV0cm9DaGVhdHMACQAAAAEBAABD
+				T01NT0RPUkUAAAAYAAAAAQYAABAAAAAgAAAAMAAAAEQA
+				AABYAAAAbAAAAAgAAAAEAwAA+4AsAAAAAAAIAAAABAMA
+				AP2aLAAAAAAACAAAAAQDAABUZDYAAAAAAAgAAAAEAwAA
+				zfs5AAAAAAAIAAAABAMAAEGUXgcDAAAACAAAAAQDAAC2
+				lF4HAwAAABgAAAABBgAAoAAAALAAAADAAAAA0AAAAOAA
+				AADwAAAACAAAAAAEAABBxF35vrPgfRgAAAABAgAAAgAA
+				AAAAAAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAAEAAAA
+				AAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8M
+				AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAACBGyNYC
+				AAAIAAAAAAQAAEHCs2aG6Ti+JAAAAAEBAAA5NTU2NDc1
+				MC05NTg2LTNFRDQtOUE3Ri0xOTgxMEU4OUU1QUQYAAAA
+				AQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAAB
+				AQAALwAAAAAAAAABBQAAzAAAAP7///8BAAAAAAAAABAA
+				AAAEEAAAgAAAAAAAAAAFEAAAAAEAAAAAAAAQEAAAMAEA
+				AAAAAABAEAAAIAEAAAAAAAACIAAA/AEAAAAAAAAFIAAA
+				bAEAAAAAAAAQIAAAfAEAAAAAAAARIAAAsAEAAAAAAAAS
+				IAAAkAEAAAAAAAATIAAAoAEAAAAAAAAgIAAA3AEAAAAA
+				AAAwIAAACAIAAAAAAAABwAAAUAEAAAAAAAARwAAAIAAA
+				AAAAAAASwAAAYAEAAAAAAAAQ0AAABAAAAAAAAAA=
+				</data>
+				<key>FileURL</key>
+				<string>file:///Users/jason/Documents/SourceCode/RetroCheats/COMMODORE/</string>
+				<key>HasSecurityScope</key>
+				<true/>
+				<key>RelativePath</key>
+				<string>./COMMODORE</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>COMMODORE</string>
+			<key>ItemType</key>
+			<string>FolderReference</string>
+		</dict>
+	</dict>
+	<key>com.barebones.DocumentFormatVersion</key>
+	<integer>5</integer>
+	<key>com.barebones.DocumentType</key>
+	<string>Project</string>
+</dict>
+</plist>
