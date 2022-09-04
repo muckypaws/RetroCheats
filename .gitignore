@@ -15,6 +15,13 @@
 *.bbprojectd/Scratchpad.txt
 *.bbprojectd/Unix Worksheet.worksheet
 *.bbprojectd/jason.bbprojectsettings
+*.prg
+bak
+*.dbg
+*.dmp
+*.dup
+*.~
+**bbprojectd/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

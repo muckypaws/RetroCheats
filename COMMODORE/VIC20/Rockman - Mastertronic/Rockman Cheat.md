@@ -1,4 +1,7 @@
-# Infinite Time
+# Scratch note pad 
+
+
+## Infinite Time
 
 
 POKE $17F7,$0D   	- In first game part loader
@@ -81,44 +84,10 @@ SYS calls to $16A8
 
 
 
-	A $1900
-	LDX #$01		
-	LDY #$FF
-	JSR $FFBA		
-	LDA #$00		
-	JSR $FFBD		
-	LDX #$FF
-	LDY #$FF
-	JSR $FFD5
-	LDA #$4c			; Intercept Next Load Code 
-	STA $1700
-	lda #$38
-	STA $1701
-	lda #$19
-	STA $1702
-	LDA #$04			; Inject RUN Command 
-    STA $C6			
-    LDX #$52
-    STX $0277		
-    LDY #$55
-    STY $0278		
-    LDA #$4E
-    STA $0279		
-    LDX #$0D
-	RTS 				; Run BASIC Program
 
-
-
-
-	a $1900
-	LDA #$71
-	PHA
-	LDA #$C8
-	PHA
-	RTS
 	 
 	
-	
+Final Code - Still needs optimising there has to be a better way of achieving this.
 	
 10 rem rockman - mastertronic
 20 rem jason brooks 2022

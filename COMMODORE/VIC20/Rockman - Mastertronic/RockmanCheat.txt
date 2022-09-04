@@ -1,0 +1,29 @@
+10 rem rockman - mastertronic
+20 rem jason brooks 2022
+30 n=0
+40 read a% : if a%=-1 then sys6400 
+50 poke 6400+n,a%:n=n+1:goto 40
+60 rem cheat codes
+70 data 32,66,25,169,234,141,85,25
+80 data 169,4,141,233,22,169,76,141
+90 data 0,23,169,49,141,1,23,169
+100 data 25,141,2,23,162,0,189,44
+110 data 25,240,6,157,119,2,232,208
+120 data 245,134,198,96,82,85,78,13
+130 data 0,162,0,189,66,25,157,16
+140 data 2,232,138,201,40,208,244,76
+150 data 16,2,162,1,160,255,32,186
+160 data 255,169,0,32,189,255,162,255
+170 data 160,255,32,213,255,96
+
+180 rem infinite time
+190 data 169,13,141,199,2
+
+200 rem infinite lives 
+210 data 169,234,141,244,17
+
+220 rem start with nine lives
+230 data 169,14,141,189,21
+
+240 rem leave the lines below
+250 data 76,0,20,-1
