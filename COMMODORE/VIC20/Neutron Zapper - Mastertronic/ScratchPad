@@ -1,0 +1,18 @@
+POKE $10D1,$0d for infinite lives
+
+Infinite lives possible with simple loader or instructions
+
+Not the most exciting of shoot em up games but for 3.5kb, it’s not the worst.
+
+You want infinite lives?
+
+Follow these instructions
+
+LOAD””
+PRINT CHR$(147),CHR$(18)
+LOAD””
+POKE 4305,13
+RUN
+
+And Infinite Lives are yours captain!
+
