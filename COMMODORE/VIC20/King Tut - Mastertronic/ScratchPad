@@ -1,3 +1,6 @@
 $1664 = Colour to set the screen when lamp expires, set to 06 to keep screen lit
 
 PIA To develop a loader for it, at least as a type in
+
+Use an Emulator and POKE $1664,6 or POKE 5732,6
+
