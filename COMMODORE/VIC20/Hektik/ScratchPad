@@ -1,0 +1,233 @@
+Final Answers
+
+$31ac = 7F 		<-- inf lives
+$2E18 = $60 	<-- Inf Time
+
+Now just need to write a loader for it
+
+
+
+POKE 12716,127  - Inf Lives
+POKE 11800,96	- Inf Time
+
+SYS15465
+
+That works
+
+
+
+C:$2e9a) a 2e91
+.2e91  sbc #$00
+.2e93  
+
+Time? - Appears to be
+
+
+
+
+
+
+
+(C:$2e96) break
+WATCH: 1  C:$1014  (Stop on store)
+	Condition: @:default:$1014 == $5f
+WATCH: 2  C:$1374  (Stop on store)
+	Condition: @:default:$1374 == $7f
+BREAK: 3  C:$3c6c  (Stop on exec)
+BREAK: 4  C:$31ba  (Stop on exec)
+WATCH: 5  C:$1373  (Stop on store)
+	Condition: @:default:$1373 == $74
+BREAK: 6  C:$3195  (Stop on exec)
+WATCH: 7  C:$129b  (Stop on store)
+WATCH: 8  C:$211e  (Stop on store)
+WATCH: 9  C:$2d1e  (Stop on store)
+
+
+$2E18 - Start of Countdown timer for bar.
+
+Trying 2e18, $60
+
+.C:2e18  C6 6A       DEC $6A		<-- Looks like Frame Timer 02->FF
+.C:2e1a  10 FB       BPL $2E17		<-- RTS if not moved from 0 to FF
+.C:2e1c  20 8B 2E    JSR $2E8B
+.C:2e1f  A9 02       LDA #$02
+.C:2e21  85 6A       STA $6A
+.C:2e23  C6 6B       DEC $6B
+.C:2e25  10 F0       BPL $2E17
+.C:2e27  A9 4A       LDA #$4A
+.C:2e29  85 6B       STA $6B
+.C:2e2b  A0 05       LDY #$05
+.C:2e2d  B9 59 1E    LDA $1E59,Y
+.C:2e30  38          SEC
+.C:2e31  2A          ROL A
+.C:2e32  18          CLC
+.C:2e33  2A          ROL A
+.C:2e34  99 59 1E    STA $1E59,Y
+.C:2e37  88          DEY
+.C:2e38  10 F3       BPL $2E2D
+.C:2e3a  C9 AA       CMP #$AA
+.C:2e3c  D0 D9       BNE $2E17
+.C:2e3e  A4 69       LDY $69
+.C:2e40  A9 54       LDA #$54
+.C:2e42  99 16 2D    STA $2D16,Y
+.C:2e45  20 41 2D    JSR $2D41
+.C:2e48  C6 69       DEC $69
+.C:2e4a  A0 07       LDY #$07
+.C:2e4c  B9 50 1E    LDA $1E50,Y
+.C:2e4f  99 58 1E    STA $1E58,Y
+.C:2e52  88          DEY
+.C:2e53  10 F7       BPL $2E4C
+.C:2e55  A4 69       LDY $69
+.C:2e57  C0 0A       CPY #$0A
+.C:2e59  F0 08       BEQ $2E63
+.C:2e5b  A9 4B       LDA #$4B
+.C:2e5d  99 16 2D    STA $2D16,Y
+.C:2e60  4C 41 2D    JMP $2D41
+.C:2e63  A9 FC       LDA #$FC
+.C:2e65  85 00       STA $00
+.C:2e67  85 15       STA $15
+.C:2e69  85 69       STA $69
+.C:2e6b  4C C7 2E    JMP $2EC7
+
+
+
+
+
+Seems to set up a buffer before display to screen
+
+Sets lives representation
+.C:31ba  A9 7F       LDA #$7F
+.C:31bc  8D 73 13    STA $1373
+.C:31bf  8D 74 13    STA $1374
+.C:31c2  4C 98 3A    JMP $3A98
+
+.C:3c6c  A9 7F       LDA #$7F
+.C:3c6e  8D 73 13    STA $1373
+.C:3c71  8D 74 13    STA $1374
+.C:3c74  4C 91 3C    JMP $3C91
+
+
+.C:299e  C9 0A       CMP #$0A
+.C:29a0  30 16       BMI $29B8
+.C:29a2  85 24       STA $24
+.C:29a4  A9 0A       LDA #$0A
+.C:29a6  85 23       STA $23
+.C:29a8  20 F1 13    JSR $13F1
+.C:29ab  A5 25       LDA $25
+.C:29ad  99 68 13    STA $1368,Y
+.C:29b0  A5 24       LDA $24
+.C:29b2  85 16       STA $16
+.C:29b4  88          DEY
+.C:29b5  D0 DC       BNE $2993
+.C:29b7  C8          INY
+.C:29b8  B9 68 13    LDA $1368,Y
+.C:29bb  18          CLC
+.C:29bc  69 75       ADC #$75
+.C:29be  99 68 13    STA $1368,Y
+.C:29c1  C8          INY
+.C:29c2  C0 05       CPY #$05
+.C:29c4  30 F2       BMI $29B8
+.C:29c6  A9 13       LDA #$13
+.C:29c8  20 D2 FF    JSR $FFD2
+.C:29cb  A9 9F       LDA #$9F
+.C:29cd  20 D2 FF    JSR $FFD2
+.C:29d0  A0 00       LDY #$00
+.C:29d2  B9 60 13    LDA $1360,Y
+.C:29d5  20 D2 FF    JSR $FFD2
+.C:29d8  C8          INY
+.C:29d9  C0 16       CPY #$16
+.C:29db  30 F5       BMI $29D2
+.C:29dd  20 E2 31    JSR $31E2
+.C:29e0  A5 16       LDA $16
+.C:29e2  60          RTS
+
+
+
+
+
+
+
+
+
+
+
+Sets the Physical Number of lives on Screen 
+(C:$3cb9) hunt 100 9000 a9 7f 8d 73 13
+31ba
+3c6c
+
+On Game Start up
+
+(C:$3c6c) d
+.C:3c6c  A9 7F       LDA #$7F
+.C:3c6e  8D 73 13    STA $1373
+.C:3c71  8D 74 13    STA $1374
+.C:3c74  4C 91 3C    JMP $3C91
+
+
+
+.C:31ba  A9 7F       LDA #$7F
+.C:31bc  8D 73 13    STA $1373
+.C:31bf  8D 74 13    STA $1374
+.C:31c2  4C 98 3A    JMP $3A98
+
+
+
+
+
+
+
+Lives?
+
+Seem to check for the byte #74 = Space if not, then change to #74, if all #74, i.e. Y Count =4 then game over.
+
+31ac = 7F for inf lives? Yes it is! Phew...
+
+
+(C:$3b01) break
+WATCH: 1  C:$1014  (Stop on store)
+	Condition: @:default:$1014 == $5f
+WATCH: 2  C:$1374  (Stop on store)
+	Condition: @:default:$1374 == $7f
+BREAK: 3  C:$3c6c  (Stop on exec)
+BREAK: 4  C:$31ba  (Stop on exec)
+WATCH: 5  C:$1373  (Stop on store)
+	Condition: @:default:$1373 == $74
+BREAK: 6  C:$3195  (Stop on exec)
+WATCH: 8  C:$211e  (Stop on store)
+WATCH: 11  C:$2d2a  (Stop on store)
+BREAK: 13  C:$2e1a  (Stop on exec)
+
+
+
+C:3195  A5 0F       LDA $0F
+.C:3197  D0 07       BNE $31A0
+.C:3199  A5 68       LDA $68
+.C:319b  38          SEC
+.C:319c  E9 02       SBC #$02
+.C:319e  85 68       STA $68
+.C:31a0  C6 05       DEC $05
+.C:31a2  A0 00       LDY #$00
+.C:31a4  B9 71 13    LDA $1371,Y
+.C:31a7  C9 74       CMP #$74
+.C:31a9  F0 07       BEQ $31B2
+.C:31ab  A9 74       LDA #$74
+.C:31ad  99 71 13    STA $1371,Y
+.C:31b0  D0 13       BNE $31C5
+.C:31b2  C8          INY
+.C:31b3  C0 04       CPY #$04
+.C:31b5  30 ED       BMI $31A4
+.C:31b7  20 B9 32    JSR $32B9
+.C:31ba  A9 7F       LDA #$7F
+.C:31bc  8D 73 13    STA $1373
+.C:31bf  8D 74 13    STA $1374
+.C:31c2  4C 98 3A    JMP $3A98
+.C:31c5  4C B4 3A    JMP $3AB4
+.C:31c8  00          BRK
+.C:31c9  A6 FF       LDX $FF
+.C:31cb  E0 00       CPX #$00
+.C:31cd  F0 01       BEQ $31D0
+.C:31cf  60          RTS
+.C:31d0  8D 0B 90    STA $900B
+.C:31d3  8D 0D 90    STA $900D
+.C:31d6  60          RTS
