@@ -1,0 +1,65 @@
+Fuel
+
+The Block Index Stored in $A7 which is decremented, writing FUEL Block at Screen $1e00,x and Colour Block $9600,X to zero = Black
+
+$1AE9 = ORA $033F = Infinite Fuel
+POKE $1AE9,$0D
+poke 6889,13
+
+
+.C:1ae9  CE 3F 03    DEC $033F
+.C:1aec  D0 1A       BNE $1B08
+.C:1aee  A9 50       LDA #$50
+.C:1af0  8D 3F 03    STA $033F
+.C:1af3  A6 A7       LDX $A7
+.C:1af5  A9 1C       LDA #$1C
+.C:1af7  9D 00 1E    STA $1E00,X
+.C:1afa  A9 00       LDA #$00
+.C:1afc  9D 00 96    STA $9600,X
+.C:1aff  C6 A7       DEC $A7
+.C:1b01  D0 05       BNE $1B08
+.C:1b03  A9 01       LDA #$01
+.C:1b05  8D 3E 03    STA $033E
+.C:1b08  A5 FB       LDA $FB
+.C:1b0a  85 58       STA $58
+.C:1b0c  A5 FA       LDA $FA
+.C:1b0e  38          SEC
+.C:1b0f  E9 17       SBC #$17
+.C:1b11  B0 02       BCS $1B15
+.C:1b13  C6 58       DEC $58
+.C:1b15  85 57       STA $57
+.C:1b17  E6 FE       INC $FE
+.C:1b19  D0 02       BNE $1B1D
+.C:1b1b  E6 FF       INC $FF
+
+
+
+Lives = Basic Code Line 52 - Change to - 0 ;) 
+
+$11A6 = Lives
+4518 , Lives + 48 _ 57
+
+POKE $1106,$30
+poke 4358,48
+
+1 POKE45,61:POKE46,18:SYS7299:GOTO80
+2 SYS7536
+3 POKE828,3*RND(1):POKE857,12*RND(1)+3:SYS4850:IFPEEK(830)THEN50
+4 IFS=>CTHENA=A+1:C=C+10^4:PRINT"."TAB(20)A
+5 IFPEEK(845)THENS=S+PEEK(845)-1
+6 PRINT".","..F"S:SYS4880:FORT=1TO30:NEXT:ONDGOTO2
+8 IFPEEK(197)<>64THEN90
+9 POKE147,A%(6*RND(1)):GOTO3
+50 SYS7176:IFPEEK(830)THEN4
+52 SYS7209:A=A-1:ONA+2GOTO70:ONDGOTO99,90
+70 SYS7276:IFS>HTHENH=S
+72 PRINT".........high  "h:print".......replay ?":poke7361,30:sys7337:goto
+90
+80 fort=0to5:reada%(t):next:data18,17,21,20,41,44
+90 d=1:s=0:a=4:c=10^4:sys7276
+99 print"..e.]]]]]]]]]]]]f"s:print"."tab(20)a:sys4775
+110 ifa=4ands=0then150
+120 ifpeek(197)=64then120
+121 goto6
+150 poke7361,2:sys7337:ifpeek(161)=2thend=2:sys7365
+155 goto6
