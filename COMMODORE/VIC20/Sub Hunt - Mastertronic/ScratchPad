@@ -1,0 +1,73 @@
+This was easier than I thought...
+
+hunt 100 1e00 A9 03    (LDA #$03) yields only one result!
+
+.C:111d  A9 03       LDA #$03
+.C:111f  8D 45 03    STA $0345
+.C:1122  A9 E0       LDA #$E0
+.C:1124  8D A1 12    STA $12A1
+
+Yep, POKE $111E,Lives
+
+POKE 4382,Lives
+POKE 6966,13 		<-- Infinite Lives
+POKE 5987,29		<-- Infinite Air
+
+
+Search for Decrement Instruction
+
+.C:1b36  CE 45 03    DEC $0345
+.C:1b39  AD 45 03    LDA $0345
+.C:1b3c  F0 58       BEQ $1B96
+
+Change $1b36 to 
+
+(C:$1b39) d$1b36 $1b40
+.C:1b36  0D 45 03    ORA $0345
+.C:1b39  AD 45 03    LDA $0345
+
+Infinite Lives are yours!
+
+$1FC5 = Screen Address for Oxygen
+
+
+Timer: Look at $1763
+
+.C:1748  A2 06       LDX #$06
+.C:174a  FE 05 1E    INC $1E05,X
+.C:174d  BD 05 1E    LDA $1E05,X
+.C:1750  C9 BA       CMP #$BA
+.C:1752  F0 04       BEQ $1758
+.C:1754  88          DEY
+.C:1755  D0 F1       BNE $1748
+.C:1757  60          RTS
+.C:1758  A9 B0       LDA #$B0
+.C:175a  9D 05 1E    STA $1E05,X
+.C:175d  CA          DEX
+.C:175e  4C 4A 17    JMP $174A
+.C:1761  A2 03       LDX #$03
+.C:1763  DE C4 1F    DEC $1FC4,X
+.C:1766  BD C4 1F    LDA $1FC4,X
+.C:1769  C9 AF       CMP #$AF
+.C:176b  F0 01       BEQ $176E
+.C:176d  60          RTS
+.C:176e  A9 B9       LDA #$B9
+.C:1770  9D C4 1F    STA $1FC4,X
+.C:1773  CA          DEX
+.C:1774  E0 00       CPX #$00
+.C:1776  D0 EB       BNE $1763
+.C:1778  4C 00 1B    JMP $1B00
+
+
+Changed To: 
+
+.C:1763  1D C4 1F    ORA $1FC4,X
+.C:1766  BD C4 1F    LDA $1FC4,X
+
+
+Infinite Air
+
+POKE $1763,$1D
+
+
+

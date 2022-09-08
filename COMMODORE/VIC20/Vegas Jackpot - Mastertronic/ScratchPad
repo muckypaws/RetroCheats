@@ -1,0 +1,45 @@
+Money
+
+Counter stored in $0b 
+
+Change 144D ORA $0B 
+	   144F ORA $1E25
+	   
+POKE 5197, 05
+POKE 5199, 13
+
+.C:1433  EA          NOP
+.C:1434  A9 00       LDA #$00
+.C:1436  85 15       STA $15
+.C:1438  A5 C5       LDA $C5
+.C:143a  C9 18       CMP #$18
+.C:143c  D0 03       BNE $1441
+.C:143e  4C E5 17    JMP $17E5
+.C:1441  C9 3F       CMP #$3F
+.C:1443  D0 F3       BNE $1438
+.C:1445  E6 07       INC $07
+.C:1447  A5 C5       LDA $C5
+.C:1449  C9 3F       CMP #$3F
+.C:144b  F0 F8       BEQ $1445
+.C:144d  C6 0B       DEC $0B
+.C:144f  CE 25 1E    DEC $1E25
+.C:1452  AD 25 1E    LDA $1E25
+.C:1455  C9 AF       CMP #$AF
+.C:1457  D0 17       BNE $1470
+.C:1459  A9 B9       LDA #$B9
+.C:145b  8D 25 1E    STA $1E25
+.C:145e  CE 23 1E    DEC $1E23
+.C:1461  AD 23 1E    LDA $1E23
+.C:1464  C9 AF       CMP #$AF
+.C:1466  D0 08       BNE $1470
+.C:1468  A9 B9       LDA #$B9
+.C:146a  8D 23 1E    STA $1E23
+.C:146d  CE 22 1E    DEC $1E22
+.C:1470  A0 00       LDY #$00
+.C:1472  A5 05       LDA $05
+.C:1474  18          CLC
+.C:1475  65 07       ADC $07
+.C:1477  85 05       STA $05
+.C:1479  18          CLC
+.C:147a  29 70       AND #$70
+.C:147c  18          CLC
