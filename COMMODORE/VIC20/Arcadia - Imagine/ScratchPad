@@ -1,0 +1,68 @@
+This section displays lives on screen
+
+Seems it's called with A = Number of lives remaining.
+
+.C:0225  AA          TAX
+.C:0226  A9 3E       LDA #$3E
+.C:0228  99 FF 1D    STA $1DFF,Y
+.C:022b  CA          DEX
+.C:022c  F0 05       BEQ $0233
+.C:022e  88          DEY
+.C:022f  D0 F5       BNE $0226
+.C:0231  F0 08       BEQ $023B
+.C:0233  A9 00       LDA #$00
+.C:0235  99 FF 1D    STA $1DFF,Y
+.C:0238  88          DEY
+.C:0239  D0 F8       BNE $0233
+
+
+Lives stored @ $08
+
+.C:10b2  8D 0E 90    STA $900E
+.C:10b5  C6 08       DEC $08
+.C:10b7  D0 E8       BNE $10A1
+
+
+.C:10b5  05 08       ORA $08
+.C:10b7  D0 E8       BNE $10A1
+
+
+Arcadia Loader
+
+.C:0100  A2 01       LDX #$01
+.C:0102  A0 FF       LDY #$FF
+.C:0104  20 BA FF    JSR $FFBA
+.C:0107  A9 00       LDA #$00
+.C:0109  20 BD FF    JSR $FFBD
+.C:010c  A2 FF       LDX #$FF
+.C:010e  A0 FF       LDY #$FF
+.C:0110  20 D5 FF    JSR $FFD5
+.C:0113  4C 03 10    JMP $1003
+
+$10C0 = Lives
+
+Copies Startup Variables/Initialisation Values
+.C:1017  A0 07       LDY #$07
+.C:1019  B9 BB 10    LDA $10BB,Y
+.C:101c  99 03 00    STA $0003,Y
+.C:101f  88          DEY
+.C:1020  D0 F7       BNE $1019
+.C:1022  20 CB 10    JSR $10CB
+
+
+
+10 poke 37150,127
+20 poke 37151,127
+30 print".2"
+40 print:print:print:print"  imagine software":print:print"      present"
+50 print:print:print"      arcadia"
+54 print:print"         by":print:print"       d.h.l.":print
+55 print:print:print"(c)code, audio, visual"
+60 print"  copyright (c)1982"
+70 print:print"     by imagine"
+75 print:print"     please wait"
+80 for x=0 to 26:read y:poke256+x,y:next
+85 sys 256
+90 data 162,1,160,255,32,186,255,169,0,32,189,255,162,255
+100 data 160,255,32,213,255
+110 data 169,5,141,181,16,76,3,16
