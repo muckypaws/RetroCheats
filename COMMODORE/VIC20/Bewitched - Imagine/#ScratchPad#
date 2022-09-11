@@ -1,0 +1,403 @@
+Lives = 5
+
+
+(C:$1be7) break
+WATCH: 1  C:$1c0c  (Stop on store)
+	Condition: @:default:$1c0c == $15
+WATCH: 2  C:$100c  (Stop on store)
+WATCH: 3  C:$1c0c  (Stop on store)
+	Condition: @:default:$1c0c == $13
+(C:$1be7) 
+
+
+Lives stored at $1C0C 
+
+Lives populated from $100C = Fixed initialisation string for the game
+
+Change DEC $1C0C to ORA $1C0C for infinite lives.
+
+POKE $1B90,$0D
+
+
+.C:1b90  CE 0C 1C    DEC $1C0C
+.C:1b93  AD 0C 1C    LDA $1C0C
+.C:1b96  C9 10       CMP #$10
+.C:1b98  F0 1F       BEQ $1BB9
+.C:1b9a  20 32 13    JSR $1332
+.C:1b9d  A2 18       LDX #$18
+.C:1b9f  BD 00 1C    LDA $1C00,X
+.C:1ba2  9D E0 1F    STA $1FE0,X
+.C:1ba5  CA          DEX
+.C:1ba6  10 F7       BPL $1B9F
+.C:1ba8  20 E4 1B    JSR $1BE4
+.C:1bab  A2 18       LDX #$18
+.C:1bad  BD E0 1F    LDA $1FE0,X
+.C:1bb0  9D 00 1C    STA $1C00,X
+.C:1bb3  CA          DEX
+
+
+BNE $1B90 possible collision detection off?
+
+Works, but... Key Attribute inherits colour of enemy plus artefacts left on screen.
+
+.C:1b85  C9 24       CMP #$24
+.C:1b87  D0 07       BNE $1B90
+.C:1b89  A5 5F       LDA $5F
+.C:1b8b  29 07       AND #$07
+.C:1b8d  85 5D       STA $5D
+.C:1b8f  60          RTS
+
+
+
+
+
+
+The Actual Loader Hidden at $12a1 with a code shift at $1300
+
+.C:12a1  A9 05       LDA #$05
+.C:12a3  A2 01       LDX #$01
+.C:12a5  A0 FF       LDY #$FF
+.C:12a7  20 BA FF    JSR $FFBA
+.C:12aa  A9 00       LDA #$00
+.C:12ac  AA          TAX
+.C:12ad  A8          TAY
+.C:12ae  20 BD FF    JSR $FFBD
+.C:12b1  A9 00       LDA #$00
+.C:12b3  20 D5 FF    JSR $FFD5
+.C:12b6  A2 B0       LDX #$B0
+.C:12b8  BD FF 1D    LDA $1DFF,X
+.C:12bb  9D 01 01    STA $0101,X
+.C:12be  CA          DEX
+.C:12bf  D0 F7       BNE $12B8
+.C:12c1  A9 0A       LDA #$0A
+.C:12c3  8D 0E 90    STA $900E
+.C:12c6  78          SEI
+.C:12c7  A9 01       LDA #$01
+.C:12c9  8D 15 03    STA $0315
+.C:12cc  A9 02       LDA #$02
+.C:12ce  8D 14 03    STA $0314
+.C:12d1  58          CLI
+.C:12d2  A9 09       LDA #$09
+.C:12d4  8D 00 90    STA $9000
+.C:12d7  A9 19       LDA #$19
+.C:12d9  8D 02 90    STA $9002
+.C:12dc  A9 FE       LDA #$FE
+.C:12de  8D 05 90    STA $9005
+.C:12e1  A9 14       LDA #$14
+.C:12e3  8D 01 90    STA $9001
+.C:12e6  A9 C0       LDA #$C0
+.C:12e8  8D 03 90    STA $9003
+.C:12eb  A5 FF       LDA $FF
+.C:12ed  8D 00 01    STA $0100
+.C:12f0  A9 7F       LDA #$7F
+.C:12f2  8D 28 03    STA $0328
+.C:12f5  8D 1E 91    STA $911E
+.C:12f8  8D 1F 91    STA $911F
+.C:12fb  4C 00 11    JMP $1100
+
+.C:1300  A2 5F       LDX #$5F
+.C:1302  BD A1 12    LDA $12A1,X
+.C:1305  9D A1 02    STA $02A1,X
+.C:1308  CA          DEX
+.C:1309  10 F7       BPL $1302
+.C:130b  4C A1 02    JMP $02A1
+
+
+
+
+
+
+
+
+
+
+
+a$12a1
+    LDA  #$05
+    LDX  #$01
+    LDY  #$FF
+    JSR  $FFBA
+    LDA  #$00
+    TAX
+    TAY
+    JSR  $FFBD
+    LDA  #$00
+    JSR  $FFD5
+    LDX  #$B0
+    LDA  $1DFF,X
+    STA  $0101,X
+    DEX
+    BNE  $12B8
+    LDA  #$0A
+    STA  $900E
+    SEI
+    LDA  #$01
+    STA  $0315
+    LDA  #$02
+    STA  $0314
+    CLI
+    LDA  #$09
+    STA  $9000
+    LDA  #$19
+    STA  $9002
+    LDA  #$FE
+    STA  $9005
+    LDA  #$14
+    STA  $9001
+    LDA  #$C0
+    STA  $9003
+    LDA  $FF
+    STA  $0100
+    LDA  #$7F
+    STA  $0328
+    STA  $911E
+    STA  $911F
+    LDA #$FF
+    STA $100c
+    JMP  $1100
+    LDX  #$62
+    LDA  $12A1,X
+    STA  $02A1,X
+    DEX
+    BPL  $1305
+    JMP  $02A1
+    
+    
+    
+    
+    
+    LDA #$19
+STA $100C
+LDA #$0D
+STA $1B90
+JMP  $1100
+LDX  #$62
+LDA  $12A1,X
+STA  $02A1,X
+DEX
+BPL  $130a
+JMP  $02A1
+
+
+
+10 REM GENERATED ML LOADER
+20 SA = 4859
+30 FOR N = 0 TO 26
+40 READ A% : POKE SA+N,A%: NEXT N
+50 SYS SA
+60 END
+80 X=4859
+81 READ A:POKE X,A:X=X+1:IF A=-1 THEN SYS X-14
+82 goto 81
+83 REM 9 Lives 
+84 DATA 169,25,141,12,16,
+85 REM INFINITE LIVES
+86 DATA 169,13,141,144,27
+87 REM LEAVE
+88 DATA 76,0,17,162,98,189
+90 DATA 161,18,157,161,2,202,16,247
+100 DATA 76,161,2,-1
+
+
+
+80 x=4859
+81 read a:poke x,a:x=x+1:if a=-1 then sys x-14
+82 goto 81
+83 rem 9 lives 
+84 data 169,25,141,12,16,
+85 rem infinite lives
+86 data 169,13,141,144,27
+87 rem leave
+88 data 76,0,17,162,98,189
+90 data 161,18,157,161,2,202,16,247
+100 data 76,161,2,-1
+
+
+
+
+
+
+
+
+5 PRINTCHR$(8)
+10 POKE 37150,127
+20 POKE 37151,127
+30 PRINT".2"
+40 PRINT:PRINT:PRINT:PRINT"   IMAGINE SOFTWARE":PRINT:PRINT"       PRESENT
+"
+50 PRINT:PRINT:PRINT"      BEWITCHED"
+54 PRINT:PRINT"         BY":PRINT:PRINT"   CHRIS  LANCASTER ":PRINT
+55 POKE198,0:PRINT".DO YOU REQUIRE MUSIC ?.";
+56 GETA$:IFA$=""THEN56
+57 IFA$<>"Y"THENPOKE255,2
+58 PRINT".......................
+59 PRINT:PRINT:PRINT"(C)CODE, AUDIO, VISUAL"
+60 PRINT"  COPYRIGHT (C)1983"
+70 PRINT:PRINT"     BY IMAGINE"
+75 PRINT:PRINT"     PLEASE WAIT"
+80 FOR X=0 TO 24:READ Y:POKE256+X,Y:NEXT
+84 SYS4864:REM"................
+85 SYS 256
+90 DATA 162,1,160,255,32,186,255,169,0,32,189,255,162,255
+100 DATA 160,255,32,213,255,76,3,16,0,0,0,0
+READY.
+
+
+
+The Actual Loader Hidden at $12a1 with a code shift at $1300
+
+.C:12a1  A9 05       LDA #$05
+.C:12a3  A2 01       LDX #$01
+.C:12a5  A0 FF       LDY #$FF
+.C:12a7  20 BA FF    JSR $FFBA
+.C:12aa  A9 00       LDA #$00
+.C:12ac  AA          TAX
+.C:12ad  A8          TAY
+.C:12ae  20 BD FF    JSR $FFBD
+.C:12b1  A9 00       LDA #$00
+.C:12b3  20 D5 FF    JSR $FFD5
+.C:12b6  A2 B0       LDX #$B0
+.C:12b8  BD FF 1D    LDA $1DFF,X
+.C:12bb  9D 01 01    STA $0101,X
+.C:12be  CA          DEX
+.C:12bf  D0 F7       BNE $12B8
+.C:12c1  A9 0A       LDA #$0A
+.C:12c3  8D 0E 90    STA $900E
+.C:12c6  78          SEI
+.C:12c7  A9 01       LDA #$01
+.C:12c9  8D 15 03    STA $0315
+.C:12cc  A9 02       LDA #$02
+.C:12ce  8D 14 03    STA $0314
+.C:12d1  58          CLI
+.C:12d2  A9 09       LDA #$09
+.C:12d4  8D 00 90    STA $9000
+.C:12d7  A9 19       LDA #$19
+.C:12d9  8D 02 90    STA $9002
+.C:12dc  A9 FE       LDA #$FE
+.C:12de  8D 05 90    STA $9005
+.C:12e1  A9 14       LDA #$14
+.C:12e3  8D 01 90    STA $9001
+.C:12e6  A9 C0       LDA #$C0
+.C:12e8  8D 03 90    STA $9003
+.C:12eb  A5 FF       LDA $FF
+.C:12ed  8D 00 01    STA $0100
+.C:12f0  A9 7F       LDA #$7F
+.C:12f2  8D 28 03    STA $0328
+.C:12f5  8D 1E 91    STA $911E
+.C:12f8  8D 1F 91    STA $911F
+.C:12fb  4C 00 11    JMP $1100
+
+
+
+
+
+
+10 rem generated ml loader
+20 sa = 528
+30 for n = 0 to 79
+40 read a% : poke sa+n,a%: next n
+50 sys sa
+60 end 
+70 data 162,1,160,255,32,186,255,169
+80 data 0,32,189,255,162,255,160,255
+90 data 32,213,255,169,70,141,12,19
+100 data 169,2,141,13,19,169,82,141
+110 data 119,2,169,85,141,120,2,169
+120 data 78,141,121,2,169,13,141,122
+130 data 2,169,4,133,198,96,169,83
+140 data 141,252,18,169,2,141,253,18
+150 data 76,26,2,169,25,141,12,16
+160 data 169,13,141,144,27,76,0,17
+
+
+
+V2
+
+10 rem generated ml loader
+20 sa = 528
+30 for n = 0 to 66
+40 read a% : poke sa+n,a%: next n
+50 sys sa
+60 end 
+70 data 162,1,160,255,32,186,255,169
+80 data 0,32,189,255,162,255,160,255
+90 data 32,213,255,169,70,141,252,18
+100 data 169,2,141,253,18,169,82,141
+110 data 119,2,169,85,141,120,2,169
+120 data 78,141,121,2,169,13,141,122
+130 data 2,169,4,133,198,96,169,25
+140 data 141,12,16,169,13,141,144,27
+150 data 76,0,17
+
+
+V3
+10 rem generated ml loader
+20 sa = 528
+30 for n = 0 to 47
+40 read a% : poke sa+n,a%: next n
+50 sys sa
+60 end 
+70 data 169,51,141,252,18,169,2,141
+80 data 253,18,169,82,141,119,2,169
+90 data 85,141,120,2,169,78,141,121
+100 data 2,169,13,141,122,2,169,4
+110 data 133,198,96,169,25,141,12,16
+120 data 169,13,141,144,27,76,0,17
+
+
+V4
+10 rem bewitched - Infinite Lives
+20 rem by Jason Brooks 2022
+20 a = 544
+40 read b% : if b% = -1 then goto 60
+50 poke a,b%: a=a+1: goto 40
+70 data 169,43,141,252,18,169,2,141
+80 data 253,18,96
+90 rem start with 9 lives 
+100 data 169,25,141,12,16
+110 rem infinite lives
+120 data 169,13,141,144,27
+130 rem leave this last line
+140 data 76,0,17,-1
+
+
+
+
+V5 Blast Annual
+
+10 rem bewitched - infinite lives
+20 rem by jason brooks 2022
+30 a = 544
+40 read b% : if b% = -1 then end
+50 poke a,b%: a=a+1: goto 40
+70 data 169,43,141,252,18,169,2,141
+80 data 253,18,96
+90 rem start with 9 lives 
+100 data 169,25,141,12,16
+110 rem infinite lives
+120 data 169,13,141,144,27
+130 rem leave this last line
+140 data 76,0,17,-1
+
+
+
+
+
+
+
+
+10 rem generated ml loader
+20 sa = 544
+30 for n = 0 to 79
+40 read a% : poke sa+n,a%: next n
+60 end 
+70 data 162,1,160,255,32,186,255,169
+80 data 0,32,189,255,162,255,160,255
+90 data 32,213,255,169,99,141,252,18
+100 data 169,2,141,253,18,169,82,141
+110 data 119,2,169,85,141,120,2,169
+120 data 78,141,121,2,169,13,141,122
+130 data 2,169,4,133,198,96,169,99
+140 data 141,252,2,169,2,141,253,2
+150 data 76,26,2,169,25,141,12,16
+160 data 169,13,141,144,27,76,0,17

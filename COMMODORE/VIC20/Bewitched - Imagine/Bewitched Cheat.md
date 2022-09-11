@@ -8,6 +8,8 @@ How does string with Nine Lives or Infinite Lives grab your attention?
 
 Well, I have you covered!
 
+Don't want to type it in? The download the **Bewitched Cheat.tap** and load that into your VIC20
+
 
 `10 rem bewitched - infinite lives`
 
