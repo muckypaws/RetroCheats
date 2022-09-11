@@ -6,11 +6,13 @@ These cheats will enable infinite lives, infinite air or start with nine lives.
 
 # Files
 
-`
-RockmanCheat.tap				<- Loadable TAP Image
-RockmanCheat.txt				<- TypeIn BASIC Listing
-RockmanCheatAssembler.txt		<-- Assembler Listing for Cheat 
-`
+
+`RockmanCheat.tap				<- Loadable TAP Image`
+
+`RockmanCheat.txt				<- TypeIn BASIC Listing`
+
+`RockmanCheatAssembler.txt		<-- Assembler Listing for Cheat`
+
 
 To use the cheat, either load the Cheat Cassette into your VIC20 or emulator
 
