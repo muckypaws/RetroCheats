@@ -1,0 +1,44 @@
+Seems to write the Opinion Value direct to screen and manipulates that rather than another memory location
+
+
+$1e12
+
+$3D1 = $EA    <-- Ensure opinion never goes down when goods are stolen
+
+$1FD1 = $EA  <-- Before game relocates code 
+
+
+
+.C:03d1  EA          NOP
+.C:03d2  C0 AF       CPY #$AF
+.C:03d4  D0 09       BNE $03DF
+.C:03d6  A0 B9       LDY #$B9
+.C:03d8  CA          DEX
+.C:03d9  E0 AF       CPX #$AF
+.C:03db  D0 02       BNE $03DF
+.C:03dd  A2 B9       LDX #$B9
+.C:03df  60          RTS
+
+
+
+10 poke 37150,127
+20 poke 37151,127
+30 print".1"
+40 print:print:print:print"   imagine software":print:print"       present"
+50 print:print:print"    catcha snatcha"
+54 print:print"         by":print:print"     eugene evans":print
+55 print:print:print"(c)code, audio, visual"
+60 print"  copyright (c)1983"
+70 print:print"     by imagine"
+75 print:print"     please wait"
+80 for x=0 to 26:read y:poke256+x,y:next
+85 sys 256
+90 data 162,1,160,255,32,186,255,169,0,32,189,255,162,255
+100 data 160,255,32,213,255
+110 data 169,234,141,209,31
+120 data 76,3,16
+
+
+
+
+169 234 141 209  031 076 003 016

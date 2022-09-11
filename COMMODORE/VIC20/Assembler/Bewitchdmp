@@ -1,0 +1,38 @@
+00001  0000             ; LOAD THE BASIC PROGRAM
+00002  0220  A9 05                 LDA  #$05
+00003  0222  A2 01                 LDX  #$01
+00004  0224  A0 FF                 LDY  #$FF
+00005  0226  20 BA FF              JSR  $FFBA
+00006  0229  A9 00                 LDA  #$00
+00007  022B  AA                    TAX
+00008  022C  A8                    TAY
+00009  022D  20 BD FF              JSR  $FFBD
+00010  0230  A9 00                 LDA  #$00
+00011  0232  20 D5 FF              JSR  $FFD5
+00012  0235             INJECT 
+00013  0235  A9 40                 LDA #<CHEAT
+00014  0237  8D FC 12              STA $12FC
+00015  023A  A9 02                 LDA #>CHEAT
+00016  023C  8D FD 12              STA $12FD
+00017  023F  60                    RTS
+00018  0240             ;    JMP $21A        ; EXECUTE THE ORIGINAL LOADER
+00019  0240             CHEAT 
+00020  0240  A9 19                 LDA #$19
+00021  0242  8D 0C 10              STA $100C
+00022  0245  A9 0D                 LDA #$0D
+00023  0247  8D 90 1B              STA $1B90
+00024  024A  4C 00 11              JMP  $1100
+00025  024D             
+
+******* 2 Label(s) *******
+Cheat = $0240 
+Inject = $0235 
+
+******* 1 Unused label(s) *******
+Inject
+
+******* 1 Variable(s) *******
+tgt_vic20  = $0001
+******* 1 Unused variables(s) *******
+tgt_vic20
+

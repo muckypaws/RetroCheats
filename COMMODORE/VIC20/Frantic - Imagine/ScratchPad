@@ -1,0 +1,58 @@
+Fuel
+
+Seems $4E contains fuel counter
+
+Changing $1531 to ORA $4E gives infinite fuel.
+$1531,5
+
+
+.C:1531  C6 4E       DEC $4E
+.C:1533  A5 4E       LDA $4E
+.C:1535  C9 30       CMP #$30
+.C:1537  B0 04       BCS $153D
+.C:1539  A9 80       LDA #$80
+.C:153b  85 50       STA $50
+.C:153d  A2 14       LDX #$14
+.C:153f  A9 02       LDA #$02
+.C:1541  9D C5 1F    STA $1FC5,X
+.C:1544  CA          DEX
+.C:1545  D0 FA       BNE $1541
+.C:1547  A5 4E       LDA $4E
+.C:1549  F0 21       BEQ $156C
+.C:154b  29 07       AND #$07
+.C:154d  A8          TAY
+.C:154e  B9 6C 14    LDA $146C,Y
+.C:1551  A2 08       LDX #$08
+.C:1553  9D 17 1C    STA $1C17,X
+.C:1556  CA          DEX
+.C:1557  D0 FA       BNE $1553
+
+
+169 005 141 049  021 076 000 016 
+
+
+Infinite Fuel
+
+
+10 poke 37150,127
+20 poke 37151,127
+30 print".1"
+40 print:print:print:print"   imagine software":print:print"       present
+"
+50 print:print:print"       frantic"
+54 print:print"         by":print:print"     eugene evans":print
+55 print:print:print"(c)code, audio, visual"
+60 print"  copyright (c)1983"
+70 print:print"     by imagine"
+75 print:print"     please wait"
+80 for x=0 to 26:read y:poke256+x,y:next
+85 sys 256
+90 data 162,1,160,255,32,186,255,169,0,32,189,255,162,255
+100 data 160,255,32,213,255
+110 data 169,5,141,49,21
+120 data 76,0,16
+
+
+
+
+
