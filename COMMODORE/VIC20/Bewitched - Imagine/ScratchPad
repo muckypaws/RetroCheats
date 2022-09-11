@@ -287,3 +287,117 @@ The Actual Loader Hidden at $12a1 with a code shift at $1300
 .C:12f8  8D 1F 91    STA $911F
 .C:12fb  4C 00 11    JMP $1100
 
+
+
+
+
+
+10 rem generated ml loader
+20 sa = 528
+30 for n = 0 to 79
+40 read a% : poke sa+n,a%: next n
+50 sys sa
+60 end 
+70 data 162,1,160,255,32,186,255,169
+80 data 0,32,189,255,162,255,160,255
+90 data 32,213,255,169,70,141,12,19
+100 data 169,2,141,13,19,169,82,141
+110 data 119,2,169,85,141,120,2,169
+120 data 78,141,121,2,169,13,141,122
+130 data 2,169,4,133,198,96,169,83
+140 data 141,252,18,169,2,141,253,18
+150 data 76,26,2,169,25,141,12,16
+160 data 169,13,141,144,27,76,0,17
+
+
+
+V2
+
+10 rem generated ml loader
+20 sa = 528
+30 for n = 0 to 66
+40 read a% : poke sa+n,a%: next n
+50 sys sa
+60 end 
+70 data 162,1,160,255,32,186,255,169
+80 data 0,32,189,255,162,255,160,255
+90 data 32,213,255,169,70,141,252,18
+100 data 169,2,141,253,18,169,82,141
+110 data 119,2,169,85,141,120,2,169
+120 data 78,141,121,2,169,13,141,122
+130 data 2,169,4,133,198,96,169,25
+140 data 141,12,16,169,13,141,144,27
+150 data 76,0,17
+
+
+V3
+10 rem generated ml loader
+20 sa = 528
+30 for n = 0 to 47
+40 read a% : poke sa+n,a%: next n
+50 sys sa
+60 end 
+70 data 169,51,141,252,18,169,2,141
+80 data 253,18,169,82,141,119,2,169
+90 data 85,141,120,2,169,78,141,121
+100 data 2,169,13,141,122,2,169,4
+110 data 133,198,96,169,25,141,12,16
+120 data 169,13,141,144,27,76,0,17
+
+
+V4
+10 rem bewitched - Infinite Lives
+20 rem by Jason Brooks 2022
+20 a = 544
+40 read b% : if b% = -1 then goto 60
+50 poke a,b%: a=a+1: goto 40
+70 data 169,43,141,252,18,169,2,141
+80 data 253,18,96
+90 rem start with 9 lives 
+100 data 169,25,141,12,16
+110 rem infinite lives
+120 data 169,13,141,144,27
+130 rem leave this last line
+140 data 76,0,17,-1
+
+
+
+
+V5 Blast Annual
+
+10 rem bewitched - infinite lives
+20 rem by jason brooks 2022
+20 a = 544
+40 read b% : if b% = -1 then end
+50 poke a,b%: a=a+1: goto 40
+70 data 169,43,141,252,18,169,2,141
+80 data 253,18,96
+90 rem start with 9 lives 
+100 data 169,25,141,12,16
+110 rem infinite lives
+120 data 169,13,141,144,27
+130 rem leave this last line
+140 data 76,0,17,-1
+
+
+
+
+
+
+
+
+10 rem generated ml loader
+20 sa = 544
+30 for n = 0 to 79
+40 read a% : poke sa+n,a%: next n
+60 end 
+70 data 162,1,160,255,32,186,255,169
+80 data 0,32,189,255,162,255,160,255
+90 data 32,213,255,169,99,141,252,18
+100 data 169,2,141,253,18,169,82,141
+110 data 119,2,169,85,141,120,2,169
+120 data 78,141,121,2,169,13,141,122
+130 data 2,169,4,133,198,96,169,99
+140 data 141,252,2,169,2,141,253,2
+150 data 76,26,2,169,25,141,12,16
+160 data 169,13,141,144,27,76,0,17
