@@ -1,6 +1,6 @@
 Final Answers
 
-$31ac = 7F 		<-- inf lives
+$31ac = $7F 	<-- inf lives
 $2E18 = $60 	<-- Inf Time
 
 Now just need to write a loader for it
@@ -231,3 +231,7 @@ C:3195  A5 0F       LDA $0F
 .C:31d0  8D 0B 90    STA $900B
 .C:31d3  8D 0D 90    STA $900D
 .C:31d6  60          RTS
+
+
+
+
