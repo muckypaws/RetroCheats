@@ -25,9 +25,9 @@ ce 25 1c - Infinite Lives
 370 
 380 data 169,0,162,1,160,255,32,186,255,32,189,255,32,213,255
 
+z
 
-
-`360 x=673
+360 x=673
 361 ready:ify=-1 then sys(673)
 362 poke x,y:x=x+1:goto 361
 370
@@ -39,4 +39,4 @@ ce 25 1c - Infinite Lives
 440 rem infinite air
 450 data 169,5,141,90,31
 460 rem leave the last line 
-470 data 76,8,26,-1`
+470 data 76,8,26,-1
