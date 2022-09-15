@@ -1,6 +1,15 @@
 # Duck Shoot - Mastertronic - VIC20
 
-Cheats found by Jason Brooks www.muckypaws.com August 2022
+Cheats found by Jason Brooks 2022 - www.muckypaws.com
+
+                   _                                                  
+                  | |                                                  
+ ____  _   _  ____| |  _ _   _ ____  _____ _ _ _  ___  ____ ___  ____  
+|    \| | | |/ ___) |_/ ) | | |  _ \(____ | | | |/___)/ ___) _ \|    \ 
+| | | | |_| ( (___|  _ (| |_| | |_| / ___ | | | |___ ( (__| |_| | | | |
+|_|_|_|____/ \____)_| \_)\__  |  __/\_____|\___/(___(_)____)___/|_|_|_|
+                        (____/|_|                                      
+                        
 
 Instructions are simple for this one.
 
@@ -8,7 +17,7 @@ Insert your Duck Shoot Cassette and type
 
 `LOAD""`
 
-DO Not RUN The Program, Instead Type 
+**DO Not RUN The Program, Instead Type**
 
 `LOAD""`
 
