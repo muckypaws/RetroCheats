@@ -1,4 +1,4 @@
-# Doodle Bug - Mastertronic - VIC20 - Infinite Lives
+# Doodle Bug - Mastertronic - VIC20
 
 Cheats found by Jason Brooks 2022 - www.muckypaws.com
 
@@ -11,22 +11,7 @@ Cheats found by Jason Brooks 2022 - www.muckypaws.com
                         (____/|_|                                      
                         
 
-Insert the Cassette and type 
+**Files**
 
-`LOAD “”`
-
-Add the following line
-
-## Infinite Lives
-
-`25 POKE 5302,234`
-
-## Infinite Bombs
-
-`26 POKE 6126,239`
-
-Now type 
-
-`RUN` 
-
-and infinite lives are yours
+**DoodleBug.md**			<-- Instructions for the cheat
+**Doodle Bug Cheat.tap**	<-- Cheat pre-loaded to TAP Files
