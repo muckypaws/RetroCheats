@@ -1,4 +1,4 @@
-# Bullet - Mastertronic - VIC20 - Infinite Lives
+# Catcha Snatcha - Imagine - VIC20
 
 Cheats found by Jason Brooks 2022 - www.muckypaws.com
 
@@ -10,23 +10,9 @@ Cheats found by Jason Brooks 2022 - www.muckypaws.com
 |_|_|_|____/ \____)_| \_)\__  |  __/\_____|\___/(___(_)____)___/|_|_|_|
                         (____/|_|                                      
                         
+**Files**
 
-To create infinite lives for this classic game, follow these instructions.
+**Catcha Snatcha.md**			<-- Instructions for Cheat
+**Catch Snatcha Cheat.tap**		<-- Tape File with Cheat Typed In
+**ScratchPad**					<-- My working file 
 
-`LOAD""`
-
-`LOAD""`,1,1
-
-`LOAD""`
-
-`78 fore=1to75:next E,I`
-
-`155`
-
-`RUN`
-
-The game is written in a combination of BASIC and assembler, we're modifying the BASIC part of the game for the cheats.  
-
-You need to delete LINE 155 if you're wanting infinite lives on the second part of the game, the snake like bank robbing section.
-
-It's as simple as that!
