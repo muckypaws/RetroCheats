@@ -1,6 +1,15 @@
 # MEGAVAULT - (C) Imagine 1984
 
-Cheats by Jason Brooks - www.muckypaws.com
+Cheats found by Jason Brooks 2022 - www.muckypaws.com
+
+                   _                                                  
+                  | |                                                  
+ ____  _   _  ____| |  _ _   _ ____  _____ _ _ _  ___  ____ ___  ____  
+|    \| | | |/ ___) |_/ ) | | |  _ \(____ | | | |/___)/ ___) _ \|    \ 
+| | | | |_| ( (___|  _ (| |_| | |_| / ___ | | | |___ ( (__| |_| | | | |
+|_|_|_|____/ \____)_| \_)\__  |  __/\_____|\___/(___(_)____)___/|_|_|_|
+                        (____/|_|                                      
+     
 
 This fantastic game featuring a Splash Screen and brilliant gameplay foxed me back in the day, it's now 2022, probably best find out what happens after level two!
 
