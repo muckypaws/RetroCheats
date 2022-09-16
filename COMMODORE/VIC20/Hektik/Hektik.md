@@ -11,7 +11,7 @@ Cheats found by Jason Brooks 2022 - www.muckypaws.com
                         (____/|_|                                      
                         
 
-This was interesting game code to find the Cheats.  Follow these instructions exactly.
+This was an interesting game code to find the Cheats.  Follow these instructions exactly.
 
 1) Load the Initial Game Loader and Delete Line 101
 
@@ -22,7 +22,7 @@ This was interesting game code to find the Cheats.  Follow these instructions ex
 
 `RUN`
 
-2) Now Load the second part of the games loader and change line 3 as shown.
+2) Now Load the second part of the game's loader and change line 3 as shown.
 
 `LOAD""`
 
