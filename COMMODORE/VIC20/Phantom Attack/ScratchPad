@@ -3,3 +3,33 @@ $1d9b = Lives
 Stored at $34c
 
 $19d7 , $EA = infinite Lives
+
+
+
+10 rem generated ml loader
+20 sa = 560
+30 for n = 0 to 35
+40 read a% : poke sa+n,a%: next n
+50 sys sa
+60 end 
+70 data 32,65,2,32,0,20,32,65
+80 data 2,169,234,141,215,25,76,0
+90 data 20,162,1,160,255,32,186,255
+100 data 169,0,32,189,255,162,255,160
+110 data 255,76,213,255
+
+
+
+$23A overwritten so...
+
+10 rem phantom attack
+20 rem jason brooks
+30 sa = 256
+40 for n = 0 to 35
+50 read a% : poke sa+n,a%: next n
+60 sys sa
+70 data 32,17,1,32,0,20,32,17
+80 data 1,169,234,141,215,25,76,0
+90 data 20,162,1,160,255,32,186,255
+100 data 169,0,32,189,255,162,255,160
+110 data 255,76,213,255

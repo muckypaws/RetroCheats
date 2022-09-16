@@ -1,0 +1,36 @@
+00001  0000             ; PHANTOM ATTACK CHEAT
+00002  0100             ; JASON BROOKS SPECTEMBER 2022
+00003  0100  20 11 01              JSR LOADERCODE      ; LOAD INITIAL LOADER CODE
+00004  0103  20 00 14              JSR $1400           ; SET UP GRAPHICS ETC.
+00005  0106  20 11 01              JSR LOADERCODE      ; LOAD NEXT PART
+00006  0109  A9 EA                 LDA #$EA
+00007  010B  8D D7 19              STA $19D7           ; CHEAT CODE
+00008  010E  4C 00 14              JMP $1400
+00009  0111             
+00010  0111             
+00011  0111             
+00012  0111             
+00013  0111             LOADERCODE 
+00014  0111  A2 01                 LDX     #$01
+00015  0113  A0 FF                 LDY     #$FF
+00016  0115  20 BA FF              JSR     $FFBA
+00017  0118  A9 00                 LDA     #$00
+00018  011A  20 BD FF              JSR     $FFBD
+00019  011D  A2 FF                 LDX     #$FF
+00020  011F  A0 FF                 LDY     #$FF
+00021  0121             LOADERRET 
+00022  0121  4C D5 FF              JMP     $FFD5     ; LOAD THE MAIN LOADER TO MEMORY
+
+******* 2 Label(s) *******
+loaderCode = $0111 
+loaderRet = $0121 
+
+******* 2 Unused label(s) *******
+loaderCode
+loaderRet
+
+******* 1 Variable(s) *******
+tgt_vic20  = $0001
+******* 1 Unused variables(s) *******
+tgt_vic20
+
