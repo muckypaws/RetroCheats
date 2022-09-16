@@ -235,3 +235,158 @@ C:3195  A5 0F       LDA $0F
 
 
 
+
+BASIC Listings
+
+
+0 poke788,194:poke37150,2:printchr$(142)chr$(8)
+1 poke52,60:poke56,60:poke46,50:clr
+5 rem  ***************
+10 rem *  vic panic  *
+20 rem *             *
+30 rem * by kelvin   *
+40 rem *    hepburn  *
+50 rem *             *
+60 rem * (c)hepburn  *
+70 rem *    soft     *
+80 rem ***************
+100 forl=0 to 46:reada:poke15465+l,a:next
+101 load
+103 data160,0,169,6,153,0,148,200,208,250,153,0,149,200,192,30,208,248,169
+,0,153,0,149
+104 data200,208,250,185,0,32,153,0,16,200,208,247,185,0,33,153,0,17,200,19
+2,251,208,245
+105 data96
+
+ 
+3 poke45,16:poke46,18:clr:end
+
+1 sys15465:goto10:rem"....................goto10
+3 poke45,16:poke46,18:clr:load"",1,1
+10 poke36879,120:print".."
+310 a=peek(197)
+320 if a=39 then gosub500:goto1
+330 if a=47 then gosub700:goto1
+340 if a=55 then gosub900:goto1
+350 if a=63 then print"..    please wait...";:goto3
+360 goto310
+500 poke36879,8:print".";
+510 print".";"        hektik        "
+515 print".as you run along walls, up and down ladders in an effort to escapethe aliens,";
+520 print" you must   remember one thing...":print".    don't panic!!":print
+525 print". be calm,set up traps by digging holes and, as the aliens fall in,fill in the";
+530 print" holes to  kill them.":print
+540 print".the different tyes of alien are red,blue andcyan with the cyan onebeing the";
+550 print".hardest to  be killed.":print:print".  hit the space bar";
+561 if peek(197)<>32 then 561
+562 if peek(197)=32 then 562
+565 print"..";"        hektik        "
+570 print ".remember to completelyfill in any holes withan alien in, otherwiseit";
+575 print" will crawl out."
+576 print". from the 2nd screen  onwards, if a red or  blue alien is allowed"
+580 print"to crawl out, it will mutate into a blue or cyan alien respective-ly.";
+585 print".with two and a half minutes to kill all  the aliens,time is not on your side."
+590 print". if you do run out of time everything goes  crazy and you'll find it very hard";
+595 print" not to.."
+600 print:print"       .p.a.n.i.c.!!"
+605 print".  hit the space bar";
+615 if peek(197)<>32 then 615
+616 if peek(197)=32 then 616
+620 print"..";"        hektik        "
+630 print". note.. you cannot dig under ladders,at the  ends of each wall or  on the bottom";
+635 print" wall."
+636 print". you start off with 3 lives but if you reacha score of 7000 pts anextra man";
+637 print" is awarded."
+638 print". before you start the game you'll be asked  what skill level you  wish to play";
+639 print" at."
+640 print". if, at any time, you wish to change the    skill level press the  <stop> ";
+643 print"and <restore> keys to return you to the title page."
+650 print:print"  .hit the space bar"
+660 if peek(197)<>32 then 660
+661 if peek(197)=32 then 661
+670 return
+700 poke36879,8:print".. basic ways of killingthe aliens...         "
+720 print".. r.a.n.y..b..r..b..c..r..b..c"
+730 print".��.��.��.�.�.�.�.�.�.�"
+740 print".  �  �  � � � � � � �"
+745 print"..  ..r..  .b..b.. .. ..c..c"
+750 print".��������.�.���.�.�.���"
+755 print".        � �   � � �"
+760 print".                c  "
+765 print".��������������.�.�����"
+766 print"...............� �":print
+770 print".����������������������"
+775 print".r....red  alien"
+780 print".b....blue alien"
+785 print".c....cyan alien"
+790 print:print"  hit the space bar";
+805 if peek(197)<>32 then 805
+806 if peek(197)=32 then 806
+810 return
+900 poke36879,8:print"..   hektik controls    "
+910 print".keys..."
+915 print"..............i"
+920 print
+921 print"...........j.+.l"
+925 print
+930 print".............m"
+931 print".......or..space"
+932 print
+935 print".<com>.......fill
+936 print"<shift>.....dig"
+940 print
+945 print". to dig/fill press the <com> or <shift> plus either the 'j' or 'l' keys."
+950 print
+955 print".  hit the space bar"
+965 if peek(197)<>32 then 965
+966 if peek(197)=32 then 966
+970 poke36879,8:print"..   hektik controls    "
+975 print".joystick..."
+980 print
+981 print".   left        right  "
+985 print".       . fill ."
+986 print
+987 print".        .����."
+988 print"        �.  .�"
+989 print"        � .. �"
+990 print"        � .. �"
+991 print"        �.  .�"
+992 print"        .����."
+993 print:print".       . dig  ."
+994 print:print". to dig/fill hold down fire as well as point-ing the joystick in  the desired";
+995 print" direction."
+996 print".  hit the space bar";
+998 if peek(197)<>32 then998
+999 if peek(197)=32 then999
+1000 return
+
+
+1 sys15465:goto10:rem"....................goto10
+3 poke45,16:poke46,18:clr:load"",1,1
+10 poke36879,120:print".."
+310 a=peek(197)
+320 if a=39 then gosub500:goto1
+330 if a=47 then gosub700:goto1
+340 if a=55 then gosub900:goto1
+350 if a=63 then print"..    plea
+................................................................�...
+258 ..
+
+(C:$3cd0) m$1200
+>C:1200  00 2d 12 01  00 9e 31 35  34 36 35 3a  89 31 30 3a   .-....15465:.10:
+>C:1210  8f 22 14 14  14 14 14 14  14 14 14 14  14 14 14 14   ."..............
+>C:1220  14 14 14 14  14 14 47 4f  54 4f 31 30  00 49 12 03   ......GOTO10.I..
+>C:1230  00 97 34 35  2c 31 36 3a  97 34 36 2c  31 38 3a 9c   ..45,16:.46,18:.
+>C:1240  3a 93 22 22  2c 31 2c 31  00 5e 12 0a  00 97 33 36   :."",1,1.^....36
+>C:1250  38 37 39 2c  31 32 30 3a  99 22 13 8e  22 00 6b 12   879,120:."..".k.
+>C:1260  36 01 41 b2  c2 28 31 39  37 29 00 80  12 40 01 8b   6.A��(197)...@..
+>C:1270  20 41 b2 33  39 20 a7 20  8d 35 30 30  3a 89 31 00    A�39 � .500:.1.
+>C:1280  95 12 4a 01  8b 20 41 b2  34 37 20 a7  20 8d 37 30   ..J.. A�47 � .70
+>C:1290  30 3a 89 31  00 aa 12 54  01 8b 20 41  b2 35 35 20   0:.1.�.T.. A�55 
+>C:12a0  a7 20 8d 39  30 30 3a 89  31 00 3c 13  5e 01 8b 20   � .900:.1.<.^.. 
+>C:12b0  41 b2 36 33  20 a7 20 99  22 90 12 13  11 11 11 11   A�63 � .".......
+>C:12c0  11 11 11 11  11 11 11 11  11 11 11 11  11 11 11 11   ................
+>C:12d0  11 11 20 20  20 20 50 4c  45 41 0d 11  15 02 06 03   ..    P
+
+
+
