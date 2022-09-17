@@ -367,7 +367,7 @@ V5 Blast Annual
 
 10 rem bewitched - infinite lives
 20 rem by jason brooks 2022
-30 a = 544
+20 a = 544
 40 read b% : if b% = -1 then end
 50 poke a,b%: a=a+1: goto 40
 70 data 169,43,141,252,18,169,2,141
