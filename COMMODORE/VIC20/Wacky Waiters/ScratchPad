@@ -118,3 +118,18 @@ Inject Code
 
 Slight Snag, uses the same code to increment the tip!
 
+
+
+
+(C:$18cc) d$1108
+.C:1108  20 C2 18    JSR $18C2
+.C:110b  D0 07       BNE $1114
+.C:110d  A9 FF       LDA #$FF
+.C:110f  85 3B       STA $3B
+.C:1111  20 0B 03    JSR $030
+
+
+1108 calls the decrement routine for the Tip.  When adding the tip $18CC is called instead.
+
+Solution, blank out the call
+
