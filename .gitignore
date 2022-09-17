@@ -23,7 +23,7 @@ bak
 *.~
 **bbprojectd/
 print.txt
-
+*.dump
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
