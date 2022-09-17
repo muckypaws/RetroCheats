@@ -81,6 +81,7 @@ JMP 235A -> Lose a life
 .C:2387  4C 5A 23    JMP $235A
 .C:238a  AD 51 0E    LDA $0E51
 .C:238d  CD 7C 0E    CMP $0E7C
+
 .C:2390  F0 03       BEQ $2395
 .C:2392  4C 5A 23    JMP $235A
 .C:2395  20 00 20    JSR $2000
@@ -671,3 +672,22 @@ WATCH: 4  C:$0db5  (Stop on store)
 >C:0f36  54 54 54 54  54 54 54 a3  9f 80 80 80  80 80 80 80  80 a0 a3 54  54 54 54 54  54 54 54 54  54 54 54 54   TTTTTTT�.........��TTTTTTTTTTTTT
 >C:0f56  54 54 54 54  54 54 54 54  54 54 54 54  54 54 54 a3  9f 80 82 8f  8e 95 93 80  80 a0 a3 54  54 54 54 54   TTTTTTTTTTTTTTT�.........��TTTTT
 (C:$0f76) x
+
+
+
+
+
+
+
+a $1700
+LDA #$00
+LDX     #$01
+LDY     #$04
+JSR     $FFBA
+LDA     #$00
+JSR     $FFBD
+LDA #$00
+LDX     #$00
+LDY     #$10
+JSR     $FFD5
+RTS
