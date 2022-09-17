@@ -1,0 +1,120 @@
+Displaying 25x20 screen at $1e00:
+1e00  bc99def00000:00gh00000:00
+1e19  @@@@@@@@@@@@@@@@#&@@@@@@@
+1e32  @o@@@@@@@@@@@@@@$'@@@@@@@
+1e4b  aaaa@@aa@@aa@@aa@@aa@@aaa
+1e64  @@@@@@@@@@@@@@@@@@@@@@@@@
+1e7d  @o@@ps@@@@@@@@@@@@@@@@@@@
+1e96  aaaaqtaa@@aa@@aa@@aa@@aaa
+1eaf  @@@@ru@@@@@@@@@@@@@@@@@@@
+1ec8  @o@@@@@@@@@@@@@@@@@@@@@@@
+1ee1  aaaa@@aavyaa@@aa@@aa@@aaa
+1efa  @@./@@@@wz@@@@@@@@@@@@@@@
+1f13  @o01@@@@x[@@@@@@@@@@@@@@@
+1f2c  aaaa@@aa@@aa@@aa@@aa@@aaa
+1f45  @@@@@@@@@@@@@@@@@@@@@@@@@
+1f5e  @o@@@@@@@@@@\_@@@@@@@@@@@
+1f77  aaaa@@aa@@aa] aa@@aa@@aaa
+1f90  @@@@@@@@@@@@^!@@@@@@@@@@j
+1fa9  @@@@@@@@@@@@@@@@@@@@(+@@k
+1fc2  aaaa@@aa@@aa@@aa@@aa),aaa
+1fdb  iiii@@ii@@ii@@ii@@ii*-@@@
+(C:$1933) 
+
+
+Tip stored at $1e02 and $1e03
+
+break store $1e03
+
+.C:030b  A9 B9       LDA #$B9
+.C:030d  8D 02 1E    STA $1E02
+.C:0310  8D 03 1E    STA $1E03
+.C:0313  60          RTS
+
+Tip stored direct to screen
+
+.C:18c8  A5 2E       LDA $2E
+.C:18ca  85 2B       STA $2B
+.C:18cc  CE 03 1E    DEC $1E03
+.C:18cf  AD 03 1E    LDA $1E03
+.C:18d2  20 60 00    JSR $0060
+.C:18d5  C9 AF       CMP #$AF
+.C:18d7  D0 1B       BNE $18F4
+.C:18d9  A9 B9       LDA #$B9
+.C:18db  8D 03 1E    STA $1E03
+.C:18de  CE 02 1E    DEC $1E02
+.C:18e1  AD 02 1E    LDA $1E02
+.C:18e4  C9 AF       CMP #$AF
+.C:18e6  D0 0C       BNE $18F4
+.C:18e8  A9 B0       LDA #$B0
+.C:18ea  8D 02 1E    STA $1E02
+.C:18ed  8D 03 1E    STA $1E03
+.C:18f0  85 35       STA $35
+.C:18f2  A9 00       LDA #$00
+.C:18f4  60          RTS
+
+
+Change $18cc to ORA $1E03
+
+POKE $18cc,13
+
+
+
+
+Loader Code
+
+.C:0100  A2 01       LDX #$01
+.C:0102  A0 FF       LDY #$FF
+.C:0104  20 BA FF    JSR $FFBA
+.C:0107  A9 00       LDA #$00
+.C:0109  20 BD FF    JSR $FFBD
+.C:010c  A2 FF       LDX #$FF
+.C:010e  A0 FF       LDY #$FF
+.C:0110  20 D5 FF    JSR $FFD5
+.C:0113  4C 00 10    JMP $1000
+
+
+Modify $113 to 
+
+LDA #$0D
+STA $18CC
+JMP $1000
+
+
+
+10 poke 37150,127
+20 poke 37151,127
+30 print".1"
+40 print:print:print:print"   imagine software":print:print"       present"
+50 print:print:print"    wacky waiters"
+54 print:print"         by":print:print"     eugene evans":print
+55 print:print:print"(c)code, audio, visual"
+60 print"  copyright (c)1982"
+70 print:print"     by imagine"
+75 print:print"     please wait"
+80 for x=0 to 26:read y:poke256+x,y:next
+85 sys 256
+90 data 162,1,160,255,32,186,255,169,0,32,189,255,162,255
+100 data 160,255,32,213,255
+110 data 169,13,141,204,24,76,0,16
+
+
+
+
+
+
+
+
+Inject Code
+169 013 141 204  024 076 000 016
+
+
+
+80 FOR X=0 TO 24:READ Y:POKE256+X,Y:NEXT
+85 SYS 256
+90 DATA 162,1,160,255,32,186,255,169,0,32,189,255,162,255
+100 DATA 160,255,32,213,255,76,0,16,0,0,0,0
+
+
+Slight Snag, uses the same code to increment the tip!
+
