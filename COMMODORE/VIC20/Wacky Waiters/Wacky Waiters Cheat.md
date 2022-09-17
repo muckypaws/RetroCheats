@@ -16,7 +16,7 @@ We'll help you here, how would you like :-
 
 	**No Written Warnings and Maximum Tips** 
 	
-You do? Then you're on luck! Follow the instructions below.
+You do? Then you're in luck! Follow the instructions below.
 
 `LOAD""`
 
@@ -32,4 +32,4 @@ Type the following :-
 
 `130 data 76,0,16`
 
-Now `RUN` and management issues begone!
+Now `RUN` and management issues be gone!
