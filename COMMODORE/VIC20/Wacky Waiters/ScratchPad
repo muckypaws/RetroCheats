@@ -133,3 +133,74 @@ Slight Snag, uses the same code to increment the tip!
 
 Solution, blank out the call
 
+
+
+Written Warnings $37 = Counter
+
+change to $05 = ORA $37
+
+
+.C:1120  4C 6B 11    JMP $116B
+.C:1123  A9 00       LDA #$00
+.C:1125  85 39       STA $39
+.C:1127  E6 37       INC $37
+.C:1129  20 10 1A    JSR $1A10
+
+
+
+(C:$1170) break
+BREAK: 1  C:$110d  (Stop on exec)
+WATCH: 2  C:$1ff1  (Stop on store)
+BREAK: 3  C:$1a18  (Stop on exec)
+
+
+
+
+(C:$0145) a$113
+.0113  LDA #$05
+.0115  STA $1127
+.0118  lda #$ea
+.011a  STA $1108
+.011d  STA $1109
+.0120  STA $110A
+.0123  JMP $1000
+.0126  
+(C:$0126) m D $113 $126
+>C:0113  169 005 141 039  017 169 234 141  008 017 141 009  017 141 010 017   �..'.��.........
+>C:0123  076 000 016 000                                                               L...
+(C:$0127) 
+
+
+
+
+
+
+
+data 169,5,141,39,17,169,234,141
+data 8,17,141,9,17,141,10,17   
+data 76,0,16 
+
+
+
+10 poke 37150,127
+20 poke 37151,127
+30 print".1"
+40 print:print:print:print"   imagine software":print:print"       present
+"
+50 print:print:print"    wacky waiters"
+54 print:print"         by":print:print"     eugene evans":print
+55 print:print:print"(c)code, audio, visual"
+60 print"  copyright (c)1982"
+70 print:print"     by imagine"
+75 print:print"     please wait"
+80 for x=0 to 37:read y:poke256+x,y:next
+85 sys 256
+90 data 162,1,160,255,32,186,255,169,0,32,189,255,162,255
+100 data 160,255,32,213,255
+
+110 data 169,5,141,39,17,169,234,141
+120 data 8,17,141,9,17,141,10,17   
+130 data 76,0,16 
+
+
+
