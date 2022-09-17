@@ -1,0 +1,83 @@
+# Gridrunner
+
+Cheats found by Jason Brooks 2022 - www.muckypaws.com
+
+                   _                                                  
+                  | |                                                  
+ ____  _   _  ____| |  _ _   _ ____  _____ _ _ _  ___  ____ ___  ____  
+|    \| | | |/ ___) |_/ ) | | |  _ \(____ | | | |/___)/ ___) _ \|    \ 
+| | | | |_| ( (___|  _ (| |_| | |_| / ___ | | | |___ ( (__| |_| | | | |
+|_|_|_|____/ \____)_| \_)\__  |  __/\_____|\___/(___(_)____)___/|_|_|_|
+                        (____/|_|                                      
+                        
+
+
+(C:$00f2) hunt 100 2000 a9 05
+12ed
+1450
+1b84
+(C:$00f2) 
+
+.C:1b7d  4C D1 19    JMP $19D1
+.C:1b80  A9 01       LDA #$01
+.C:1b82  85 F1       STA $F1
+.C:1b84  A9 05       LDA #$05
+.C:1b86  85 F0       STA $F0
+.C:1b88  20 57 1B    JSR $1B57
+
+
+Lives stored @ $F0
+
+(C:$1b74) hunt 100 2000 c6 f0
+1b3a
+1de7
+(C:$1b74) 
+
+
+.C:1de4  4C 8C 1D    JMP $1D8C
+.C:1de7  C6 F0       DEC $F0
+.C:1de9  4C 8C 1D    JMP $1D8C
+
+
+.C:1b34  99 4A 96    STA $964A,Y
+.C:1b37  88          DEY
+.C:1b38  D0 F2       BNE $1B2C
+.C:1b3a  C6 F0       DEC $F0
+.C:1b3c  F0 00       BEQ $1B3E
+.C:1b3e  A5 F0       LDA $F0
+.C:1b40  18          CLC
+.C:1b41  69 B0       ADC #$B0
+.C:1b43  8D 4E 1E    STA $1E4E
+.C:1b46  A9 10       LDA #$10
+.C:1b48  85 2D       STA $2D
+.C:1b4a  88          DEY
+
+
+
+
+LOADER
+
+SYS7076	- $1BA4
+
+poke 6970, 5
+poke 7600, 5
+
+
+#3 (Stop on  exec 1bf7)   12/$00c,  52/$34
+.C:1bf7  4C 00 11    JMP $1100      - A:80 X:F7 Y:1E SP:f6 N.-.....  210489208
+(C:$1bf7) 
+
+.C:1db0  E6 F0       INC $F0
+.C:1db2  4C 2A 1B    JMP $1B2A
+
+
+.C:1dd8  E6 F0       INC $F0
+.C:1dda  A5 F0       LDA $F0
+.C:1ddc  C9 0A       CMP #$0A
+
+
+.C:1db0  E6 F0       INC $F0
+.C:1db2  4C 2A 1B    JMP $1B2A
+
+
+
