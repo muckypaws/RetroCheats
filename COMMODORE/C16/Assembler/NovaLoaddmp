@@ -1,0 +1,124 @@
+00001  0000             
+00002  0140  20 D2 FF              JSR $FFD2
+00003  0143  A9 01                 LDA #$01
+00004  0145  8D 15 FF              STA $FF15
+00005  0148  A2 0F                 LDX #$0F
+00006  014A             NLOOP1 
+00007  014A  BD 37 03              LDA $0337,X
+00008  014D  29 3F                 AND #$3F
+00009  014F  9D 52 0D              STA $0D52,X
+00010  0152  A9 71                 LDA #$71
+00011  0154  9D 52 09              STA $0952,X
+00012  0157  BD 15 02              LDA $0215,X
+00013  015A  9D A4 0F              STA $0FA4,X
+00014  015D  A9 51                 LDA #$51
+00015  015F  9D A4 0B              STA $0BA4,X
+00016  0162  CA                    DEX
+00017  0163  10 E5                 BPL NLOOP1
+00018  0165  A2 14                 LDX #$14
+00019  0167             NLOOP2 
+00020  0167  BD 29 02              LDA $0229,X
+00021  016A  9D 33 03              STA $0333,X
+00022  016D  CA                    DEX
+00023  016E  10 F7                 BPL NLOOP2
+00024  0170  A9 60                 LDA #$60
+00025  0172  8D F2 03              STA $03F2
+00026  0175  A9 33                 LDA #$33
+00027  0177  8D 2E 03              STA $032E
+00028  017A  A9 03                 LDA #$03
+00029  017C  8D 2F 03              STA $032F
+00030  017F  A9 25                 LDA #$25
+00031  0181  85 AF                 STA $AF
+00032  0183  A9 02                 LDA #$02
+00033  0185  85 B0                 STA $B0
+00034  0187  A9 04                 LDA #$04
+00035  0189  85 AB                 STA $AB
+00036  018B  20 3C 03              JSR $033C
+00037  018E  A5 90                 LDA $90
+00038  0190  D0 2E                 BNE NLOOP4
+00039  0192  86 2D                 STX $2D
+00040  0194  84 2E                 STY $2E
+00041  0196  20 F2 03              JSR $03F2
+00042  0199  20 E1 FF              JSR $FFE1
+00043  019C  F0 22                 BEQ NLOOP4
+00044  019E  A2 05                 LDX #$05
+00045  01A0  86 EF                 STX $EF
+00046  01A2  BD AD 01              LDA $01AD,X
+00047  01A5  9D 26 05              STA $0526,X
+00048  01A8  CA                    DEX
+00049  01A9  D0 15                 BNE NLOOP4
+00050  01AB  60                    RTS
+00051  01AC  4C 0D 80              JMP $800D          ; EXECUTES BASIC CODE
+00052  01AF             COMMAND 
+00053  01AF  52 55 4E              TEXT "RUN:"
+00054  01B3  00 00 00              BYTES 13
+00055  01C0             
+00056  01C0             
+00057  01C0             NLOOP4 
+00058  01C0  A2 00                 LDX #$00
+00059  01C2             NLOOP5 
+00060  01C2  9D 00 02              STA $0200,X
+00061  01C5  CA                    DEX
+00062  01C6  D0 FA                 BNE NLOOP5
+00063  01C8  EE B7 01              INC $01B7
+00064  01CB  D0 F5                 BNE NLOOP5
+00065  01CD  6C FC FF              JMP ($FFFC)
+00066  01D0             START 
+00067  01D0  A9 01                 LDA #$01
+00068  01D2  8D 3B 05              STA $053B
+00069  01D5  20 84 FF              JSR $FF84
+00070  01D8  A9 93                 LDA #$93
+00071  01DA  20 D2 FF              JSR $FFD2
+00072  01DD  4C 40 01              JMP $140
+00073  01E0             
+00074  01E0             ;*=$0300
+00075  01E0             ; NOP
+00076  01E0             ; NOP
+00077  01E0             ; NOP
+00078  01E0             ; LDA #$01
+00079  01E0             ; STA $053B
+00080  01E0             ; JSR $FF84
+00081  01E0             ; LDA #$93
+00082  01E0             ; JSR $FFD2
+00083  01E0             ; LDA #$8E
+00084  01E0             ; JMP $0140
+00085  01E0             ; ASL $160F
+00086  01E0             ; ORA ($0C,X)
+00087  01E0             ; SLO $0401
+00088  01E0             ; JSR $310D
+00089  01E0             ; BMI $1352
+00090  01E0             ; BMI $1354
+00091  01E0             ; NOP
+00092  01E0             ; LSR $564F
+00093  01E0             ; EOR ($A6,X)
+00094  01E0             ; LDX $01E0
+00095  01E0             ; BEQ $1332
+00096  01E0             ; JMP $F04A
+00097  01E0             ; SEI
+00098  01E0             ; JSR $E31B
+00099  01E0             ; CLD
+00100  01E0             ; LDY #$00
+00101  01E0             ; STY $01
+00102  01E0             ; STY $FF3F
+00103  01E0             ; ROL $00,X
+00104  01E0             ; BRK
+00105  01E0             
+00106  01E0             
+
+******* 6 Label(s) *******
+Command = $01AF 
+NLoop1 = $014A 
+NLoop2 = $0167 
+NLoop4 = $01C0 
+NLoop5 = $01C2 
+Start = $01D0 
+
+******* 2 Unused label(s) *******
+Command
+Start
+
+******* 1 Variable(s) *******
+tgt_c16  = $0001
+******* 1 Unused variables(s) *******
+tgt_c16
+

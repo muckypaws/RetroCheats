@@ -691,3 +691,130 @@ LDX     #$00
 LDY     #$10
 JSR     $FFD5
 RTS
+
+
+
+
+
+
+
+
+
+
+loaderCode
+	 LDA 	 #$00
+     LDX     #$01
+     LDY     #$03
+     JSR     $FFBA
+     LDA     #$00
+     JSR     $FFBD
+     lda #$00
+     LDX     #$00
+     LDY     #$12
+     JSR     $FFD5
+     RTS
+     
+     
+     
+     
+     
+     
+     
+     
+     
+Turbo Code
+
+Located at $140 - $240 - Stack overwritten to Jump to 0202
+.C:1303  A9 01       LDA #$01
+.C:1305  8D 3B 05    STA $053B
+.C:1308  20 84 FF    JSR $FF84
+.C:130b  A9 93       LDA #$93
+.C:130d  20 D2 FF    JSR $FFD2
+.C:1310  A9 8E       LDA #$8E
+.C:1240  20 D2 FF    JSR $FFD2
+.C:1243  A9 01       LDA #$01
+.C:1245  8D 15 FF    STA $FF15
+.C:1248  A2 0F       LDX #$0F
+.C:124a  BD 37 03    LDA $0337,X
+.C:124d  29 3F       AND #$3F
+.C:124f  9D 52 0D    STA $0D52,X
+.C:1252  A9 71       LDA #$71
+.C:1254  9D 52 09    STA $0952,X
+.C:1257  BD 15 02    LDA $0215,X
+.C:125a  9D A4 0F    STA $0FA4,X
+.C:125d  A9 51       LDA #$51
+.C:125f  9D A4 0B    STA $0BA4,X
+.C:1262  CA          DEX
+.C:1263  10 E5       BPL $124A
+.C:1265  A2 14       LDX #$14
+.C:1267  BD 29 02    LDA $0229,X
+.C:126a  9D 33 03    STA $0333,X
+.C:126d  CA          DEX
+.C:126e  10 F7       BPL $1267
+.C:1270  A9 60       LDA #$60
+.C:1272  8D F2 03    STA $03F2
+.C:1275  A9 33       LDA #$33
+.C:1277  8D 2E 03    STA $032E
+.C:127a  FA          NOOP
+.C:127b  03 8D       SLO ($8D,X)
+.C:127d  2F 03 A9    RLA $A903
+.C:1280  25 85       AND $85
+.C:1282  AF A9 02    LAX $02A9
+.C:1285  02          JAM
+.C:1286  B0 A9       BCS $1231
+.C:1288  04 85       NOOP $85
+.C:128a  AB 20       LXA #$20
+.C:128c  3C 03 A5    NOOP $A503,X
+.C:128f  90 D0       BCC $1261
+.C:1291  21 86       AND ($86,X)
+.C:1293  2D 84 2E    AND $2E84
+.C:1296  20 F2 03    JSR $03F2
+.C:1299  20 E1 FF    JSR $FFE1
+.C:129c  F0 15       BEQ $12B3
+.C:129e  A2 02       LDX #$02
+.C:12a0  86 EF       STX $EF
+.C:12a2  BD AD 01    LDA $01AD,X
+.C:12a5  9D 26 05    STA $0526,X
+.C:12a8  CA          DEX
+.C:12a9  D0 F7       BNE $12A2
+.C:12ab  4C 0D 80    JMP $800D
+.C:12ae  52          JAM
+.C:12af  55 4E       EOR $4E,X
+.C:12b1  3A          NOOP
+.C:12b2  0D A2 00    ORA $00A2
+.C:12b5  9D 00 02    STA $0200,X
+.C:12b8  CA          DEX
+.C:12b9  D0 FA       BNE $12B5
+.C:12bb  EE B7 01    INC $01B7
+.C:12be  D0 F5       BNE $12B5
+.C:12c0  6C FC FF    JMP ($FFFC)
+
+
+
+
+10 rem generated ml loader
+20 sa = 320
+30 for n = 0 to 159
+40 read a% : poke sa+n,a%: next n
+50 sys sa
+60 end 
+70 data 32,210,255,169,1,141,21,255
+80 data 162,15,189,55,3,41,63,157
+90 data 82,13,169,113,157,82,9,189
+100 data 21,2,157,164,15,169,81,157
+110 data 164,11,202,16,229,162,20,189
+120 data 41,2,157,51,3,202,16,247
+130 data 169,96,141,242,3,169,51,141
+140 data 46,3,169,3,141,47,3,169
+150 data 37,133,175,169,2,133,176,169
+160 data 4,133,171,32,60,3,165,144
+170 data 208,46,134,45,132,46,32,242
+180 data 3,32,225,255,240,34,162,5
+190 data 134,239,189,173,1,157,38,5
+200 data 202,208,21,96,76,13,128,82
+210 data 85,78,58,0,0,0,0,0
+220 data 0,0,0,0,0,0,0,0
+230 data 162,0,157,0,2,202,208,250
+240 data 238,183,1,208,245,108,252,255
+250 data 169,1,141,59,5,32,132,255
+260 data 169,147,32,210,255,76,64,1

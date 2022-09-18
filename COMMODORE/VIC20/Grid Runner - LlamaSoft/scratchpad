@@ -59,7 +59,7 @@ LOADER
 
 SYS7076	- $1BA4
 
-poke 6970 , 5
+poke 6970, 5
 poke 7600, 5
 
 
