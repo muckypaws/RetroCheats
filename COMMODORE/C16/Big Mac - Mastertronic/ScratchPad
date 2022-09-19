@@ -1,3 +1,13 @@
+Final Answer
+
+POKE $32BA,$1D			<-- Infinite Lives
+
+POKE $32FE,$0D			<-- Infinite Air
+
+
+
+
+
 250b
 2549
 650b
