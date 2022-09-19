@@ -1,0 +1,154 @@
+Infinite Lives -
+
+(C:$034c) a $3367
+.3367  ora $345,x
+.336a  
+
+Infinite Air
+.33ab  ora $351
+.33ae  
+(C:$33ae) 
+
+
+C:$10a0) break store fe5
+WATCH: 1  C:$0fe5  (Stop on store)
+(C:$10a0) x
+#1 (Stop on store 0fe5)  290/$122,  41/$29
+.C:33c2  FE C4 0F    INC $0FC4,X    - A:01 X:21 Y:00 SP:c0 ..-....C  798961517
+(C:$33c5) d $33a0
+.C:33a0  11 21       ORA ($21),Y
+.C:33a2  20 11 21    JSR $2111
+.C:33a5  20 11 21    JSR $2111
+.C:33a8  4C F5 31    JMP $31F5
+.C:33ab  CE 51 03    DEC $0351
+.C:33ae  F0 02       BEQ $33B2
+.C:33b0  18          CLC
+.C:33b1  60          RTS
+.C:33b2  AD 52 03    LDA $0352
+.C:33b5  8D 51 03    STA $0351
+.C:33b8  AD 5F 03    LDA $035F
+.C:33bb  C9 01       CMP #$01
+.C:33bd  D0 23       BNE $33E2
+.C:33bf  AE 4C 03    LDX $034C
+.C:33c2  FE C4 0F    INC $0FC4,X
+.C:33c5  BD C4 0F    LDA $0FC4,X
+.C:33c8  18          CLC
+.C:33c9  C9 71       CMP #$71
+.C:33cb  B0 02       BCS $33CF
+.C:33cd  18          CLC
+.C:33ce  60          RTS
+.C:33cf  A9 71       LDA #$71
+.C:33d1  9D C4 0F    STA $0FC4,X
+.C:33d4  CE 4C 03    DEC $034C
+.C:33d7  AD 4C 03    LDA $034C
+.C:33da  C9 FF       CMP #$FF
+.C:33dc  F0 02       BEQ $33E0
+.C:33de  18          CLC
+.C:33df  60          RTS
+.C:33e0  38          SEC
+.C:33e1  60          RTS
+.C:33e2  AE 4C 03    LDX $034C
+.C:33e5  E0 21       CPX #$21
+.C:33e7  D0 02       BNE $33EB
+(C:$33e9) a 33ab
+.33ab  ora $351
+.33ae  
+(C:$33ae) 
+
+
+(C:$311f) hunt 100 9000 a9 08
+1b1e
+2f5b
+30e5
+3245
+3259
+326d
+3287
+(C:$311f) d$3245
+.C:3245  A9 08       LDA #$08
+.C:3247  8D 45 03    STA $0345
+.C:324a  4C 8F 32    JMP $328F
+.C:324d  C9 05       CMP #$05
+.C:324f  D0 10       BNE $3261
+.C:3251  A9 01       LDA #$01
+.C:3253  8D 49 03    STA $0349
+.C:3256  8D 4D 03    STA $034D
+.C:3259  A9 08       LDA #$08
+.C:325b  8D 45 03    STA $0345
+.C:325e  4C 8F 32    JMP $328F
+.C:3261  C9 06       CMP #$06
+.C:3263  D0 13       BNE $3278
+.C:3265  A9 01       LDA #$01
+.C:3267  8D 49 03    STA $0349
+.C:326a  8D 4A 03    STA $034A
+.C:326d  A9 08       LDA #$08
+.C:326f  8D 45 03    STA $0345
+.C:3272  8D 46 03    STA $0346
+.C:3275  4C 8F 32    JMP $328F
+.C:3278  C9 03       CMP #$03
+.C:327a  D0 BE       BNE $323A
+.C:327c  A9 01       LDA #$01
+.C:327e  8D 49 03    STA $0349
+.C:3281  8D 4A 03    STA $034A
+.C:3284  8D 4D 03    STA $034D
+.C:3287  A9 08       LDA #$08
+.C:3289  8D 45 03    STA $0345
+.C:328c  8D 46 03    STA $0346
+.C:328f  20 E5 1F    JSR $1FE5
+.C:3292  20 D2 1F    JSR $1FD2
+.C:3295  20 B9 20    JSR $20B9
+.C:3298  A9 00       LDA #$00
+.C:329a  8D 85 03    STA $0385
+(C:$329d) m$345 346
+>C:0345  02 00                                                ..
+(C:$0347) break store 345
+WATCH: 3  C:$0345  (Stop on store)
+(C:$0347) x
+#3 (Stop on store 0345)   29/$01d,  28/$1c
+.C:3367  DE 45 03    DEC $0345,X    - A:0F X:00 Y:00 SP:76 ..-....C 1328290294
+(C:$336a) d $3350
+.C:3350  43 8D       SRE ($8D,X)
+.C:3352  11 FF       ORA ($FF),Y
+.C:3354  A0 00       LDY #$00
+.C:3356  20 11 21    JSR $2111
+.C:3359  A5 43       LDA $43
+.C:335b  C9 00       CMP #$00
+.C:335d  D0 E2       BNE $3341
+.C:335f  A9 0F       LDA #$0F
+.C:3361  8D 11 FF    STA $FF11
+.C:3364  AE 4B 03    LDX $034B
+.C:3367  DE 45 03    DEC $0345,X
+.C:336a  BD 45 03    LDA $0345,X
+.C:336d  C9 00       CMP #$00
+.C:336f  D0 05       BNE $3376
+.C:3371  A9 00       LDA #$00
+.C:3373  9D 49 03    STA $0349,X
+.C:3376  AD 49 03    LDA $0349
+.C:3379  C9 00       CMP #$00
+.C:337b  D0 07       BNE $3384
+.C:337d  AD 4A 03    LDA $034A
+.C:3380  C9 00       CMP #$00
+.C:3382  F0 13       BEQ $3397
+.C:3384  AD 4B 03    LDA $034B
+.C:3387  49 01       EOR #$01
+.C:3389  8D 4B 03    STA $034B
+.C:338c  AA          TAX
+.C:338d  BD 49 03    LDA $0349,X
+.C:3390  C9 01       CMP #$01
+.C:3392  D0 F0       BNE $3384
+.C:3394  4C 8F 32    JMP $328F
+.C:3397  20 CC 20    JSR $20CC
+.C:339a  A0 00       LDY #$00
+.C:339c  20 11 21    JSR $2111
+.C:339f  20 11 21    JSR $2111
+(C:$33a2) m$34b $34b
+>C:034b  00                                                   .
+(C:$034c) a $3367
+.3367  ora $345,x
+.336a  
+(C:$336a) x
+#1 (Stop on store 0f1b)   31/$01f,  40/$28
+.C:200a  9D 18 0F    STA $0F18,X    - A:D6 X:03 Y:05 SP:72 N.-....C 1328290534
+(C:$200d) delete 1
+(C:$200d) x
+(C:$1e9a) 
