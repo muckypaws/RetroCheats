@@ -38,3 +38,37 @@ Infinite Air
 .654c  
 (C:$654c) 
 	
+	
+	
+	
+	
+	2b2  A9 0F       LDA #$0F
+.C:32b4  8D 11 FF    STA $FF11
+.C:32b7  AE 4B 03    LDX $034B
+.C:32ba  DE 45 03    DEC $0345,X
+.C:32bd  BD 45 03    LDA $0345,X
+.C:32c0  C9 00       CMP #$00
+.C:32c2  D0 05       BNE $32C9
+.C:32c4  A9 00       LDA #$00
+.C:32c6  9D 49 03    STA $0349,X
+.C:32c9  AD 49 03    LDA $0349
+.C:32cc  C9 00       CMP #$00
+.C:32ce  D0 07       BNE $32D7
+.C:32d0  AD 4A 03    LDA $034A
+.C:32d3  C9 00       CMP #$00
+.C:32d5  F0 13       BEQ $32EA
+.C:32d7  AD 4B 03    LDA $034B
+.C:32da  49 01       EOR #$01
+.C:32dc  8D 4B 03    STA $034B
+.C:32df  AA          TAX
+.C:32e0  BD 49 03    LDA $0349,X
+.C:32e3  C9 01       CMP #$01
+.C:32e5  D0 F0       BNE $32D7
+.C:32e7  4C D9 31    JMP $31D9
+.C:32ea  20 2F 20    JSR $202F
+.C:32ed  A0 00       LDY #$00
+.C:32ef  20 74 20    JSR $2074
+(C:$32f2) a $32ba
+.32ba  ora $345,x
+.32bd  
+(C:$32bd) 
