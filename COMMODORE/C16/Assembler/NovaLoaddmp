@@ -1,45 +1,87 @@
 00001  0000             ;
-00002  1200             ; LOAD CASSETTE HEADER AND LOAD PROGRAM
+00002  1200             ; PRESERVE ORIGINAL STACK
 00003  1200             ;
-00004  1200             LOADERCODE 
-00005  1200  A5 01                 LDA $01
-00006  1202  A2 01                 LDX     #$01
-00007  1204  A0 FF                 LDY     #$FF
-00008  1206  20 BA FF              JSR     $FFBA
-00009  1209  A9 00                 LDA     #$00
-00010  120B  20 BD FF              JSR     $FFBD
-00011  120E  20 C0 FF              JSR $FFC0
-00012  1211  A0 00                 LDY #$00
-00013  1213             LOOP1 
-00014  1213  20 CF FF              JSR $FFCF
-00015  1216  99 40 13              STA $1340,Y
-00016  1219  E8                    INX
-00017  121A  D0 F7                 BNE LOOP1
-00018  121C             
-00019  121C  A9 01                 LDA #$01
-00020  121E  20 C3 FF              JSR $FFC3
-00021  1221  60                    RTS
-00022  1222             
-00023  1222             
-00024  1222             
-00025  1222             
-00026  1222             
-00027  1222  A2 FF                 LDX     #$FF
-00028  1224  A0 FF                 LDY     #$FF
-00029  1226             LOADERRET 
-00030  1226  4C D5 FF              JMP     $FFD5     ; LOAD THE MAIN LOADER TO MEMORY
+00004  1200             
+00005  1200  BA                    TSX
+00006  1201  8E 4A 12              STX     STACKRESTORE+1
+00007  1204  A0 00                 LDY     #$00
+00008  1206             STACKSAVE 
+00009  1206  BD 00 01              LDA     $100,X
+00010  1209  99 20 01              STA     STACKDATA,Y
+00011  120C  C8                    INY
+00012  120D  E8                    INX
+00013  120E  E0 00                 CPX     #$00
+00014  1210  D0 F4                 BNE     STACKSAVE
+00015  1212             ;
+00016  1212             ; SET STACK BELOW NOVALOADER CODE
+00017  1212             ;
+00018  1212  A2 3F                 LDX     #$3F
+00019  1214  9A                    TXS
+00020  1215             ;
+00021  1215             ; NOW LOAD CODE
+00022  1215             ;
+00023  1215  A5 01                 LDA     $01
+00024  1217  A2 01                 LDX     #$01
+00025  1219  A0 FF                 LDY     #$FF
+00026  121B  20 BA FF              JSR     $FFBA
+00027  121E  A9 00                 LDA     #$00
+00028  1220  20 BD FF              JSR     $FFBD
+00029  1223  20 D5 FF              JSR     $FFD5
+00030  1226             ;
+00031  1226             ; RESTORE ORIGINAL STACK
+00032  1226             ;
+00033  1226  AE 4A 12              LDX     STACKRESTORE+1
+00034  1229  9A                    TXS
+00035  122A             PATCHBIGMAC 
+00036  122A  A2 00                 LDX #$00
+00037  122C  A0 12                 LDY #CHEATEND-CHEATCODE
+00038  122E             PATCHLOOP 
+00039  122E  BD 45 12              LDA CHEATCODE,X
+00040  1231  9D 2D 01              STA $12D,X
+00041  1234  E8                    INX
+00042  1235  88                    DEY
+00043  1236  C0 00                 CPY #$00
+00044  1238  D0 F4                 BNE PATCHLOOP
+00045  123A  A9 2D                 LDA #$2D
+00046  123C  8D AC 01              STA $1AC
+00047  123F  A9 01                 LDA #$01
+00048  1241  8D AD 01              STA $1AD
+00049  1244  60                    RTS
+00050  1245             
+00051  1245             
+00052  1245             CHEATCODE 
+00053  1245             
+00054  1245  A2 00                 LDX #$00
+00055  1247  A0 00                 LDY #$00
+00056  1249             STACKRESTORE 
+00057  1249  9A                    TXS
+00058  124A  B9 20 01              LDA     STACKDATA,Y
+00059  124D  9D 00 01              STA     $100,X
+00060  1250  C8                    INY
+00061  1251  E8                    INX
+00062  1252  E0 00                 CPX     #$00
+00063  1254  D0 F3                 BNE     STACKRESTORE
+00064  1256  60                    RTS
+00065  1257             CHEATEND 
+00066  1257             
+00067  1257             STACKDATA  = $120
 
-******* 3 Label(s) *******
-loaderCode = $1200 
-loaderRet = $1226 
-loop1 = $1213 
+******* 6 Label(s) *******
+CheatCode = $1245 
+CheatEnd = $1257 
+PatchBigMac = $122A 
+PatchLoop = $122E 
+stackRestore = $1249 
+stackSave = $1206 
 
 ******* 2 Unused label(s) *******
-loaderCode
-loaderRet
+CheatEnd
+PatchBigMac
 
-******* 1 Variable(s) *******
+******* 2 Variable(s) *******
+StackData  = $0120
 tgt_c16  = $0001
-******* 1 Unused variables(s) *******
+******* 2 Unused variables(s) *******
+StackData
 tgt_c16
 

@@ -5,14 +5,6 @@
 
      TSX
      STX     stack     
-     LDY     #$00      
-stackSave
-     lda     $100,x    
-     sta     StackData,y
-     iny
-     inx
-     CPX     #$00      
-     BNE     stackSave 
 ;
 ; Set Stack Below Novaloader Code
 ;
@@ -33,15 +25,28 @@ stackSave
 ;
      LDX     stack     
      TXS
-     LDY     #$00      
-stackRestore
-     LDA     stackData,y
-     STA     $100,x    
-     iny
-     inx
-     cpx     #$00      
-     bne     stackRestore
+PatchBigMac
+    LDX #$00
+    LDY #CheatEnd-CheatCode
+PatchLoop
+    LDA CheatCode,x
+    STA $130,x
+    INX
+    DEY
+    CPY #$00
+    BNE PatchLoop
+    LDA #$30
+    STA $1AC
+    LDA #$01
+    STA $1AD
+    rts
 
-     rts
+
 stack byte    00
-stackData
+CheatCode
+    LDA #$1D   
+    STA $32BA
+    LDA #$0D
+    STA $32fE
+    JMP $800D
+CheatEnd
