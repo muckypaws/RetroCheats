@@ -5,6 +5,14 @@ POKE $32BA,$1D			<-- Infinite Lives
 POKE $32FE,$0D			<-- Infinite Air
 
 
+fill $32ba $32ba 1D
+fill $32fe $32fe 0D
+x
+
+
+f $32ba $32ba 1D
+f 32fe 32fe 0D
+x
 
 
 

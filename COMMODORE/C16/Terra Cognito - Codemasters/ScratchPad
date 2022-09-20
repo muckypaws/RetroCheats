@@ -1,0 +1,60 @@
+POKE $2DE5,$0D = infinite lives
+
+(C:$2e30) hunt 100 9000  a9 03
+017a
+05fc
+2031
+2063
+22b6
+29d3
+2b8f
+2d06
+(C:$2e30) 
+
+.C:2d06  A9 03       LDA #$03
+.C:2d08  8D 2E 2F    STA $2F2E
+.C:2d0b  20 9D 2E    JSR $2E9D
+
+
+.C:207f  8D 17 FF    STA $FF17
+(C:$2082) hunt 100 9000  a9 03 8d
+017a
+05fc
+2031
+2d06
+(C:$2082) 
+
+
+
+(C:$2e30) hunt 100 9000  2e 2f
+0c1d
+0c45
+0c6d
+0c95
+0cbd
+0ce5
+0d0d
+0d35
+0d5d
+0d85
+0dad
+0dd5
+0dfd
+0e25
+0e4d
+0e75
+0e9d
+0ec5
+0eed
+0f15
+0f3d
+0f65
+0f8d
+0fb5
+0fdd
+2034
+2c68
+2d09
+2de6
+2de9
+2eac

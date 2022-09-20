@@ -1,0 +1,51 @@
+POKE $29BC,$0D 		<-- Infinite lives
+POKE $1D26,0 		<-- Infinite Energy	
+
+
+C:$29fd) hunt 100 9000 a9 06
+1a97
+2017
+(C:$29fd) 
+
+.C:1a97  A9 06       LDA #$06
+.C:1a99  8D 4F 03    STA $034F
+.C:1a9c  A2 00       LDX #$00
+.C:1a9e  8A          TXA
+
+
+.C:2017  A9 06       LDA #$06
+.C:2019  85 0A       STA $0A
+.C:201b  A6 0A       LDX $0A
+.C:201d  20 72 1B    JSR $1B72
+
+
+(C:$2055) hunt 100 9000 4f 03
+1a9a
+294b
+29bd
+29c0
+(C:$2055) 
+
+
+.C:29b5  D0 B6       BNE $296D
+.C:29b7  A9 00       LDA #$00
+.C:29b9  8D 49 03    STA $0349
+.C:29bc  CE 4F 03    DEC $034F
+.C:29bf  AD 4F 03    LDA $034F
+.C:29c2  C9 FF       CMP #$FF
+
+
+.C:29b9  8D 49 03    STA $0349
+.C:29bc  0D 4F 03    ORA $034F
+.C:29bf  AD 4F 03    LDA $034F
+
+
+.C:1d24  38          SEC
+.C:1d25  E9 01       SBC #$01
+.C:1d27  C9 73       CMP #$73
+.C:1d29  F0 04       BEQ $1D2F
+.C:1d2b  9D 99 0C    STA $0C99,X
+.C:1d2e  60          RTS
+
+
+POKE $1D26,0 <-- Infinite Energy
