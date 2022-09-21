@@ -11,3 +11,6 @@ This folder contains Cheats for Commodore C16/Plus4 Games
 
 Developed/Created by Jason Brooks
 
+## Cheats Completed
+
+### Big Mac - Mastertronic 
