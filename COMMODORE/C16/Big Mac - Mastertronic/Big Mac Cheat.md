@@ -40,3 +40,18 @@ Happy Big Mac Action!
 130 data 1,169,1,141,173,1,96,0
 140 data 169,29,141,186,50,169,13,141
 150 data 254,50,76,13,128
+
+
+
+## Emulation
+
+If you're running the game in an Emulator, once the game has loaded, enter `Monitor` mode using the emulation menu or hot key and type the following :-
+
+
+### VICE or YAPE
+
+> $32BA $1D 		<-- Infinite Lives
+	
+> $32FE $0D			<-- Infinite Air
+
+
