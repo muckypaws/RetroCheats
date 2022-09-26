@@ -1,0 +1,1937 @@
+(C:$2feb) sc
+Displaying 40x25 screen at $0c00:
+0c00  xhtwj*   $(% **jllx*   ')**xhtwj*       
+0c28  *uqf^jw!******mndxh*   $(% *uqf^jw"*ccc*
+0c50  ***************lfrj*t[jw****************
+0c78  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+0ca0  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+0cc8  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+0cf0  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+0d18  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD+;DD;D;
+0d40  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDD++++D;;b;b
+0d68  ;++++/DDDDDDDDDDDDDDDDDDDDD/+++DDbbbbbbb
+0d90  b++++DDDDDDDDDDDDDDDDDDDDDDDDDDDbbbbbbbb
+0db8  b;;;+DDDDDDDDDDDDDDDDDbbbDbDbbbbbbbbbbbb
+0de0  bbbb+++++++/bbbbDDDDbbbbbbbbbbbbbbbbbbbb
+0e08  bbbbbDb;DDDbbbbbbDbbbbbbbbbbbbbbbbbbbbbb
+0e30  bbb;;bbbDDbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0e58  bbbbb;bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0e80  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0ea8  bbbbb;bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0ed0  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0ef8  bbbbbb7bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0f20  bbbbb;bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0f48  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0f70  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0f98  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0fc0  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+(C:$2feb) x
+(C:$2f36) sc
+Displaying 40x25 screen at $0c00:
+0c00  xhtwj*   "'% **jllx*  "  **xhtwj*       
+0c28  *uqf^jw!*c****mndxh*   $(% *uqf^jw"*ccc*
+0c50  ***************ljy*wjfi^****************
+0c78  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0ca0  bDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDb
+0cc8  bDbbbbbbbbbbbbbbbbbbbbbDbbbbbbbbbbbbbbDb
+0cf0  bDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDb
+0d18  bDbDbbbbbbbbbbbbDbbbbbbbbbbbbbbbbbbbDbDb
+0d40  bDbDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDbDb
+0d68  bDbDbDbbbbbbbbbbbbbbbbbbbbDbbbbbbbDbDbDb
+0d90  bDbDbDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDbDb
+0db8  bDDDDDDDDbbbbbbbbbbDbbbbbbbbDbbbDDDbDbDb
+0de0  bDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDbDbDbDb
+0e08  bDbDbDbDbDbDbDbDbbbbbbbbbbbbbbDDDbDDDDDb
+0e30  bDbDbDbDbDbbDbDbbbbbbbbbbbbbbbDbDbDDDDDb
+0e58  bDbDbDbDbDDDDDDDDDDDDDDDDDDDDDDbDbDbDbDb
+0e80  bDbDbDbDbbbbbbbbbbbbbbDbbbbbbbbbDbDbDbDb
+0ea8  bDbDbDbDDDDDDDDDDDDDDDDDDDDDDDDDDbDbDbDb
+0ed0  bDbDbDbbbbbbbbbbbbbbbbbbbbbbDbbbbbDbDbDb
+0ef8  bDbDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDbDb
+0f20  bDbDbbbbbbbbbbbDbbbbbbbbbbbbbbbbbbbbDbDb
+0f48  bDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDb
+0f70  bDbbbbbbbbbbbbbbbbbbbbbbbDbbbbbbbbbbbbDb
+0f98  bDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDb
+0fc0  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+(C:$2f36) x
+(C:$2f35) sc
+Displaying 40x25 screen at $0c00:
+0c00  xhtwj*       **jllx*  "  **xhtwj*       
+0c28  *uqf^jw!*ccc**mndxh*   $(% *uqf^jw"*ccc*
+0c50  ***************ljy*wjfi^****************
+0c78  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0ca0  bDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDb
+0cc8  bDbbbbbbbbbbbbbbbbbbbbbDbbbbbbbbbbbbbbDb
+0cf0  bDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDb
+0d18  bDbDbbbbbbbbbbbbDbbbbbbbbbbbbbbbbbbbDbDb
+0d40  bDbDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDbDb
+0d68  bDbDbDbbbbbbbbbbbbbbbbbbbbDbbbbbbbDbDbDb
+0d90  bDbDbDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDbDb
+0db8  bDDDDDDDDbbbbbbbbbbDbbbbbbbbDbbbDDDbDbDb
+0de0  bDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDbDbDbDb
+0e08  bDbDbDbDbDbDbDbDbbbbbbbbbbbbbbDDDbDDDDDb
+0e30  bDbDbDbDbDbbDbDbbbbbbbbbbbbbbbDbDbDDDDDb
+0e58  bDbDbDbDbDDDDDDDDDDDDDDDDDDDDDDbDbDbDbDb
+0e80  bDbDbDbDbbbbbbbbbbbbbbDbbbbbbbbbDbDbDbDb
+0ea8  bDbDbDbDDDDDDDDDDDDDDDDDDDDDDDDDDbDbDbDb
+0ed0  bDbDbDbbbbbbbbbbbbbbbbbbbbbbDbbbbbDbDbDb
+0ef8  bDbDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDbDb
+0f20  bDbDbbbbbbbbbbbDbbbbbbbbbbbbbbbbbbbbDbDb
+0f48  bDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDb
+0f70  bDbbbbbbbbbbbbbbbbbbbbbbbDbbbbbbbbbbbbDb
+0f98  bDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDb
+0fc0  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+(C:$2f35) m c28 c4f
+>C:0c28  2a 15 11 06  1e 0a 17 21  2a 03 03 03  2a 2a 0d 0e   *......!*...**..
+>C:0c38  04 18 08 2a  20 20 20 24  28 25 20 2a  15 11 06 1e   ...*   $(% *....
+>C:0c48  0a 17 22 2a  03 03 03 2a                             .."*...*
+(C:$0c50) break store c3c
+WATCH: 1  C:$0c3c  (Stop on store)
+(C:$0c50) find 100 8000 a9 03
+ERROR -- Wrong syntax:
+  find 100 8000 a9 03
+       ^
+(C:$0c50) hunt 100 8000 a9 03
+017a
+24e5
+2587
+2665
+2687
+27b2
+2854
+2bf0
+2c06
+2dd1
+2ed0
+30d1
+417a
+64e5
+6587
+6665
+6687
+67b2
+6854
+6bf0
+6c06
+6dd1
+6ed0
+70d1
+(C:$0c50) d24e5
+ERROR -- Wrong syntax:
+  d24e5
+       ^
+(C:$0c50) d 24e5
+.C:24e5  A9 03       LDA #$03
+.C:24e7  8D B3 03    STA $03B3
+.C:24ea  8D B4 03    STA $03B4
+.C:24ed  A9 00       LDA #$00
+.C:24ef  8D 15 FF    STA $FF15
+.C:24f2  A9 B2       LDA #$B2
+.C:24f4  8D 19 FF    STA $FF19
+.C:24f7  A9 10       LDA #$10
+.C:24f9  8D 13 FF    STA $FF13
+.C:24fc  20 85 2B    JSR $2B85
+.C:24ff  4C 06 2F    JMP $2F06
+.C:2502  A9 00       LDA #$00
+.C:2504  8D 15 FF    STA $FF15
+.C:2507  A9 B2       LDA #$B2
+.C:2509  8D 19 FF    STA $FF19
+.C:250c  A9 10       LDA #$10
+.C:250e  8D 13 FF    STA $FF13
+.C:2511  A2 00       LDX #$00
+.C:2513  BD 9B 12    LDA $129B,X
+.C:2516  9D 50 0C    STA $0C50,X
+.C:2519  A9 C2       LDA #$C2
+.C:251b  9D 50 08    STA $0850,X
+.C:251e  E8          INX
+.C:251f  E0 28       CPX #$28
+.C:2521  D0 F0       BNE $2513
+.C:2523  20 85 2B    JSR $2B85
+.C:2526  A9 00       LDA #$00
+.C:2528  8D E7 03    STA $03E7
+.C:252b  20 79 2D    JSR $2D79
+.C:252e  A9 01       LDA #$01
+.C:2530  8D E7 03    STA $03E7
+.C:2533  A9 FF       LDA #$FF
+.C:2535  85 58       STA $58
+.C:2537  20 28 2A    JSR $2A28
+.C:253a  20 FD 28    JSR $28FD
+.C:253d  20 20 28    JSR $2820
+.C:2540  A2 00       LDX #$00
+.C:2542  E8          INX
+.C:2543  D0 FD       BNE $2542
+.C:2545  A5 C6       LDA $C6
+.C:2547  C9 11       CMP #$11
+.C:2549  D0 03       BNE $254E
+.C:254b  4C 04 24    JMP $2404
+.C:254e  C9 1E       CMP #$1E
+.C:2550  D0 08       BNE $255A
+.C:2552  A2 00       LDX #$00
+.C:2554  20 5C 31    JSR $315C
+.C:2557  4C 13 25    JMP $2513
+.C:255a  C9 1C       CMP #$1C
+.C:255c  D0 D9       BNE $2537
+(C:$255e) x
+(C:$2feb) break
+WATCH: 1  C:$0c3c  (Stop on store)
+(C:$2feb) m c3c c3d
+>C:0c3c  20 20                                                  
+(C:$0c3e) sc
+Displaying 40x25 screen at $0c00:
+0c00  xhtwj*    !# **jllx*  !))**xhtwj*       
+0c28  *uqf^jw!******mndxh*   $(% *uqf^jw"*ccc*
+0c50  ***************lfrj*t[jw****************
+0c78  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+0ca0  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+0cc8  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+0cf0  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+0d18  DDDDDDDDDD++++++DDDDDDDDDDDDDDDDDDDDDDDD
+0d40  DDDDDDDDDDDDDDD++DDDDDDDDDDDDDDDDDDDDDDD
+0d68  DDDDDDDDDDDDDDDD+DDDDDDDDDDDDDDDDDDDDDDD
+0d90  DDDDDDDDDDDDDDDD/DDDDDDDDDDDDDDDDDDDDDDD
+0db8  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+0de0  bbbDD/DDDD+DDDDDDDDDDDDDDDDDDDDDDDDDbbDb
+0e08  bbbbb++++++DDDDDDDDDDDDDDbbbDDDDDDDbbbbb
+0e30  bbbbbb/++++DDDDDDDbbbbbbbbbbbbbbbbbbbbbb
+0e58  bbbbbbbb;D;bDDDbDbbbbbbbbbbbbbbbbbbbbbbb
+0e80  bbbbbbbbb;bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0ea8  bbbbbbbbbbb;bbb7bbbbbbbbbbbbbbbbbbbbbbbb
+0ed0  bbbbbbbbbbbb;bbbbbbbbbbbbbbbbbbbbbbbbbbb
+0ef8  bbbbbbbbb;;;bbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0f20  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0f48  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0f70  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0f98  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0fc0  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+(C:$0c3e) x
+#1 (Stop on store 0c3c)   47/$02f, 107/$6b
+.C:2454  9D 00 0C    STA $0C00,X    - A:14 X:3C Y:00 SP:f6 ..-..... 1266190697
+(C:$2457) x
+#1 (Stop on store 0c3c)  165/$0a5,  85/$55
+.C:2b8a  9D 00 0C    STA $0C00,X    - A:20 X:3C Y:64 SP:f4 ..-..... 1270614559
+(C:$2b8d) d
+.C:2b8d  A9 B2       LDA #$B2
+.C:2b8f  9D 00 08    STA $0800,X
+.C:2b92  E8          INX
+.C:2b93  E0 50       CPX #$50
+.C:2b95  D0 F0       BNE $2B87
+.C:2b97  60          RTS
+.C:2b98  8A          TXA
+.C:2b99  48          PHA
+.C:2b9a  A2 02       LDX #$02
+.C:2b9c  FE 14 0C    INC $0C14,X
+.C:2b9f  BD 14 0C    LDA $0C14,X
+.C:2ba2  18          CLC
+.C:2ba3  C9 2A       CMP #$2A
+.C:2ba5  90 09       BCC $2BB0
+.C:2ba7  A9 20       LDA #$20
+.C:2ba9  9D 14 0C    STA $0C14,X
+.C:2bac  CA          DEX
+.C:2bad  4C 9C 2B    JMP $2B9C
+.C:2bb0  68          PLA
+.C:2bb1  AA          TAX
+.C:2bb2  60          RTS
+.C:2bb3  A2 04       LDX #$04
+.C:2bb5  DE 14 0C    DEC $0C14,X
+.C:2bb8  BD 14 0C    LDA $0C14,X
+.C:2bbb  18          CLC
+.C:2bbc  C9 20       CMP #$20
+.C:2bbe  B0 09       BCS $2BC9
+.C:2bc0  A9 29       LDA #$29
+.C:2bc2  9D 14 0C    STA $0C14,X
+.C:2bc5  CA          DEX
+.C:2bc6  4C B5 2B    JMP $2BB5
+.C:2bc9  60          RTS
+.C:2bca  AD B5 03    LDA $03B5
+.C:2bcd  C9 01       CMP #$01
+.C:2bcf  D0 05       BNE $2BD6
+.C:2bd1  8A          TXA
+.C:2bd2  18          CLC
+.C:2bd3  69 1B       ADC #$1B
+.C:2bd5  AA          TAX
+.C:2bd6  FE 06 0C    INC $0C06,X
+.C:2bd9  BD 06 0C    LDA $0C06,X
+.C:2bdc  18          CLC
+.C:2bdd  C9 2A       CMP #$2A
+.C:2bdf  90 09       BCC $2BEA
+.C:2be1  A9 20       LDA #$20
+.C:2be3  9D 06 0C    STA $0C06,X
+.C:2be6  CA          DEX
+.C:2be7  4C D6 2B    JMP $2BD6
+.C:2bea  60          RTS
+.C:2beb  AE B3 03    LDX $03B3
+(C:$2bee) sc
+Displaying 40x25 screen at $0c00:
+0c00  xhtwj*       **jllx**    **xhtwj*       
+0c28  *uqf^jw!*ccc**mndxh* ronicIIIIIIIIIIIIIF
+0c50  FprogrammedIIIIIpresentsIIIIIII@IKSROIIF
+0c78  FIIIIbyIIII[\]'()345?�AKLMWXYIImrIchipIF
+0ca0  FIItVkellyI^_ *+,678BCDNOPZ��IIsoftwareF
+0cc8  FIIIIIIIIII!"#-./9:;EFGQRS���IIIIIIIIIIF
+0cf0  FIIIIIIIIII$%&012<=>HIJTUV�ABIIIIIIIIIIF
+0d18  FIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIF
+0d40  FpressITdTIforIdemoImodeITrTreturnImainF
+0d68  FTuTupIKIlevelITbTbackIKIlevelIIIIIIIIIF
+0d90  FIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIF
+0db8  FTfKTIKplyrIkeyIIIIIIITfLTIIIKplyrIjoyIF
+0de0  FTfMTILplyrIkeyIIIIIIIThelpTILplyrIjoyIF
+0e08  FIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIF
+0e30  FmoveIaroundItheItunnelsIgatheringIallIF
+0e58  FtheIeggsIlaidIbyItheIqueenIwormIbeforeF
+0e80  FtheIworkersIgetIthemIIIIIIIIIIIIIIIIIIF
+0ea8  FyouImustIalsoIkeepIyourIlightIpowerIIIF
+0ed0  FtoppedIupIbyIcatchingItheIsmallIglowIIF
+0ef8  FwormIthatIdartsIaboutItheIplaceIIIIIIIF
+0f20  FIinItheIbonusIrunIyouIcanIgoIforIIIIIIF
+0f48  FeverythingIinIsightIIIIIIIIIIIIIIIIIIIF
+0f70  FIsquirmIhasILNNRJIdifferentIlevelsIofIF
+0f98  FIIIIIIIIIIIIIIIplayIIIIIIIIIIIIIIIIIIIF
+0fc0  GDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDH
+(C:$2bee) x
+(C:$2f35) sc
+Displaying 40x25 screen at $0c00:
+0c00  xhtwj*       **jllx*  "  **xhtwj*       
+0c28  *uqf^jw!*ccc**mndxh*   $(% *uqf^jw"*ccc*
+0c50  ***************ljy*wjfi^****************
+0c78  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0ca0  bDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDb
+0cc8  bDbbbbbbbbbbbbbbbbbbbbbDbbbbbbbbbbbbbbDb
+0cf0  bDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDb
+0d18  bDbDbbbbbbbbbbbbDbbbbbbbbbbbbbbbbbbbDbDb
+0d40  bDbDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDbDb
+0d68  bDbDbDbbbbbbbbbbbbbbbbbbbbDbbbbbbbDbDbDb
+0d90  bDbDbDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDbDb
+0db8  bDDDDDDDDbbbbbbbbbbDbbbbbbbbDbbbDDDbDbDb
+0de0  bDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDbDbDbDb
+0e08  bDbDbDbDbDbDbDbDbbbbbbbbbbbbbbDDDbDDDDDb
+0e30  bDbDbDbDbDbbDbDbbbbbbbbbbbbbbbDbDbDDDDDb
+0e58  bDbDbDbDbDDDDDDDDDDDDDDDDDDDDDDbDbDbDbDb
+0e80  bDbDbDbDbbbbbbbbbbbbbbDbbbbbbbbbDbDbDbDb
+0ea8  bDbDbDbDDDDDDDDDDDDDDDDDDDDDDDDDDbDbDbDb
+0ed0  bDbDbDbbbbbbbbbbbbbbbbbbbbbbDbbbbbDbDbDb
+0ef8  bDbDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDbDb
+0f20  bDbDbbbbbbbbbbbDbbbbbbbbbbbbbbbbbbbbDbDb
+0f48  bDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDb
+0f70  bDbbbbbbbbbbbbbbbbbbbbbbbDbbbbbbbbbbbbDb
+0f98  bDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDb
+0fc0  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+(C:$2f35) break store c33
+WATCH: 2  C:$0c33  (Stop on store)
+(C:$2f35) x
+#2 (Stop on store 0c33)  293/$125,  62/$3e
+.C:2bf8  99 31 0C    STA $0C31,Y    - A:2A X:00 Y:02 SP:f4 ..-....C 1293961736
+(C:$2bfb) d 2be0
+.C:2be0  09 A9       ORA #$A9
+.C:2be2  20 9D 06    JSR $069D
+.C:2be5  0C CA 4C    NOOP $4CCA
+.C:2be8  D6 2B       DEC $2B,X
+.C:2bea  60          RTS
+.C:2beb  AE B3 03    LDX $03B3
+.C:2bee  A0 00       LDY #$00
+.C:2bf0  A9 03       LDA #$03
+.C:2bf2  E0 00       CPX #$00
+.C:2bf4  D0 02       BNE $2BF8
+.C:2bf6  A9 2A       LDA #$2A
+.C:2bf8  99 31 0C    STA $0C31,Y
+.C:2bfb  CA          DEX
+.C:2bfc  C8          INY
+.C:2bfd  C0 04       CPY #$04
+.C:2bff  D0 F1       BNE $2BF2
+.C:2c01  AE B4 03    LDX $03B4
+.C:2c04  A0 00       LDY #$00
+.C:2c06  A9 03       LDA #$03
+.C:2c08  E0 00       CPX #$00
+.C:2c0a  D0 02       BNE $2C0E
+.C:2c0c  A9 2A       LDA #$2A
+.C:2c0e  99 4C 0C    STA $0C4C,Y
+.C:2c11  CA          DEX
+.C:2c12  C8          INY
+.C:2c13  C0 04       CPY #$04
+.C:2c15  D0 F1       BNE $2C08
+.C:2c17  60          RTS
+.C:2c18  A2 00       LDX #$00
+.C:2c1a  A9 2A       LDA #$2A
+.C:2c1c  9D 50 0C    STA $0C50,X
+.C:2c1f  A9 B2       LDA #$B2
+.C:2c21  9D 50 08    STA $0850,X
+.C:2c24  E8          INX
+.C:2c25  E0 28       CPX #$28
+.C:2c27  D0 F1       BNE $2C1A
+.C:2c29  60          RTS
+.C:2c2a  20 18 2C    JSR $2C18
+.C:2c2d  A2 00       LDX #$00
+.C:2c2f  BD 80 12    LDA $1280,X
+.C:2c32  9D 5F 0C    STA $0C5F,X
+.C:2c35  E8          INX
+.C:2c36  E0 09       CPX #$09
+.C:2c38  D0 F5       BNE $2C2F
+.C:2c3a  60          RTS
+.C:2c3b  20 18 2C    JSR $2C18
+.C:2c3e  A2 00       LDX #$00
+.C:2c40  BD 89 12    LDA $1289,X
+.C:2c43  9D 5F 0C    STA $0C5F,X
+.C:2c46  E8          INX
+(C:$2c47) m 3b3 3b3
+>C:03b3  02                                                   .
+(C:$03b4) d 24e5
+.C:24e5  A9 03       LDA #$03
+.C:24e7  8D B3 03    STA $03B3
+.C:24ea  8D B4 03    STA $03B4
+.C:24ed  A9 00       LDA #$00
+.C:24ef  8D 15 FF    STA $FF15
+.C:24f2  A9 B2       LDA #$B2
+.C:24f4  8D 19 FF    STA $FF19
+.C:24f7  A9 10       LDA #$10
+.C:24f9  8D 13 FF    STA $FF13
+.C:24fc  20 85 2B    JSR $2B85
+.C:24ff  4C 06 2F    JMP $2F06
+.C:2502  A9 00       LDA #$00
+.C:2504  8D 15 FF    STA $FF15
+.C:2507  A9 B2       LDA #$B2
+.C:2509  8D 19 FF    STA $FF19
+.C:250c  A9 10       LDA #$10
+.C:250e  8D 13 FF    STA $FF13
+.C:2511  A2 00       LDX #$00
+.C:2513  BD 9B 12    LDA $129B,X
+.C:2516  9D 50 0C    STA $0C50,X
+.C:2519  A9 C2       LDA #$C2
+.C:251b  9D 50 08    STA $0850,X
+.C:251e  E8          INX
+.C:251f  E0 28       CPX #$28
+.C:2521  D0 F0       BNE $2513
+.C:2523  20 85 2B    JSR $2B85
+.C:2526  A9 00       LDA #$00
+.C:2528  8D E7 03    STA $03E7
+.C:252b  20 79 2D    JSR $2D79
+.C:252e  A9 01       LDA #$01
+.C:2530  8D E7 03    STA $03E7
+.C:2533  A9 FF       LDA #$FF
+.C:2535  85 58       STA $58
+.C:2537  20 28 2A    JSR $2A28
+.C:253a  20 FD 28    JSR $28FD
+.C:253d  20 20 28    JSR $2820
+.C:2540  A2 00       LDX #$00
+.C:2542  E8          INX
+.C:2543  D0 FD       BNE $2542
+.C:2545  A5 C6       LDA $C6
+.C:2547  C9 11       CMP #$11
+.C:2549  D0 03       BNE $254E
+.C:254b  4C 04 24    JMP $2404
+.C:254e  C9 1E       CMP #$1E
+.C:2550  D0 08       BNE $255A
+.C:2552  A2 00       LDX #$00
+.C:2554  20 5C 31    JSR $315C
+.C:2557  4C 13 25    JMP $2513
+.C:255a  C9 1C       CMP #$1C
+.C:255c  D0 D9       BNE $2537
+(C:$255e) hunt a9 03 8d b3 03
+24e7
+64e7
+(C:$255e) d64d0
+ERROR -- Wrong syntax:
+  d64d0
+       ^
+(C:$255e) d 64d0
+.C:64d0  C9 06       CMP #$06
+.C:64d2  D0 08       BNE $64DC
+.C:64d4  A9 01       LDA #$01
+.C:64d6  8D B6 03    STA $03B6
+.C:64d9  4C E0 24    JMP $24E0
+.C:64dc  C9 03       CMP #$03
+.C:64de  D0 B2       BNE $6492
+.C:64e0  A9 01       LDA #$01
+.C:64e2  8D BB 03    STA $03BB
+.C:64e5  A9 03       LDA #$03
+.C:64e7  8D B3 03    STA $03B3
+.C:64ea  8D B4 03    STA $03B4
+.C:64ed  A9 00       LDA #$00
+.C:64ef  8D 15 FF    STA $FF15
+.C:64f2  A9 B2       LDA #$B2
+.C:64f4  8D 19 FF    STA $FF19
+.C:64f7  A9 10       LDA #$10
+.C:64f9  8D 13 FF    STA $FF13
+.C:64fc  20 85 2B    JSR $2B85
+.C:64ff  4C 06 2F    JMP $2F06
+.C:6502  A9 00       LDA #$00
+.C:6504  8D 15 FF    STA $FF15
+.C:6507  A9 B2       LDA #$B2
+.C:6509  8D 19 FF    STA $FF19
+.C:650c  A9 10       LDA #$10
+.C:650e  8D 13 FF    STA $FF13
+.C:6511  A2 00       LDX #$00
+.C:6513  BD 9B 12    LDA $129B,X
+.C:6516  9D 50 0C    STA $0C50,X
+.C:6519  A9 C2       LDA #$C2
+.C:651b  9D 50 08    STA $0850,X
+.C:651e  E8          INX
+.C:651f  E0 28       CPX #$28
+.C:6521  D0 F0       BNE $6513
+.C:6523  20 85 2B    JSR $2B85
+.C:6526  A9 00       LDA #$00
+.C:6528  8D E7 03    STA $03E7
+.C:652b  20 79 2D    JSR $2D79
+.C:652e  A9 01       LDA #$01
+.C:6530  8D E7 03    STA $03E7
+.C:6533  A9 FF       LDA #$FF
+.C:6535  85 58       STA $58
+.C:6537  20 28 2A    JSR $2A28
+.C:653a  20 FD 28    JSR $28FD
+.C:653d  20 20 28    JSR $2820
+.C:6540  A2 00       LDX #$00
+.C:6542  E8          INX
+.C:6543  D0 FD       BNE $6542
+.C:6545  A5 C6       LDA $C6
+.C:6547  C9 11       CMP #$11
+(C:$6549) hunt a9 8000 xx b3 03
+24e7
+2beb
+2fae
+2fb1
+3004
+300b
+64e7
+6beb
+6fae
+6fb1
+7004
+700b
+(C:$6549) d24e7
+ERROR -- Wrong syntax:
+  d24e7
+       ^
+(C:$6549) d 24e7
+.C:24e7  8D B3 03    STA $03B3
+.C:24ea  8D B4 03    STA $03B4
+.C:24ed  A9 00       LDA #$00
+.C:24ef  8D 15 FF    STA $FF15
+.C:24f2  A9 B2       LDA #$B2
+.C:24f4  8D 19 FF    STA $FF19
+.C:24f7  A9 10       LDA #$10
+.C:24f9  8D 13 FF    STA $FF13
+.C:24fc  20 85 2B    JSR $2B85
+.C:24ff  4C 06 2F    JMP $2F06
+.C:2502  A9 00       LDA #$00
+.C:2504  8D 15 FF    STA $FF15
+.C:2507  A9 B2       LDA #$B2
+.C:2509  8D 19 FF    STA $FF19
+.C:250c  A9 10       LDA #$10
+.C:250e  8D 13 FF    STA $FF13
+.C:2511  A2 00       LDX #$00
+.C:2513  BD 9B 12    LDA $129B,X
+.C:2516  9D 50 0C    STA $0C50,X
+.C:2519  A9 C2       LDA #$C2
+.C:251b  9D 50 08    STA $0850,X
+.C:251e  E8          INX
+.C:251f  E0 28       CPX #$28
+.C:2521  D0 F0       BNE $2513
+.C:2523  20 85 2B    JSR $2B85
+.C:2526  A9 00       LDA #$00
+.C:2528  8D E7 03    STA $03E7
+.C:252b  20 79 2D    JSR $2D79
+.C:252e  A9 01       LDA #$01
+.C:2530  8D E7 03    STA $03E7
+.C:2533  A9 FF       LDA #$FF
+.C:2535  85 58       STA $58
+.C:2537  20 28 2A    JSR $2A28
+.C:253a  20 FD 28    JSR $28FD
+.C:253d  20 20 28    JSR $2820
+.C:2540  A2 00       LDX #$00
+.C:2542  E8          INX
+.C:2543  D0 FD       BNE $2542
+.C:2545  A5 C6       LDA $C6
+.C:2547  C9 11       CMP #$11
+.C:2549  D0 03       BNE $254E
+.C:254b  4C 04 24    JMP $2404
+.C:254e  C9 1E       CMP #$1E
+.C:2550  D0 08       BNE $255A
+.C:2552  A2 00       LDX #$00
+.C:2554  20 5C 31    JSR $315C
+.C:2557  4C 13 25    JMP $2513
+.C:255a  C9 1C       CMP #$1C
+.C:255c  D0 D9       BNE $2537
+.C:255e  A2 00       LDX #$00
+(C:$2560) d24e7
+ERROR -- Wrong syntax:
+  d24e7
+       ^
+(C:$2560) hunt a9 8000 xx b3 03
+24e7
+2beb
+2fae
+2fb1
+3004
+300b
+64e7
+6beb
+6fae
+6fb1
+7004
+700b
+(C:$2560) d 2beb
+.C:2beb  AE B3 03    LDX $03B3
+.C:2bee  A0 00       LDY #$00
+.C:2bf0  A9 03       LDA #$03
+.C:2bf2  E0 00       CPX #$00
+.C:2bf4  D0 02       BNE $2BF8
+.C:2bf6  A9 2A       LDA #$2A
+.C:2bf8  99 31 0C    STA $0C31,Y
+.C:2bfb  CA          DEX
+.C:2bfc  C8          INY
+.C:2bfd  C0 04       CPY #$04
+.C:2bff  D0 F1       BNE $2BF2
+.C:2c01  AE B4 03    LDX $03B4
+.C:2c04  A0 00       LDY #$00
+.C:2c06  A9 03       LDA #$03
+.C:2c08  E0 00       CPX #$00
+.C:2c0a  D0 02       BNE $2C0E
+.C:2c0c  A9 2A       LDA #$2A
+.C:2c0e  99 4C 0C    STA $0C4C,Y
+.C:2c11  CA          DEX
+.C:2c12  C8          INY
+.C:2c13  C0 04       CPY #$04
+.C:2c15  D0 F1       BNE $2C08
+.C:2c17  60          RTS
+.C:2c18  A2 00       LDX #$00
+.C:2c1a  A9 2A       LDA #$2A
+.C:2c1c  9D 50 0C    STA $0C50,X
+.C:2c1f  A9 B2       LDA #$B2
+.C:2c21  9D 50 08    STA $0850,X
+.C:2c24  E8          INX
+.C:2c25  E0 28       CPX #$28
+.C:2c27  D0 F1       BNE $2C1A
+.C:2c29  60          RTS
+.C:2c2a  20 18 2C    JSR $2C18
+.C:2c2d  A2 00       LDX #$00
+.C:2c2f  BD 80 12    LDA $1280,X
+.C:2c32  9D 5F 0C    STA $0C5F,X
+.C:2c35  E8          INX
+.C:2c36  E0 09       CPX #$09
+.C:2c38  D0 F5       BNE $2C2F
+.C:2c3a  60          RTS
+.C:2c3b  20 18 2C    JSR $2C18
+.C:2c3e  A2 00       LDX #$00
+.C:2c40  BD 89 12    LDA $1289,X
+.C:2c43  9D 5F 0C    STA $0C5F,X
+.C:2c46  E8          INX
+.C:2c47  E0 09       CPX #$09
+.C:2c49  D0 F5       BNE $2C40
+.C:2c4b  60          RTS
+.C:2c4c  20 18 2C    JSR $2C18
+.C:2c4f  A2 00       LDX #$00
+(C:$2c51) break store 3b3
+WATCH: 3  C:$03b3  (Stop on store)
+(C:$2c51) x
+#3 (Stop on store 03b3)  282/$11a,  99/$63
+.C:2fae  DE B3 03    DEC $03B3,X    - A:14 X:00 Y:00 SP:f6 ..-....C 1309966119
+(C:$2fb1) d 2f90
+.C:2f90  4C 06 2F    JMP $2F06
+.C:2f93  C9 1C       CMP #$1C
+.C:2f95  D0 09       BNE $2FA0
+.C:2f97  AE B5 03    LDX $03B5
+.C:2f9a  20 7E 31    JSR $317E
+.C:2f9d  4C 06 2F    JMP $2F06
+.C:2fa0  A2 00       LDX #$00
+.C:2fa2  E8          INX
+.C:2fa3  D0 FD       BNE $2FA2
+.C:2fa5  4C 4D 2F    JMP $2F4D
+.C:2fa8  20 66 25    JSR $2566
+.C:2fab  AE B5 03    LDX $03B5
+.C:2fae  DE B3 03    DEC $03B3,X
+.C:2fb1  BD B3 03    LDA $03B3,X
+.C:2fb4  C9 00       CMP #$00
+.C:2fb6  D0 05       BNE $2FBD
+.C:2fb8  A9 01       LDA #$01
+.C:2fba  9D B1 03    STA $03B1,X
+.C:2fbd  20 EB 2B    JSR $2BEB
+.C:2fc0  AD B5 03    LDA $03B5
+.C:2fc3  49 01       EOR #$01
+.C:2fc5  AA          TAX
+.C:2fc6  BD B1 03    LDA $03B1,X
+.C:2fc9  C9 01       CMP #$01
+.C:2fcb  F0 06       BEQ $2FD3
+.C:2fcd  8E B5 03    STX $03B5
+.C:2fd0  4C 06 2F    JMP $2F06
+.C:2fd3  8A          TXA
+.C:2fd4  49 01       EOR #$01
+.C:2fd6  AA          TAX
+.C:2fd7  BD B1 03    LDA $03B1,X
+.C:2fda  C9 01       CMP #$01
+.C:2fdc  F0 06       BEQ $2FE4
+.C:2fde  8E B5 03    STX $03B5
+.C:2fe1  4C 06 2F    JMP $2F06
+.C:2fe4  20 2A 2C    JSR $2C2A
+.C:2fe7  A2 00       LDX #$00
+.C:2fe9  A0 00       LDY #$00
+.C:2feb  C8          INY
+.C:2fec  D0 FD       BNE $2FEB
+.C:2fee  E8          INX
+.C:2fef  D0 F8       BNE $2FE9
+.C:2ff1  EE BD 03    INC $03BD
+.C:2ff4  AD BD 03    LDA $03BD
+.C:2ff7  C9 14       CMP #$14
+.C:2ff9  D0 EC       BNE $2FE7
+.C:2ffb  4C 04 24    JMP $2404
+.C:2ffe  20 49 30    JSR $3049
+.C:3001  AE B5 03    LDX $03B5
+.C:3004  BD B3 03    LDA $03B3,X
+(C:$3007) r
+  ADDR A  X  Y  SP 00 01 NV-BDIZC LIN CYC  STOPWATCH
+.;2fb1 14 00 00 f6 0f 88 00100001 282 099 1309966119
+(C:$3007) breaf 2fab
+ERROR -- Wrong syntax:
+  breaf 2fab
+        ^
+(C:$3007) break 2fab
+BREAK: 4  C:$2fab  (Stop on exec)
+(C:$3007) x
+#2 (Stop on store 0c33)  283/$11b,  60/$3c
+.C:2bf8  99 31 0C    STA $0C31,Y    - A:2A X:FF Y:02 SP:f4 N.-....C 1309966194
+(C:$2bfb) x
+(C:$291a) sc
+Displaying 40x25 screen at $0c00:
+0c00  xhtwj*    $& **jllx*  !%$**xhtwj*       
+0c28  *uqf^jw!*c****mndxh*   $(% *uqf^jw"*ccc*
+0c50  ****************************************
+0c78  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+0ca0  bDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDb
+0cc8  bDbbbbbbbbbbbbbbbbbbbbbDbbbbbbbbbbbbbbDb
+0cf0  bDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDb
+0d18  bDbDbbbbbbbbbbbbDbbbbbbbbbbbbbbbbbbbDbDb
+0d40  bDbDbDDDDDDDDDDDDDDDDDD7DDDDDDDDDDDbDbDb
+0d68  bDbDbDbbbbbbbbbbbbbbbbbbbbDbbbbbbbDbDbDb
+0d90  bDbDbDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDbDb
+0db8  bD;;DDDDDbbbbbbbbbbDbbbbbbbb;bbbDDDbDbDb
+0de0  bDDD;DDD;++++++;;;;;;;;;;;;;;;;bDbDbDbDb
+0e08  bDbDbDbDb+b;bDbDbbbbbbbbbbbbbb;;;bDDDDDb
+0e30  bDbDbDbDb+bbDbDbbbbbbbbbbbbbbbDb;bDDDDDb
+0e58  bDbDbDbDb/DDDDDDDDDDDDDDDDDDDDDb;bDbDbDb
+0e80  bDbDbDbDbbbbbbbbbbbbbbDbbbbbbbbb;bDbDbDb
+0ea8  bDbDbDbDDDD+++++++++/;;;;;;;;;;;;bDbDbDb
+0ed0  bDbDbDbbbbbbbbbbbbbbbbbbbbbbDbbbbbDbDbDb
+0ef8  bDbDbDDDDDD/+++++++++DDDDDDDDDDDDDDbDbDb
+0f20  bDbDbbbbbbbbbbbDbbbbbbbbbbbbbbbbbbbbDbDb
+0f48  bDbDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDbDb
+0f70  bDbbbbbbbbbbbbbbbbbbbbbbbDbbbbbbbbbbbbDb
+0f98  b�DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDb
+0fc0  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+(C:$291a) m$800
+>C:0800  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0810  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0820  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0830  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0840  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0850  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0860  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0870  b2 b2 b2 b2  b2 b2 b2 b2  00 00 00 00  00 00 00 00   ��������........
+>C:0880  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ................
+>C:0890  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ................
+>C:08a0  00 b1 b1 b1  b1 b1 b1 b1  b1 b1 b1 b1  b1 b1 b1 b1   .���������������
+>C:08b0  b1 b1 b1 b1  b1 b1 b1 b1  b1 b1 b1 b1  b1 b1 b1 b1   ����������������
+>C:08c0  b1 b1 b1 b1  b1 b1 b1 00  00 b1 00 00  00 00 00 00   �������..�......
+>C:08d0  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 77   ...............w
+>C:08e0  00 00 00 00  00 00 00 00  00 00 00 00  00 00 b1 00   ..............�.
+>C:08f0  00 b1 00 45  55 65 75 85  95 a5 b5 c5  d5 e5 f5 05   .�.EUeu..������.
+>C:0900  15 25 35 45  55 65 75 85  95 a5 b5 c5  d5 e5 f5 05   .%5EUeu..������.
+>C:0910  15 25 35 45  b5 00 b1 00  00 b1 00 15  00 00 00 00   .%5E�.�..�......
+>C:0920  00 00 00 00  00 00 00 00  77 00 00 00  00 00 00 00   ........w.......
+>C:0930  00 00 00 00  00 00 00 00  00 00 00 00  c5 00 b1 00   ............�.�.
+>C:0940  00 b1 00 05  00 f5 05 15  25 35 45 55  65 75 85 95   .�...�..%5EUeu..
+>C:0950  a5 b5 c5 d5  e5 f5 05 15  b1 b1 b1 55  45 35 25 15   ������..���UE5%.
+(C:$0960) x
+(C:$2fa2) m$800
+>C:0800  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0810  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0820  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0830  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0840  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0850  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0860  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0870  b2 b2 b2 b2  b2 b2 b2 b2  57 57 57 57  57 57 57 57   ��������WWWWWWWW
+>C:0880  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0890  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:08a0  57 b1 b1 b1  b1 b1 b1 b1  b1 b1 b1 b1  b1 b1 b1 b1   W���������������
+>C:08b0  b1 b1 b1 b1  b1 b1 b1 b1  b1 b1 b1 b1  b1 b1 b1 b1   ����������������
+>C:08c0  b1 b1 b1 b1  b1 b1 b1 57  57 b1 57 57  57 57 57 57   �������WW�WWWWWW
+>C:08d0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 b1   WWWWWWWWWWWWWWW�
+>C:08e0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 b1 57   WWWWWWWWWWWWWW�W
+>C:08f0  57 b1 57 b1  b1 b1 b1 b1  b1 b1 b1 b1  b1 b1 b1 b1   W�W�������������
+>C:0900  b1 b1 b1 b1  b1 b1 b1 b1  b1 b1 b1 b1  b1 b1 b1 b1   ����������������
+>C:0910  b1 b1 b1 b1  b1 57 b1 57  57 b1 57 b1  57 57 57 57   �����W�WW�W�WWWW
+>C:0920  57 57 57 57  57 57 57 57  77 57 57 57  57 57 57 57   WWWWWWWWwWWWWWWW
+>C:0930  57 57 57 57  57 57 57 57  57 57 57 57  b1 57 b1 57   WWWWWWWWWWWW�W�W
+>C:0940  57 b1 57 b1  57 d5 d5 d5  d5 d5 d5 d5  b1 b1 b1 b1   W�W�W������ձ���
+>C:0950  b1 b1 b1 b1  b1 b1 b1 b1  b1 b1 b1 b1  b1 b1 b1 b1   ����������������
+(C:$0960) break store 880
+WATCH: 5  C:$0880  (Stop on store)
+(C:$0960) cond 5 if @io:880 == 57
+Setting checkpoint 5 condition to: @:io:$0880 == $57
+(C:$0960) x
+#3 (Stop on store 03b3)  212/$0d4,  33/$21
+.C:300b  FE B3 03    INC $03B3,X    - A:01 X:00 Y:00 SP:f6 ..-..... 1541861433
+(C:$300e) x
+#2 (Stop on store 0c33)  213/$0d5,  33/$21
+.C:2bf8  99 31 0C    STA $0C31,Y    - A:2A X:00 Y:02 SP:f4 ..-....C 1541861547
+(C:$2bfb) d
+.C:2bfb  CA          DEX
+.C:2bfc  C8          INY
+.C:2bfd  C0 04       CPY #$04
+.C:2bff  D0 F1       BNE $2BF2
+.C:2c01  AE B4 03    LDX $03B4
+.C:2c04  A0 00       LDY #$00
+.C:2c06  A9 03       LDA #$03
+.C:2c08  E0 00       CPX #$00
+.C:2c0a  D0 02       BNE $2C0E
+.C:2c0c  A9 2A       LDA #$2A
+.C:2c0e  99 4C 0C    STA $0C4C,Y
+.C:2c11  CA          DEX
+.C:2c12  C8          INY
+.C:2c13  C0 04       CPY #$04
+.C:2c15  D0 F1       BNE $2C08
+.C:2c17  60          RTS
+.C:2c18  A2 00       LDX #$00
+.C:2c1a  A9 2A       LDA #$2A
+.C:2c1c  9D 50 0C    STA $0C50,X
+.C:2c1f  A9 B2       LDA #$B2
+.C:2c21  9D 50 08    STA $0850,X
+.C:2c24  E8          INX
+.C:2c25  E0 28       CPX #$28
+.C:2c27  D0 F1       BNE $2C1A
+.C:2c29  60          RTS
+.C:2c2a  20 18 2C    JSR $2C18
+.C:2c2d  A2 00       LDX #$00
+.C:2c2f  BD 80 12    LDA $1280,X
+.C:2c32  9D 5F 0C    STA $0C5F,X
+.C:2c35  E8          INX
+.C:2c36  E0 09       CPX #$09
+.C:2c38  D0 F5       BNE $2C2F
+.C:2c3a  60          RTS
+.C:2c3b  20 18 2C    JSR $2C18
+.C:2c3e  A2 00       LDX #$00
+.C:2c40  BD 89 12    LDA $1289,X
+.C:2c43  9D 5F 0C    STA $0C5F,X
+.C:2c46  E8          INX
+.C:2c47  E0 09       CPX #$09
+.C:2c49  D0 F5       BNE $2C40
+.C:2c4b  60          RTS
+.C:2c4c  20 18 2C    JSR $2C18
+.C:2c4f  A2 00       LDX #$00
+.C:2c51  BD 92 12    LDA $1292,X
+.C:2c54  9D 5F 0C    STA $0C5F,X
+.C:2c57  E8          INX
+.C:2c58  E0 09       CPX #$09
+.C:2c5a  D0 F5       BNE $2C51
+.C:2c5c  60          RTS
+.C:2c5d  AD 09 FF    LDA $FF09
+(C:$2c60) r
+  ADDR A  X  Y  SP 00 01 NV-BDIZC LIN CYC  STOPWATCH
+.;2bfb 2a 00 02 f4 0f 88 00100001 213 033 1541861547
+(C:$2c60) d 2be0
+.C:2be0  09 A9       ORA #$A9
+.C:2be2  20 9D 06    JSR $069D
+.C:2be5  0C CA 4C    NOOP $4CCA
+.C:2be8  D6 2B       DEC $2B,X
+.C:2bea  60          RTS
+.C:2beb  AE B3 03    LDX $03B3
+.C:2bee  A0 00       LDY #$00
+.C:2bf0  A9 03       LDA #$03
+.C:2bf2  E0 00       CPX #$00
+.C:2bf4  D0 02       BNE $2BF8
+.C:2bf6  A9 2A       LDA #$2A
+.C:2bf8  99 31 0C    STA $0C31,Y
+.C:2bfb  CA          DEX
+.C:2bfc  C8          INY
+.C:2bfd  C0 04       CPY #$04
+.C:2bff  D0 F1       BNE $2BF2
+.C:2c01  AE B4 03    LDX $03B4
+.C:2c04  A0 00       LDY #$00
+.C:2c06  A9 03       LDA #$03
+.C:2c08  E0 00       CPX #$00
+.C:2c0a  D0 02       BNE $2C0E
+.C:2c0c  A9 2A       LDA #$2A
+.C:2c0e  99 4C 0C    STA $0C4C,Y
+.C:2c11  CA          DEX
+.C:2c12  C8          INY
+.C:2c13  C0 04       CPY #$04
+.C:2c15  D0 F1       BNE $2C08
+.C:2c17  60          RTS
+.C:2c18  A2 00       LDX #$00
+.C:2c1a  A9 2A       LDA #$2A
+.C:2c1c  9D 50 0C    STA $0C50,X
+.C:2c1f  A9 B2       LDA #$B2
+.C:2c21  9D 50 08    STA $0850,X
+.C:2c24  E8          INX
+.C:2c25  E0 28       CPX #$28
+.C:2c27  D0 F1       BNE $2C1A
+.C:2c29  60          RTS
+.C:2c2a  20 18 2C    JSR $2C18
+.C:2c2d  A2 00       LDX #$00
+.C:2c2f  BD 80 12    LDA $1280,X
+.C:2c32  9D 5F 0C    STA $0C5F,X
+.C:2c35  E8          INX
+.C:2c36  E0 09       CPX #$09
+.C:2c38  D0 F5       BNE $2C2F
+.C:2c3a  60          RTS
+.C:2c3b  20 18 2C    JSR $2C18
+.C:2c3e  A2 00       LDX #$00
+.C:2c40  BD 89 12    LDA $1289,X
+.C:2c43  9D 5F 0C    STA $0C5F,X
+.C:2c46  E8          INX
+(C:$2c47) x
+#1 (Stop on store 0c3c)  128/$080, 113/$71
+.C:312b  9D 3C 0C    STA $0C3C,X    - A:20 X:00 Y:00 SP:f4 ..-....C 1548360881
+(C:$312e) x
+#5 (Stop on store 0880)  304/$130, 101/$65
+.C:2da6  99 78 08    STA $0878,Y    - A:57 X:08 Y:08 SP:f4 ..-..... 1550194901
+(C:$2da9) x
+(C:$2fa2) m$800
+>C:0800  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0810  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0820  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0830  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0840  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0850  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0860  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0870  b2 b2 b2 b2  b2 b2 b2 b2  57 57 57 57  57 57 57 57   ��������WWWWWWWW
+>C:0880  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0890  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:08a0  57 77 77 77  77 77 77 77  77 77 77 77  77 77 77 77   Wwwwwwwwwwwwwwww
+>C:08b0  77 77 77 77  77 77 77 57  57 57 57 57  57 57 57 57   wwwwwwwWWWWWWWWW
+>C:08c0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:08d0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:08e0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:08f0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0900  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0910  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0920  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0930  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0940  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0950  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+(C:$0960) cond 5 if @io:880 == 00
+ERROR -- Conditional operation missing an operand:
+  cond 5 if @io:880 == 00
+                       ^
+(C:$0960) cond 5 if @io:880 == 0
+ERROR -- Conditional operation missing an operand:
+  cond 5 if @io:880 == 0
+                       ^
+(C:$0960) cond 5 if @io:880 == $0
+Setting checkpoint 5 condition to: @:io:$0880 == $00
+(C:$0960) x
+#1 (Stop on store 0c3c)  131/$083, 110/$6e
+.C:312b  9D 3C 0C    STA $0C3C,X    - A:20 X:00 Y:00 SP:f4 ..-....C 1583217860
+(C:$312e) d
+.C:312e  9D 6C 12    STA $126C,X
+.C:3131  E8          INX
+.C:3132  E0 07       CPX #$07
+.C:3134  D0 F2       BNE $3128
+.C:3136  A2 00       LDX #$00
+.C:3138  BD 21 0C    LDA $0C21,X
+.C:313b  18          CLC
+.C:313c  DD 3C 0C    CMP $0C3C,X
+.C:313f  90 09       BCC $314A
+.C:3141  F0 02       BEQ $3145
+.C:3143  B0 06       BCS $314B
+.C:3145  E8          INX
+.C:3146  E0 07       CPX #$07
+.C:3148  D0 EE       BNE $3138
+.C:314a  60          RTS
+.C:314b  A2 00       LDX #$00
+.C:314d  BD 21 0C    LDA $0C21,X
+.C:3150  9D 3C 0C    STA $0C3C,X
+.C:3153  9D 6C 12    STA $126C,X
+.C:3156  E8          INX
+.C:3157  E0 07       CPX #$07
+.C:3159  D0 F2       BNE $314D
+.C:315b  60          RTS
+.C:315c  FE AB 03    INC $03AB,X
+.C:315f  BD AB 03    LDA $03AB,X
+.C:3162  C9 20       CMP #$20
+.C:3164  D0 17       BNE $317D
+.C:3166  A9 00       LDA #$00
+.C:3168  9D AB 03    STA $03AB,X
+.C:316b  FE AD 03    INC $03AD,X
+.C:316e  BD AD 03    LDA $03AD,X
+.C:3171  C9 03       CMP #$03
+.C:3173  D0 08       BNE $317D
+.C:3175  A9 00       LDA #$00
+.C:3177  9D AD 03    STA $03AD,X
+.C:317a  FE AF 03    INC $03AF,X
+.C:317d  60          RTS
+.C:317e  DE AB 03    DEC $03AB,X
+.C:3181  BD AB 03    LDA $03AB,X
+.C:3184  C9 FF       CMP #$FF
+.C:3186  D0 F5       BNE $317D
+.C:3188  A9 1F       LDA #$1F
+.C:318a  9D AB 03    STA $03AB,X
+.C:318d  DE AD 03    DEC $03AD,X
+.C:3190  BD AD 03    LDA $03AD,X
+.C:3193  C9 FF       CMP #$FF
+.C:3195  D0 E6       BNE $317D
+.C:3197  A9 02       LDA #$02
+.C:3199  9D AD 03    STA $03AD,X
+.C:319c  DE AF 03    DEC $03AF,X
+(C:$319f) x
+#1 (Stop on store 0c3c)   19/$013,  20/$14
+.C:312b  9D 3C 0C    STA $0C3C,X    - A:20 X:00 Y:00 SP:f4 ..-....C 1583418410
+(C:$312e) x
+#1 (Stop on store 0c3c)  234/$0ea, 109/$6d
+.C:312b  9D 3C 0C    STA $0C3C,X    - A:20 X:00 Y:00 SP:f4 ..-....C 1583620849
+(C:$312e) x
+#1 (Stop on store 0c3c)   66/$042, 111/$6f
+.C:312b  9D 3C 0C    STA $0C3C,X    - A:20 X:00 Y:00 SP:f4 ..-....C 1583815107
+(C:$312e) x
+#1 (Stop on store 0c3c)  305/$131,  84/$54
+.C:312b  9D 3C 0C    STA $0C3C,X    - A:20 X:00 Y:00 SP:f4 ..-....C 1584020166
+(C:$312e) x
+#1 (Stop on store 0c3c)  152/$098,   2/$02
+.C:312b  9D 3C 0C    STA $0C3C,X    - A:20 X:00 Y:00 SP:f4 ..-....C 1584216050
+(C:$312e) x
+#1 (Stop on store 0c3c)   25/$019,   4/$04
+.C:312b  9D 3C 0C    STA $0C3C,X    - A:20 X:00 Y:00 SP:f4 ..-....C 1584414982
+(C:$312e) x
+#1 (Stop on store 0c3c)  245/$0f5,  27/$1b
+.C:312b  9D 3C 0C    STA $0C3C,X    - A:20 X:00 Y:00 SP:f4 ..-....C 1584617925
+(C:$312e) mc3c
+ERROR -- Wrong syntax:
+  mc3c
+      ^
+(C:$312e) m c3c
+>C:0c3c  20 20 20 27  24 26 25 2a  15 11 06 1e  0a 17 22 2a      '$&%*......"*
+>C:0c4c  03 03 03 2a  2a 2a 2a 2a  2a 2a 2a 2a  2a 2a 2a 2a   ...*************
+>C:0c5c  2a 2a 2a 2a  2a 2a 2a 2a  2a 2a 2a 2a  2a 2a 2a 2a   ****************
+>C:0c6c  2a 2a 2a 2a  2a 2a 2a 2a  2a 2a 2a 2a  02 02 02 02   ************....
+>C:0c7c  02 02 02 02  02 02 02 02  02 02 02 02  02 02 02 02   ................
+>C:0c8c  02 02 02 02  02 02 02 02  02 02 02 02  02 02 02 02   ................
+>C:0c9c  02 02 02 02  02 2b 2b 2b  2b 2b 44 44  44 44 44 44   .....+++++DDDDDD
+>C:0cac  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0cbc  44 44 2b 2b  2b 2b 2b 2b  2b 2b 2f 02  02 2b 02 02   DD++++++++/..+..
+>C:0ccc  02 02 02 02  02 02 02 02  02 02 02 02  02 02 02 02   ................
+>C:0cdc  02 02 02 44  02 02 02 02  02 02 02 02  02 02 02 02   ...D............
+>C:0cec  02 02 3b 02  02 2b 02 44  44 44 44 44  44 44 44 44   ..;..+.DDDDDDDDD
+>C:0cfc  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0d0c  44 44 44 44  44 44 44 44  44 02 3b 02  02 2b 02 44   DDDDDDDDD.;..+.D
+>C:0d1c  02 02 02 02  02 02 02 02  02 02 02 02  44 02 02 02   ............D...
+>C:0d2c  02 02 02 02  02 02 02 02  02 02 02 02  02 02 02 02   ................
+>C:0d3c  44 02 3b 02  02 2f 02 44  02 44 44 44  44 44 44 44   D.;../.D.DDDDDDD
+>C:0d4c  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0d5c  44 44 44 44  44 44 44 02  44 02 3b 02  02 44 02 44   DDDDDDD.D.;..D.D
+>C:0d6c  02 44 02 02  02 02 02 02  02 02 02 02  02 02 02 02   .D..............
+>C:0d7c  02 02 02 02  02 02 44 02  02 02 02 02  02 02 44 02   ......D.......D.
+>C:0d8c  44 02 3b 02  02 44 02 44  02 44 02 44  44 44 44 37   D.;..D.D.D.DDDD7
+(C:$0d9c) break
+WATCH: 1  C:$0c3c  (Stop on store)
+WATCH: 2  C:$0c33  (Stop on store)
+WATCH: 3  C:$03b3  (Stop on store)
+BREAK: 4  C:$2fab  (Stop on exec)
+WATCH: 5  C:$0880  (Stop on store)
+	Condition: @:io:$0880 == $00
+(C:$0d9c) delete 1
+(C:$0d9c) x
+#5 (Stop on store 0880)   78/$04e,   9/$09
+.C:26b7  91 3F       STA ($3F),Y    - A:00 X:41 Y:00 SP:f4 ..-...ZC 1608464997
+(C:$26b9) d
+.C:26b9  20 13 2B    JSR $2B13
+.C:26bc  A5 42       LDA $42
+.C:26be  C9 10       CMP #$10
+.C:26c0  D0 EA       BNE $26AC
+.C:26c2  60          RTS
+.C:26c3  AD BD 03    LDA $03BD
+.C:26c6  D0 01       BNE $26C9
+.C:26c8  60          RTS
+.C:26c9  C9 01       CMP #$01
+.C:26cb  D0 34       BNE $2701
+.C:26cd  A9 2F       LDA #$2F
+.C:26cf  8D 11 FF    STA $FF11
+.C:26d2  AD BE 03    LDA $03BE
+.C:26d5  C9 00       CMP #$00
+.C:26d7  D0 11       BNE $26EA
+.C:26d9  EE 0F FF    INC $FF0F
+.C:26dc  AD 0F FF    LDA $FF0F
+.C:26df  C9 64       CMP #$64
+.C:26e1  F0 01       BEQ $26E4
+.C:26e3  60          RTS
+.C:26e4  A9 01       LDA #$01
+.C:26e6  8D BE 03    STA $03BE
+.C:26e9  60          RTS
+.C:26ea  CE 0F FF    DEC $FF0F
+.C:26ed  AD 0F FF    LDA $FF0F
+.C:26f0  C9 00       CMP #$00
+.C:26f2  F0 01       BEQ $26F5
+.C:26f4  60          RTS
+.C:26f5  A9 00       LDA #$00
+.C:26f7  8D 11 FF    STA $FF11
+.C:26fa  8D BD 03    STA $03BD
+.C:26fd  8D BE 03    STA $03BE
+.C:2700  60          RTS
+.C:2701  C9 02       CMP #$02
+.C:2703  D0 1A       BNE $271F
+.C:2705  A9 28       LDA #$28
+.C:2707  8D 11 FF    STA $FF11
+.C:270a  CE 0F FF    DEC $FF0F
+.C:270d  CE BF 03    DEC $03BF
+.C:2710  F0 01       BEQ $2713
+.C:2712  60          RTS
+.C:2713  A9 00       LDA #$00
+.C:2715  8D BE 03    STA $03BE
+.C:2718  8D BD 03    STA $03BD
+.C:271b  8D 11 FF    STA $FF11
+.C:271e  60          RTS
+.C:271f  C9 03       CMP #$03
+.C:2721  D0 2F       BNE $2752
+.C:2723  AD BE 03    LDA $03BE
+.C:2726  C9 00       CMP #$00
+(C:$2728) r
+  ADDR A  X  Y  SP 00 01 NV-BDIZC LIN CYC  STOPWATCH
+.;26b9 00 41 00 f4 0f 88 00100011 078 009 1608464997
+(C:$2728) d 26a0
+.C:26a0  A9 0C       LDA #$0C
+.C:26a2  85 42       STA $42
+.C:26a4  A9 78       LDA #$78
+.C:26a6  85 41       STA $41
+.C:26a8  A0 00       LDY #$00
+.C:26aa  A2 41       LDX #$41
+.C:26ac  B1 41       LDA ($41),Y
+.C:26ae  C9 02       CMP #$02
+.C:26b0  D0 07       BNE $26B9
+.C:26b2  20 F9 2A    JSR $2AF9
+.C:26b5  A9 00       LDA #$00
+.C:26b7  91 3F       STA ($3F),Y
+.C:26b9  20 13 2B    JSR $2B13
+.C:26bc  A5 42       LDA $42
+.C:26be  C9 10       CMP #$10
+.C:26c0  D0 EA       BNE $26AC
+.C:26c2  60          RTS
+.C:26c3  AD BD 03    LDA $03BD
+.C:26c6  D0 01       BNE $26C9
+.C:26c8  60          RTS
+.C:26c9  C9 01       CMP #$01
+.C:26cb  D0 34       BNE $2701
+.C:26cd  A9 2F       LDA #$2F
+.C:26cf  8D 11 FF    STA $FF11
+.C:26d2  AD BE 03    LDA $03BE
+.C:26d5  C9 00       CMP #$00
+.C:26d7  D0 11       BNE $26EA
+.C:26d9  EE 0F FF    INC $FF0F
+.C:26dc  AD 0F FF    LDA $FF0F
+.C:26df  C9 64       CMP #$64
+.C:26e1  F0 01       BEQ $26E4
+.C:26e3  60          RTS
+.C:26e4  A9 01       LDA #$01
+.C:26e6  8D BE 03    STA $03BE
+.C:26e9  60          RTS
+.C:26ea  CE 0F FF    DEC $FF0F
+.C:26ed  AD 0F FF    LDA $FF0F
+.C:26f0  C9 00       CMP #$00
+.C:26f2  F0 01       BEQ $26F5
+.C:26f4  60          RTS
+.C:26f5  A9 00       LDA #$00
+.C:26f7  8D 11 FF    STA $FF11
+.C:26fa  8D BD 03    STA $03BD
+.C:26fd  8D BE 03    STA $03BE
+.C:2700  60          RTS
+.C:2701  C9 02       CMP #$02
+.C:2703  D0 1A       BNE $271F
+.C:2705  A9 28       LDA #$28
+.C:2707  8D 11 FF    STA $FF11
+.C:270a  CE 0F FF    DEC $FF0F
+(C:$270d) r
+  ADDR A  X  Y  SP 00 01 NV-BDIZC LIN CYC  STOPWATCH
+.;26b9 00 41 00 f4 0f 88 00100011 078 009 1608464997
+(C:$270d) m$3f
+>C:003f  80 08 80 0c  bc 0f 03 40  0f 2a 03 77  32 05 00 4b   ....�..@.*.w2..K
+>C:004f  0f 00 00 17  01 4c 00 00  00 69 d3 26  11 00 00 00   .....L...i�&....
+>C:005f  00 00 8e 00  00 24 04 00  00 00 8e 90  10 00 00 00   .....$..........
+>C:006f  00 00 86 12  00 00 00 00  00 2c 00 00  00 b0 07 04   .........,...�..
+>C:007f  02 00 80 00  00 00 36 10  00 00 00 00  00 00 00 00   ......6.........
+>C:008f  00 00 ff 00  00 00 00 00  00 00 03 00  01 3f a9 3f   ..�..........?�?
+>C:009f  a8 00 d7 a8  00 b8 dc 00  d7 00 00 00  00 00 00 01   �.ר.��.�.......
+>C:00af  00 00 00 40  01 01 10 40  02 eb f2 46  01 72 86 00   ...@...@.��F.r..
+>C:00bf  00 00 00 00  19 00 00 40  00 28 0c 00  00 01 01 0d   .......@.(......
+>C:00cf  00 19 81 00  00 00 00 00  00 00 00 00  00 00 00 00   ................
+>C:00df  00 00 00 00  00 00 00 00  00 00 00 28  08 26 e0 ff   ...........(.&��
+>C:00ef  0a 00 00 00  00 00 d8 00  00 00 00 46  00 00 00 04   ......�....F....
+>C:00ff  20 31 32 32  37 37 00 30  30 30 30 ff  ff ff ff 00    12277.0000����.
+>C:010f  00 00 00 ff  00 71 32 63  44 35 46 77  48 29 5a 6b   ...�.q2cD5FwH)Zk
+>C:011f  5c 6d 2e 5f  ff ff ff 00  00 00 00 ff  ff ff ff 00   \m._���....����.
+>C:012f  00 00 00 ff  ff ff ff 00  00 00 00 ff  ff ff ff 00   ...����....����.
+>C:013f  00 20 d2 ff  a9 01 8d 15  ff a2 0f bd  37 03 29 3f   . ���...��.�7.)?
+>C:014f  9d 51 0d a9  71 9d 51 09  bd 15 02 9d  a4 0f a9 51   .Q.�q.Q.�...�.�Q
+>C:015f  9d a4 0b ca  10 e5 a2 14  bd 29 02 9d  33 03 ca 10   .�.�.��.�)..3.�.
+>C:016f  f7 a9 60 8d  f2 03 a9 33  8d 2e 03 a9  03 8d 2f 03   ��`.�.�3...�../.
+>C:017f  a9 25 85 af  a9 02 85 b0  a9 04 85 ab  20 3c 03 a5   �%.��..��..� <.�
+>C:018f  90 d0 21 86  2d 84 2e 20  f2 03 20 e1  ff f0 15 a2   .�!.-.. �. ���.�
+(C:$019f) r
+  ADDR A  X  Y  SP 00 01 NV-BDIZC LIN CYC  STOPWATCH
+.;26b9 00 41 00 f4 0f 88 00100011 078 009 1608464997
+(C:$019f) d 26a0
+.C:26a0  A9 0C       LDA #$0C
+.C:26a2  85 42       STA $42
+.C:26a4  A9 78       LDA #$78
+.C:26a6  85 41       STA $41
+.C:26a8  A0 00       LDY #$00
+.C:26aa  A2 41       LDX #$41
+.C:26ac  B1 41       LDA ($41),Y
+.C:26ae  C9 02       CMP #$02
+.C:26b0  D0 07       BNE $26B9
+.C:26b2  20 F9 2A    JSR $2AF9
+.C:26b5  A9 00       LDA #$00
+.C:26b7  91 3F       STA ($3F),Y
+.C:26b9  20 13 2B    JSR $2B13
+.C:26bc  A5 42       LDA $42
+.C:26be  C9 10       CMP #$10
+.C:26c0  D0 EA       BNE $26AC
+.C:26c2  60          RTS
+.C:26c3  AD BD 03    LDA $03BD
+.C:26c6  D0 01       BNE $26C9
+.C:26c8  60          RTS
+.C:26c9  C9 01       CMP #$01
+.C:26cb  D0 34       BNE $2701
+.C:26cd  A9 2F       LDA #$2F
+.C:26cf  8D 11 FF    STA $FF11
+.C:26d2  AD BE 03    LDA $03BE
+.C:26d5  C9 00       CMP #$00
+.C:26d7  D0 11       BNE $26EA
+.C:26d9  EE 0F FF    INC $FF0F
+.C:26dc  AD 0F FF    LDA $FF0F
+.C:26df  C9 64       CMP #$64
+.C:26e1  F0 01       BEQ $26E4
+.C:26e3  60          RTS
+.C:26e4  A9 01       LDA #$01
+.C:26e6  8D BE 03    STA $03BE
+.C:26e9  60          RTS
+.C:26ea  CE 0F FF    DEC $FF0F
+.C:26ed  AD 0F FF    LDA $FF0F
+.C:26f0  C9 00       CMP #$00
+.C:26f2  F0 01       BEQ $26F5
+.C:26f4  60          RTS
+.C:26f5  A9 00       LDA #$00
+.C:26f7  8D 11 FF    STA $FF11
+.C:26fa  8D BD 03    STA $03BD
+.C:26fd  8D BE 03    STA $03BE
+.C:2700  60          RTS
+.C:2701  C9 02       CMP #$02
+.C:2703  D0 1A       BNE $271F
+.C:2705  A9 28       LDA #$28
+.C:2707  8D 11 FF    STA $FF11
+.C:270a  CE 0F FF    DEC $FF0F
+(C:$270d) m$3f 40
+>C:003f  80 08                                                ..
+(C:$0041) d 2b13
+.C:2b13  B5 00       LDA $00,X
+.C:2b15  18          CLC
+.C:2b16  69 01       ADC #$01
+.C:2b18  95 00       STA $00,X
+.C:2b1a  4C 0A 2B    JMP $2B0A
+.C:2b1d  B5 00       LDA $00,X
+.C:2b1f  38          SEC
+.C:2b20  E9 28       SBC #$28
+.C:2b22  95 00       STA $00,X
+.C:2b24  B5 01       LDA $01,X
+.C:2b26  E9 00       SBC #$00
+.C:2b28  95 01       STA $01,X
+.C:2b2a  60          RTS
+.C:2b2b  B5 00       LDA $00,X
+.C:2b2d  38          SEC
+.C:2b2e  E9 01       SBC #$01
+.C:2b30  4C 22 2B    JMP $2B22
+.C:2b33  AD B6 03    LDA $03B6
+.C:2b36  D0 15       BNE $2B4D
+.C:2b38  A9 FC       LDA #$FC
+.C:2b3a  8D 08 FF    STA $FF08
+.C:2b3d  AD 08 FF    LDA $FF08
+.C:2b40  85 46       STA $46
+.C:2b42  29 0F       AND #$0F
+.C:2b44  85 47       STA $47
+.C:2b46  A5 46       LDA $46
+.C:2b48  29 80       AND #$80
+.C:2b4a  85 46       STA $46
+.C:2b4c  60          RTS
+.C:2b4d  A5 C6       LDA $C6
+.C:2b4f  A2 0F       LDX #$0F
+.C:2b51  C9 17       CMP #$17
+.C:2b53  D0 02       BNE $2B57
+.C:2b55  A2 07       LDX #$07
+.C:2b57  C9 0C       CMP #$0C
+.C:2b59  D0 02       BNE $2B5D
+.C:2b5b  A2 0B       LDX #$0B
+.C:2b5d  C9 32       CMP #$32
+.C:2b5f  D0 02       BNE $2B63
+.C:2b61  A2 0E       LDX #$0E
+.C:2b63  C9 37       CMP #$37
+.C:2b65  D0 02       BNE $2B69
+.C:2b67  A2 0D       LDX #$0D
+.C:2b69  86 47       STX $47
+.C:2b6b  AD 43 05    LDA $0543
+.C:2b6e  A2 00       LDX #$00
+.C:2b70  C9 00       CMP #$00
+.C:2b72  D0 02       BNE $2B76
+.C:2b74  A2 40       LDX #$40
+.C:2b76  86 46       STX $46
+(C:$2b78) step
+.C:2b13  B5 00       LDA $00,X      - A:00 X:41 Y:00 SP:f2 ..-...ZC 1608465009
+(C:$2b13) 
+.C:2b15  18          CLC            - A:80 X:41 Y:00 SP:f2 N.-....C 1608465017
+(C:$2b15) 
+.C:2b16  69 01       ADC #$01       - A:80 X:41 Y:00 SP:f2 N.-..... 1608465021
+(C:$2b16) 
+.C:2b18  95 00       STA $00,X      - A:81 X:41 Y:00 SP:f2 N.-..... 1608465025
+(C:$2b18) 
+.C:2b1a  4C 0A 2B    JMP $2B0A      - A:81 X:41 Y:00 SP:f2 N.-..... 1608465033
+(C:$2b1a) 
+.C:2b0a  95 00       STA $00,X      - A:81 X:41 Y:00 SP:f2 N.-..... 1608465039
+(C:$2b0a) 
+.C:2b0c  B5 01       LDA $01,X      - A:81 X:41 Y:00 SP:f2 N.-..... 1608465047
+(C:$2b0c) 
+.C:2b0e  69 00       ADC #$00       - A:0C X:41 Y:00 SP:f2 ..-..... 1608465055
+(C:$2b0e) 
+.C:2b10  95 01       STA $01,X      - A:0C X:41 Y:00 SP:f2 ..-..... 1608465059
+(C:$2b10) 
+.C:2b12  60          RTS            - A:0C X:41 Y:00 SP:f2 ..-..... 1608465067
+(C:$2b12) m 0 1
+>C:0000  0f c8                                                .�
+(C:$0002) step
+.C:26bc  A5 42       LDA $42        - A:0C X:41 Y:00 SP:f4 ..-..... 1608465079
+(C:$26bc) 
+.C:26be  C9 10       CMP #$10       - A:0C X:41 Y:00 SP:f4 ..-..... 1608465085
+(C:$26be) 
+.C:26c0  D0 EA       BNE $26AC      - A:0C X:41 Y:00 SP:f4 N.-..... 1608465089
+(C:$26c0) 
+.C:26ac  B1 41       LDA ($41),Y    - A:0C X:41 Y:00 SP:f4 N.-..... 1608465092
+(C:$26ac) 
+.C:26ae  C9 02       CMP #$02       - A:02 X:41 Y:00 SP:f4 ..-..... 1608465097
+(C:$26ae) 
+.C:26b0  D0 07       BNE $26B9      - A:02 X:41 Y:00 SP:f4 ..-...ZC 1608465099
+(C:$26b0) 
+.C:26b2  20 F9 2A    JSR $2AF9      - A:02 X:41 Y:00 SP:f4 ..-...ZC 1608465101
+(C:$26b2) x
+(C:$3121) m 0 1
+>C:0000  0f c8                                                .�
+(C:$0002) m 42
+>C:0042  0f 99 0f 03  40 0f 0a ff  77 32 05 00  23 0f 00 00   ....@..�w2..#...
+>C:0052  0d 01 4c 00  00 00 c2 63  26 11 00 00  00 00 00 8e   ..L...�c&.......
+>C:0062  00 00 24 04  00 00 00 8e  90 10 00 00  00 00 00 86   ..$.............
+>C:0072  12 00 00 00  00 00 2c 00  00 00 b0 07  04 02 00 80   ......,...�.....
+>C:0082  00 00 00 36  10 00 00 00  00 00 00 00  00 00 00 ff   ...6...........�
+>C:0092  00 00 00 00  00 00 00 03  00 01 3f a9  3f a8 00 d7   ..........?�?�.�
+>C:00a2  a8 00 ba 58  00 d7 00 00  00 00 00 00  01 00 00 00   �.�X.�..........
+>C:00b2  40 01 01 10  40 02 eb f2  46 01 72 86  00 00 00 00   @...@.��F.r.....
+>C:00c2  00 19 00 00  40 00 28 0c  00 00 01 01  0d 00 19 81   ....@.(.........
+>C:00d2  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ................
+>C:00e2  00 00 00 00  00 00 00 00  28 08 26 e0  ff 0a 00 00   ........(.&��...
+>C:00f2  00 00 00 d8  00 00 00 00  46 00 00 00  04 20 31 32   ...�....F.... 12
+>C:0102  32 37 37 00  30 30 30 30  ff ff ff ff  00 00 00 00   277.0000����....
+>C:0112  ff 00 71 32  63 44 35 46  77 48 29 5a  6b 5c 6d 2e   �.q2cD5FwH)Zk\m.
+>C:0122  5f ff ff ff  00 00 00 00  ff ff ff ff  00 00 00 00   _���....����....
+>C:0132  ff ff ff ff  00 00 00 00  ff ff ff ff  00 00 20 d2   ����....����.. �
+>C:0142  ff a9 01 8d  15 ff a2 0f  bd 37 03 29  3f 9d 51 0d   ��...��.�7.)?.Q.
+>C:0152  a9 71 9d 51  09 bd 15 02  9d a4 0f a9  51 9d a4 0b   �q.Q.�...�.�Q.�.
+>C:0162  ca 10 e5 a2  14 bd 29 02  9d 33 03 ca  10 f7 a9 60   �.��.�)..3.�.��`
+>C:0172  8d f2 03 a9  33 8d 2e 03  a9 03 8d 2f  03 a9 25 85   .�.�3...�../.�%.
+>C:0182  af a9 02 85  b0 a9 04 85  ab 20 3c 03  a5 90 d0 21   ��..��..� <.�.�!
+>C:0192  86 2d 84 2e  20 f2 03 20  e1 ff f0 15  a2 05 86 ef   .-.. �. ���.�..�
+(C:$01a2) x
+#4 (Stop on  exec 2fab)   51/$033,  61/$3d
+.C:2fab  AE B5 03    LDX $03B5      - A:14 X:00 Y:00 SP:f6 ..-...ZC 1628984707
+(C:$2fab) m 800
+>C:0800  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0810  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0820  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0830  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0840  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0850  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0860  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2  b2 b2 b2 b2   ����������������
+>C:0870  b2 b2 b2 b2  b2 b2 b2 b2  57 57 57 57  57 57 57 57   ��������WWWWWWWW
+>C:0880  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0890  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:08a0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:08b0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:08c0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:08d0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:08e0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:08f0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0900  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0910  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0920  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0930  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0940  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0950  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+(C:$0960) m
+>C:0960  b1 b1 b1 57  57 57 b1 57  57 57 57 57  57 57 57 57   ���WWW�WWWWWWWWW
+>C:0970  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0980  57 57 d5 d5  b1 b1 b1 b1  b1 b1 b1 57  57 57 b1 57   WW�ձ������WWW�W
+>C:0990  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:09a0  57 57 57 57  57 57 57 d5  d5 d5 d5 57  57 57 57 57   WWWWWWW����WWWWW
+>C:09b0  b1 b1 b1 57  57 57 b1 57  57 57 57 57  57 57 57 57   ���WWW�WWWWWWWWW
+>C:09c0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 d5   WWWWWWWWWWWWWWW�
+>C:09d0  57 57 57 57  57 57 57 57  b1 57 57 57  57 b1 57 57   WWWWWWWW�WWWW�WW
+>C:09e0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:09f0  57 57 57 57  57 57 57 d5  d5 f5 57 57  b1 b1 b1 57   WWWWWWW���WW���W
+>C:0a00  b1 57 57 57  57 57 b1 57  57 57 57 57  57 57 57 57   �WWWWW�WWWWWWWWW
+>C:0a10  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0a20  57 b1 b1 b1  57 b1 b1 b1  b1 57 57 57  b1 57 b1 57   W���W����WWW�W�W
+>C:0a30  57 b1 57 57  57 57 57 57  57 57 57 57  57 57 57 57   W�WWWWWWWWWWWWWW
+>C:0a40  57 57 57 57  57 57 57 57  b1 b1 b1 57  57 57 57 b1   WWWWWWWW���WWWW�
+>C:0a50  57 57 57 b1  57 57 b1 57  57 b1 57 57  57 b1 57 57   WWW�WW�WW�WWW�WW
+>C:0a60  57 57 b1 57  b1 57 b1 b1  b1 b1 b1 57  57 57 57 57   WW�W�W�����WWWWW
+>C:0a70  57 57 b1 b1  b1 57 57 57  57 57 57 57  b1 57 57 57   WW���WWWWWWW�WWW
+>C:0a80  57 b1 57 57  b1 57 57 b1  b1 b1 b1 b1  b1 b1 b1 b1   W�WW�WW���������
+>C:0a90  b1 b1 b1 b1  b1 57 57 57  57 b1 b1 b1  b1 b1 b1 57   �����WWWW������W
+>C:0aa0  57 57 57 57  b1 57 b1 57  57 b1 b1 57  57 b1 b1 b1   WWWW�W�WW��WW���
+>C:0ab0  b1 57 b1 57  b1 57 57 57  57 57 b1 b1  b1 b1 b1 b1   �W�W�WWWWW������
+(C:$0ac0) m
+>C:0ac0  b1 57 57 57  b1 57 b1 b1  57 57 b1 57  57 b1 57 57   �WWW�W��WW�WW�WW
+>C:0ad0  57 b1 b1 57  57 b1 57 57  57 57 57 57  57 57 57 57   W��WW�WWWWWWWWWW
+>C:0ae0  57 57 57 57  b1 b1 b1 b1  57 57 57 57  57 57 57 57   WWWW����WWWWWWWW
+>C:0af0  57 57 b1 b1  b1 57 57 57  57 b1 57 57  57 57 57 57   WW���WWWW�WWWWWW
+>C:0b00  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0b10  57 57 57 57  57 57 57 57  57 57 b1 57  b1 57 57 57   WWWWWWWWWW�W�WWW
+>C:0b20  57 b1 57 57  57 57 57 57  57 57 57 57  57 57 57 57   W�WWWWWWWWWWWWWW
+>C:0b30  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0b40  57 57 57 57  57 57 57 57  57 b1 57 57  57 57 57 57   WWWWWWWWW�WWWWWW
+>C:0b50  57 57 57 57  57 57 57 57  57 57 57 57  57 f3 57 57   WWWWWWWWWWWWW�WW
+>C:0b60  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0b70  57 b1 57 57  57 57 57 57  57 57 57 57  57 57 57 57   W�WWWWWWWWWWWWWW
+>C:0b80  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0b90  57 57 57 57  57 57 57 57  57 71 57 57  57 57 57 57   WWWWWWWWWqWWWWWW
+>C:0ba0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0bb0  57 b1 57 57  57 57 57 57  57 57 57 57  57 57 57 57   W�WWWWWWWWWWWWWW
+>C:0bc0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0bd0  57 57 57 57  57 57 57 57  57 57 57 57  57 57 57 57   WWWWWWWWWWWWWWWW
+>C:0be0  57 57 57 57  57 57 57 57  00 00 ff ff  ff ff 00 00   WWWWWWWW..����..
+>C:0bf0  00 00 ff ff  ff ff 00 00  00 00 ff ff  ff ff 00 00   ..����....����..
+>C:0c00  18 08 14 17  0a 2a 20 20  20 27 27 24  25 2a 2a 0a   .....*   ''$%**.
+>C:0c10  0c 0c 18 2a  20 20 21 26  25 2a 2a 18  08 14 17 0a   ...*  !&%**.....
+(C:$0c20) m
+>C:0c20  2a 20 20 20  20 20 20 20  2a 15 11 06  1e 0a 17 21   *       *......!
+>C:0c30  2a 03 03 2a  2a 2a 0d 0e  04 18 08 2a  20 20 20 27   *..***.....*   '
+>C:0c40  27 24 25 2a  15 11 06 1e  0a 17 22 2a  03 03 03 2a   '$%*......"*...*
+>C:0c50  2a 2a 2a 2a  2a 2a 2a 2a  2a 2a 2a 2a  2a 2a 2a 2a   ****************
+>C:0c60  2a 2a 2a 2a  2a 2a 2a 2a  2a 2a 2a 2a  2a 2a 2a 2a   ****************
+>C:0c70  2a 2a 2a 2a  2a 2a 2a 2a  44 44 44 44  44 44 44 44   ********DDDDDDDD
+>C:0c80  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0c90  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0ca0  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0cb0  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0cc0  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0cd0  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0ce0  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0cf0  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0d00  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0d10  44 44 44 44  44 44 44 44  44 44 44 37  44 44 44 44   DDDDDDDDDDD7DDDD
+>C:0d20  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0d30  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0d40  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0d50  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0d60  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0d70  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+(C:$0d80) m
+>C:0d80  44 44 2b 2b  44 44 44 44  44 44 44 44  44 44 44 44   DD++DDDDDDDDDDDD
+>C:0d90  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 44   DDDDDDDDDDDDDDDD
+>C:0da0  44 44 44 44  44 44 44 2b  2b 2b 2b 44  44 44 44 44   DDDDDDD++++DDDDD
+>C:0db0  44 44 44 44  44 44 3b 02  02 02 02 44  44 44 44 44   DDDDDD;....DDDDD
+>C:0dc0  44 44 44 44  44 44 44 44  44 44 44 44  44 44 44 2b   DDDDDDDDDDDDDDD+
+>C:0dd0  44 44 44 44  44 44 44 44  44 44 44 44  44 3b 02 02   DDDDDDDDDDDDD;..
+>C:0de0  02 02 02 02  02 02 44 44  44 44 44 44  44 02 44 02   ......DDDDDDD.D.
+>C:0df0  44 02 02 02  02 02 44 2b  2b 2f 44 44  3b 02 02 44   D.....D++/DD;..D
+>C:0e00  44 44 44 44  44 02 3b 02  02 02 02 02  02 02 02 02   DDDDD.;.........
+>C:0e10  44 02 02 02  02 02 02 02  02 02 02 02  02 02 02 02   D...............
+>C:0e20  44 02 02 3b  02 3b 3b 02  3b 44 44 02  3b 02 02 02   D..;.;;.;DD.;...
+>C:0e30  02 02 02 02  02 02 02 02  02 02 02 02  02 02 02 02   ................
+>C:0e40  02 02 02 02  02 02 02 02  3b 3b 3b 02  02 02 02 3b   ........;;;....;
+>C:0e50  02 02 02 3b  02 02 3b 02  02 02 02 02  02 02 02 02   ...;..;.........
+>C:0e60  02 02 02 02  02 02 02 02  02 02 02 02  02 02 02 02   ................
+>C:0e70  02 02 02 02  02 02 02 02  02 02 02 02  02 02 02 02   ................
+>C:0e80  02 02 02 02  3b 02 02 02  02 3b 02 3b  02 3b 3b 3b   ....;....;.;.;;;
+>C:0e90  3b 3b 02 02  02 02 02 02  02 3b 3b 3b  02 3b 02 02   ;;.......;;;.;..
+>C:0ea0  02 02 02 02  02 02 3b 02  02 3b 02 02  02 02 3b 3b   ......;..;....;;
+>C:0eb0  3b 02 3b 02  3b 02 02 02  02 02 3b 3b  02 02 02 02   ;.;.;.....;;....
+>C:0ec0  3b 02 02 02  3b 02 3b 3b  02 02 02 02  02 3b 02 02   ;...;.;;.....;..
+>C:0ed0  02 02 3b 02  02 3b 02 02  02 02 02 02  02 02 02 02   ..;..;..........
+(C:$0ee0) x
+#3 (Stop on store 03b3)   51/$033,  72/$48
+.C:2fae  DE B3 03    DEC $03B3,X    - A:14 X:00 Y:00 SP:f6 ..-....C 1628984718
+(C:$2fb1) x
+#2 (Stop on store 0c33)   52/$034,  37/$25
+.C:2bf8  99 31 0C    STA $0C31,Y    - A:2A X:FF Y:02 SP:f4 N.-....C 1628984797
+(C:$2bfb) x
+#5 (Stop on store 0880)  292/$124,  19/$13
+.C:26b7  91 3F       STA ($3F),Y    - A:00 X:41 Y:00 SP:f4 ..-...ZC 1688837515
+(C:$26b9) bt
+(0) 2f56
+(4) 8bd9
+(C:$26b9) d 2f40
+.C:2f40  03 C9       SLO ($C9,X)
+.C:2f42  0A          ASL A
+.C:2f43  D0 EC       BNE $2F31
+.C:2f45  20 18 2C    JSR $2C18
+.C:2f48  A9 00       LDA #$00
+.C:2f4a  8D BD 03    STA $03BD
+.C:2f4d  20 20 28    JSR $2820
+.C:2f50  20 28 2A    JSR $2A28
+.C:2f53  20 FD 28    JSR $28FD
+.C:2f56  20 5F 26    JSR $265F
+.C:2f59  20 C3 26    JSR $26C3
+.C:2f5c  20 0F 31    JSR $310F
+.C:2f5f  A5 C6       LDA $C6
+.C:2f61  C9 29       CMP #$29
+.C:2f63  D0 15       BNE $2F7A
+.C:2f65  A5 C6       LDA $C6
+.C:2f67  C9 40       CMP #$40
+.C:2f69  D0 FA       BNE $2F65
+.C:2f6b  A5 C6       LDA $C6
+.C:2f6d  C9 29       CMP #$29
+.C:2f6f  D0 FA       BNE $2F6B
+.C:2f71  A5 C6       LDA $C6
+.C:2f73  C9 40       CMP #$40
+.C:2f75  D0 FA       BNE $2F71
+.C:2f77  4C A0 2F    JMP $2FA0
+.C:2f7a  C9 11       CMP #$11
+.C:2f7c  D0 08       BNE $2F86
+.C:2f7e  A9 00       LDA #$00
+.C:2f80  8D 11 FF    STA $FF11
+.C:2f83  4C 04 24    JMP $2404
+.C:2f86  C9 1E       CMP #$1E
+.C:2f88  D0 09       BNE $2F93
+.C:2f8a  AE B5 03    LDX $03B5
+.C:2f8d  20 5C 31    JSR $315C
+.C:2f90  4C 06 2F    JMP $2F06
+.C:2f93  C9 1C       CMP #$1C
+.C:2f95  D0 09       BNE $2FA0
+.C:2f97  AE B5 03    LDX $03B5
+.C:2f9a  20 7E 31    JSR $317E
+.C:2f9d  4C 06 2F    JMP $2F06
+.C:2fa0  A2 00       LDX #$00
+.C:2fa2  E8          INX
+.C:2fa3  D0 FD       BNE $2FA2
+.C:2fa5  4C 4D 2F    JMP $2F4D
+.C:2fa8  20 66 25    JSR $2566
+.C:2fab  AE B5 03    LDX $03B5
+.C:2fae  DE B3 03    DEC $03B3,X
+.C:2fb1  BD B3 03    LDA $03B3,X
+.C:2fb4  C9 00       CMP #$00
+.C:2fb6  D0 05       BNE $2FBD
+(C:$2fb8) d 2f30
+.C:2f30  2D A2 00    AND $00A2
+.C:2f33  A0 00       LDY #$00
+.C:2f35  C8          INY
+.C:2f36  D0 FD       BNE $2F35
+.C:2f38  E8          INX
+.C:2f39  D0 F8       BNE $2F33
+.C:2f3b  EE BD 03    INC $03BD
+.C:2f3e  AD BD 03    LDA $03BD
+.C:2f41  C9 0A       CMP #$0A
+.C:2f43  D0 EC       BNE $2F31
+.C:2f45  20 18 2C    JSR $2C18
+.C:2f48  A9 00       LDA #$00
+.C:2f4a  8D BD 03    STA $03BD
+.C:2f4d  20 20 28    JSR $2820
+.C:2f50  20 28 2A    JSR $2A28
+.C:2f53  20 FD 28    JSR $28FD
+.C:2f56  20 5F 26    JSR $265F
+.C:2f59  20 C3 26    JSR $26C3
+.C:2f5c  20 0F 31    JSR $310F
+.C:2f5f  A5 C6       LDA $C6
+.C:2f61  C9 29       CMP #$29
+.C:2f63  D0 15       BNE $2F7A
+.C:2f65  A5 C6       LDA $C6
+.C:2f67  C9 40       CMP #$40
+.C:2f69  D0 FA       BNE $2F65
+.C:2f6b  A5 C6       LDA $C6
+.C:2f6d  C9 29       CMP #$29
+.C:2f6f  D0 FA       BNE $2F6B
+.C:2f71  A5 C6       LDA $C6
+.C:2f73  C9 40       CMP #$40
+.C:2f75  D0 FA       BNE $2F71
+.C:2f77  4C A0 2F    JMP $2FA0
+.C:2f7a  C9 11       CMP #$11
+.C:2f7c  D0 08       BNE $2F86
+.C:2f7e  A9 00       LDA #$00
+.C:2f80  8D 11 FF    STA $FF11
+.C:2f83  4C 04 24    JMP $2404
+.C:2f86  C9 1E       CMP #$1E
+.C:2f88  D0 09       BNE $2F93
+.C:2f8a  AE B5 03    LDX $03B5
+.C:2f8d  20 5C 31    JSR $315C
+.C:2f90  4C 06 2F    JMP $2F06
+.C:2f93  C9 1C       CMP #$1C
+.C:2f95  D0 09       BNE $2FA0
+.C:2f97  AE B5 03    LDX $03B5
+.C:2f9a  20 7E 31    JSR $317E
+.C:2f9d  4C 06 2F    JMP $2F06
+.C:2fa0  A2 00       LDX #$00
+.C:2fa2  E8          INX
+.C:2fa3  D0 FD       BNE $2FA2
+(C:$2fa5) d 2f20
+.C:2f20  03 8D       SLO ($8D,X)
+.C:2f22  BF 03 8D    LAX $8D03,Y
+.C:2f25  E7 03       ISB $03
+.C:2f27  8D 11 FF    STA $FF11
+.C:2f2a  A9 FF       LDA #$FF
+.C:2f2c  85 58       STA $58
+.C:2f2e  20 79 2D    JSR $2D79
+.C:2f31  A2 00       LDX #$00
+.C:2f33  A0 00       LDY #$00
+.C:2f35  C8          INY
+.C:2f36  D0 FD       BNE $2F35
+.C:2f38  E8          INX
+.C:2f39  D0 F8       BNE $2F33
+.C:2f3b  EE BD 03    INC $03BD
+.C:2f3e  AD BD 03    LDA $03BD
+.C:2f41  C9 0A       CMP #$0A
+.C:2f43  D0 EC       BNE $2F31
+.C:2f45  20 18 2C    JSR $2C18
+.C:2f48  A9 00       LDA #$00
+.C:2f4a  8D BD 03    STA $03BD
+.C:2f4d  20 20 28    JSR $2820
+.C:2f50  20 28 2A    JSR $2A28
+.C:2f53  20 FD 28    JSR $28FD
+.C:2f56  20 5F 26    JSR $265F
+.C:2f59  20 C3 26    JSR $26C3
+.C:2f5c  20 0F 31    JSR $310F
+.C:2f5f  A5 C6       LDA $C6
+.C:2f61  C9 29       CMP #$29
+.C:2f63  D0 15       BNE $2F7A
+.C:2f65  A5 C6       LDA $C6
+.C:2f67  C9 40       CMP #$40
+.C:2f69  D0 FA       BNE $2F65
+.C:2f6b  A5 C6       LDA $C6
+.C:2f6d  C9 29       CMP #$29
+.C:2f6f  D0 FA       BNE $2F6B
+.C:2f71  A5 C6       LDA $C6
+.C:2f73  C9 40       CMP #$40
+.C:2f75  D0 FA       BNE $2F71
+.C:2f77  4C A0 2F    JMP $2FA0
+.C:2f7a  C9 11       CMP #$11
+.C:2f7c  D0 08       BNE $2F86
+.C:2f7e  A9 00       LDA #$00
+.C:2f80  8D 11 FF    STA $FF11
+.C:2f83  4C 04 24    JMP $2404
+.C:2f86  C9 1E       CMP #$1E
+.C:2f88  D0 09       BNE $2F93
+.C:2f8a  AE B5 03    LDX $03B5
+.C:2f8d  20 5C 31    JSR $315C
+.C:2f90  4C 06 2F    JMP $2F06
+.C:2f93  C9 1C       CMP #$1C
+(C:$2f95) m $3bd 3bd
+>C:03bd  01                                                   .
+(C:$03be) r
+  ADDR A  X  Y  SP 00 01 NV-BDIZC LIN CYC  STOPWATCH
+.;26b9 00 41 00 f4 0f 88 00100011 292 019 1688837515
+(C:$03be) d 2f00
+.C:2f00  A9 00       LDA #$00
+.C:2f02  8D 11 FF    STA $FF11
+.C:2f05  60          RTS
+.C:2f06  A9 01       LDA #$01
+.C:2f08  8D BC 03    STA $03BC
+.C:2f0b  20 3B 2C    JSR $2C3B
+.C:2f0e  A9 64       LDA #$64
+.C:2f10  8D C2 03    STA $03C2
+.C:2f13  8D C1 03    STA $03C1
+.C:2f16  8D C0 03    STA $03C0
+.C:2f19  A9 00       LDA #$00
+.C:2f1b  8D BD 03    STA $03BD
+.C:2f1e  8D BE 03    STA $03BE
+.C:2f21  8D BF 03    STA $03BF
+.C:2f24  8D E7 03    STA $03E7
+.C:2f27  8D 11 FF    STA $FF11
+.C:2f2a  A9 FF       LDA #$FF
+.C:2f2c  85 58       STA $58
+.C:2f2e  20 79 2D    JSR $2D79
+.C:2f31  A2 00       LDX #$00
+.C:2f33  A0 00       LDY #$00
+.C:2f35  C8          INY
+.C:2f36  D0 FD       BNE $2F35
+.C:2f38  E8          INX
+.C:2f39  D0 F8       BNE $2F33
+.C:2f3b  EE BD 03    INC $03BD
+.C:2f3e  AD BD 03    LDA $03BD
+.C:2f41  C9 0A       CMP #$0A
+.C:2f43  D0 EC       BNE $2F31
+.C:2f45  20 18 2C    JSR $2C18
+.C:2f48  A9 00       LDA #$00
+.C:2f4a  8D BD 03    STA $03BD
+.C:2f4d  20 20 28    JSR $2820
+.C:2f50  20 28 2A    JSR $2A28
+.C:2f53  20 FD 28    JSR $28FD
+.C:2f56  20 5F 26    JSR $265F
+.C:2f59  20 C3 26    JSR $26C3
+.C:2f5c  20 0F 31    JSR $310F
+.C:2f5f  A5 C6       LDA $C6
+.C:2f61  C9 29       CMP #$29
+.C:2f63  D0 15       BNE $2F7A
+.C:2f65  A5 C6       LDA $C6
+.C:2f67  C9 40       CMP #$40
+.C:2f69  D0 FA       BNE $2F65
+.C:2f6b  A5 C6       LDA $C6
+.C:2f6d  C9 29       CMP #$29
+.C:2f6f  D0 FA       BNE $2F6B
+.C:2f71  A5 C6       LDA $C6
+.C:2f73  C9 40       CMP #$40
+.C:2f75  D0 FA       BNE $2F71
+(C:$2f77) m 3bd 3e7
+>C:03bd  01 00 00 03  00 00 85 a1  a9 7f 48 98  48 ad 19 ff   .......��.H.H�.�
+>C:03cd  49 7f 8d 19  ff a2 8f a0  01 a9 10 24  01 f0 fc 24   I...��.�.�.$.��$
+>C:03dd  01 d0 fc ad  03 ff 8e 02  ff 8c 00                   .���.�..�..
+(C:$03e8) d 2ef0
+.C:2ef0  D0 F6       BNE $2EE8
+.C:2ef2  68          PLA
+.C:2ef3  A8          TAY
+.C:2ef4  AD 0F FF    LDA $FF0F
+.C:2ef7  18          CLC
+.C:2ef8  69 20       ADC #$20
+.C:2efa  8D 0F FF    STA $FF0F
+.C:2efd  4C DA 2E    JMP $2EDA
+.C:2f00  A9 00       LDA #$00
+.C:2f02  8D 11 FF    STA $FF11
+.C:2f05  60          RTS
+.C:2f06  A9 01       LDA #$01
+.C:2f08  8D BC 03    STA $03BC
+.C:2f0b  20 3B 2C    JSR $2C3B
+.C:2f0e  A9 64       LDA #$64
+.C:2f10  8D C2 03    STA $03C2
+.C:2f13  8D C1 03    STA $03C1
+.C:2f16  8D C0 03    STA $03C0
+.C:2f19  A9 00       LDA #$00
+.C:2f1b  8D BD 03    STA $03BD
+.C:2f1e  8D BE 03    STA $03BE
+.C:2f21  8D BF 03    STA $03BF
+.C:2f24  8D E7 03    STA $03E7
+.C:2f27  8D 11 FF    STA $FF11
+.C:2f2a  A9 FF       LDA #$FF
+.C:2f2c  85 58       STA $58
+.C:2f2e  20 79 2D    JSR $2D79
+.C:2f31  A2 00       LDX #$00
+.C:2f33  A0 00       LDY #$00
+.C:2f35  C8          INY
+.C:2f36  D0 FD       BNE $2F35
+.C:2f38  E8          INX
+.C:2f39  D0 F8       BNE $2F33
+.C:2f3b  EE BD 03    INC $03BD
+.C:2f3e  AD BD 03    LDA $03BD
+.C:2f41  C9 0A       CMP #$0A
+.C:2f43  D0 EC       BNE $2F31
+.C:2f45  20 18 2C    JSR $2C18
+.C:2f48  A9 00       LDA #$00
+.C:2f4a  8D BD 03    STA $03BD
+.C:2f4d  20 20 28    JSR $2820
+.C:2f50  20 28 2A    JSR $2A28
+.C:2f53  20 FD 28    JSR $28FD
+.C:2f56  20 5F 26    JSR $265F
+.C:2f59  20 C3 26    JSR $26C3
+.C:2f5c  20 0F 31    JSR $310F
+.C:2f5f  A5 C6       LDA $C6
+.C:2f61  C9 29       CMP #$29
+.C:2f63  D0 15       BNE $2F7A
+.C:2f65  A5 C6       LDA $C6
+(C:$2f67) d 2f00
+.C:2f00  A9 00       LDA #$00
+.C:2f02  8D 11 FF    STA $FF11
+.C:2f05  60          RTS
+.C:2f06  A9 01       LDA #$01
+.C:2f08  8D BC 03    STA $03BC
+.C:2f0b  20 3B 2C    JSR $2C3B
+.C:2f0e  A9 64       LDA #$64
+.C:2f10  8D C2 03    STA $03C2
+.C:2f13  8D C1 03    STA $03C1
+.C:2f16  8D C0 03    STA $03C0
+.C:2f19  A9 00       LDA #$00
+.C:2f1b  8D BD 03    STA $03BD
+.C:2f1e  8D BE 03    STA $03BE
+.C:2f21  8D BF 03    STA $03BF
+.C:2f24  8D E7 03    STA $03E7
+.C:2f27  8D 11 FF    STA $FF11
+.C:2f2a  A9 FF       LDA #$FF
+.C:2f2c  85 58       STA $58
+.C:2f2e  20 79 2D    JSR $2D79
+.C:2f31  A2 00       LDX #$00
+.C:2f33  A0 00       LDY #$00
+.C:2f35  C8          INY
+.C:2f36  D0 FD       BNE $2F35
+.C:2f38  E8          INX
+.C:2f39  D0 F8       BNE $2F33
+.C:2f3b  EE BD 03    INC $03BD
+.C:2f3e  AD BD 03    LDA $03BD
+.C:2f41  C9 0A       CMP #$0A
+.C:2f43  D0 EC       BNE $2F31
+.C:2f45  20 18 2C    JSR $2C18
+.C:2f48  A9 00       LDA #$00
+.C:2f4a  8D BD 03    STA $03BD
+.C:2f4d  20 20 28    JSR $2820
+.C:2f50  20 28 2A    JSR $2A28
+.C:2f53  20 FD 28    JSR $28FD
+.C:2f56  20 5F 26    JSR $265F
+.C:2f59  20 C3 26    JSR $26C3
+.C:2f5c  20 0F 31    JSR $310F
+.C:2f5f  A5 C6       LDA $C6
+.C:2f61  C9 29       CMP #$29
+.C:2f63  D0 15       BNE $2F7A
+.C:2f65  A5 C6       LDA $C6
+.C:2f67  C9 40       CMP #$40
+.C:2f69  D0 FA       BNE $2F65
+.C:2f6b  A5 C6       LDA $C6
+.C:2f6d  C9 29       CMP #$29
+.C:2f6f  D0 FA       BNE $2F6B
+.C:2f71  A5 C6       LDA $C6
+.C:2f73  C9 40       CMP #$40
+.C:2f75  D0 FA       BNE $2F71
+(C:$2f77) r
+  ADDR A  X  Y  SP 00 01 NV-BDIZC LIN CYC  STOPWATCH
+.;26b9 00 41 00 f4 0f 88 00100011 292 019 1688837515
+(C:$2f77) d 265f
+.C:265f  CE C0 03    DEC $03C0
+.C:2662  F0 01       BEQ $2665
+.C:2664  60          RTS
+.C:2665  A9 03       LDA #$03
+.C:2667  8D C0 03    STA $03C0
+.C:266a  CE C1 03    DEC $03C1
+.C:266d  F0 01       BEQ $2670
+.C:266f  60          RTS
+.C:2670  AD C2 03    LDA $03C2
+.C:2673  F0 2A       BEQ $269F
+.C:2675  CE C2 03    DEC $03C2
+.C:2678  AD C2 03    LDA $03C2
+.C:267b  8D C1 03    STA $03C1
+.C:267e  C9 00       CMP #$00
+.C:2680  F0 1E       BEQ $26A0
+.C:2682  AD BD 03    LDA $03BD
+.C:2685  D0 18       BNE $269F
+.C:2687  A9 03       LDA #$03
+.C:2689  8D 10 FF    STA $FF10
+.C:268c  8D BD 03    STA $03BD
+.C:268f  A9 22       LDA #$22
+.C:2691  8D 11 FF    STA $FF11
+.C:2694  AD C2 03    LDA $03C2
+.C:2697  8D 0F FF    STA $FF0F
+.C:269a  A9 00       LDA #$00
+.C:269c  8D BE 03    STA $03BE
+.C:269f  60          RTS
+.C:26a0  A9 0C       LDA #$0C
+.C:26a2  85 42       STA $42
+.C:26a4  A9 78       LDA #$78
+.C:26a6  85 41       STA $41
+.C:26a8  A0 00       LDY #$00
+.C:26aa  A2 41       LDX #$41
+.C:26ac  B1 41       LDA ($41),Y
+.C:26ae  C9 02       CMP #$02
+.C:26b0  D0 07       BNE $26B9
+.C:26b2  20 F9 2A    JSR $2AF9
+.C:26b5  A9 00       LDA #$00
+.C:26b7  91 3F       STA ($3F),Y
+.C:26b9  20 13 2B    JSR $2B13
+.C:26bc  A5 42       LDA $42
+.C:26be  C9 10       CMP #$10
+.C:26c0  D0 EA       BNE $26AC
+.C:26c2  60          RTS
+.C:26c3  AD BD 03    LDA $03BD
+.C:26c6  D0 01       BNE $26C9
+.C:26c8  60          RTS
+.C:26c9  C9 01       CMP #$01
+.C:26cb  D0 34       BNE $2701
+.C:26cd  A9 2F       LDA #$2F
+(C:$26cf) m 3c0 3c0 
+>C:03c0  03                                                   .
+(C:$03c1) d 265f
+.C:265f  CE C0 03    DEC $03C0
+.C:2662  F0 01       BEQ $2665
+.C:2664  60          RTS
+.C:2665  A9 03       LDA #$03
+.C:2667  8D C0 03    STA $03C0
+.C:266a  CE C1 03    DEC $03C1
+.C:266d  F0 01       BEQ $2670
+.C:266f  60          RTS
+.C:2670  AD C2 03    LDA $03C2
+.C:2673  F0 2A       BEQ $269F
+.C:2675  CE C2 03    DEC $03C2
+.C:2678  AD C2 03    LDA $03C2
+.C:267b  8D C1 03    STA $03C1
+.C:267e  C9 00       CMP #$00
+.C:2680  F0 1E       BEQ $26A0
+.C:2682  AD BD 03    LDA $03BD
+.C:2685  D0 18       BNE $269F
+.C:2687  A9 03       LDA #$03
+.C:2689  8D 10 FF    STA $FF10
+.C:268c  8D BD 03    STA $03BD
+.C:268f  A9 22       LDA #$22
+.C:2691  8D 11 FF    STA $FF11
+.C:2694  AD C2 03    LDA $03C2
+.C:2697  8D 0F FF    STA $FF0F
+.C:269a  A9 00       LDA #$00
+.C:269c  8D BE 03    STA $03BE
+.C:269f  60          RTS
+.C:26a0  A9 0C       LDA #$0C
+.C:26a2  85 42       STA $42
+.C:26a4  A9 78       LDA #$78
+.C:26a6  85 41       STA $41
+.C:26a8  A0 00       LDY #$00
+.C:26aa  A2 41       LDX #$41
+.C:26ac  B1 41       LDA ($41),Y
+.C:26ae  C9 02       CMP #$02
+.C:26b0  D0 07       BNE $26B9
+.C:26b2  20 F9 2A    JSR $2AF9
+.C:26b5  A9 00       LDA #$00
+.C:26b7  91 3F       STA ($3F),Y
+.C:26b9  20 13 2B    JSR $2B13
+.C:26bc  A5 42       LDA $42
+.C:26be  C9 10       CMP #$10
+.C:26c0  D0 EA       BNE $26AC
+.C:26c2  60          RTS
+.C:26c3  AD BD 03    LDA $03BD
+.C:26c6  D0 01       BNE $26C9
+.C:26c8  60          RTS
+.C:26c9  C9 01       CMP #$01
+.C:26cb  D0 34       BNE $2701
+.C:26cd  A9 2F       LDA #$2F
+(C:$26cf) m 3c0 3c1
+>C:03c0  03 00                                                ..
+(C:$03c2) a 266a
+.266a  ora $3c1
+.266d  x
+ERROR -- Wrong syntax:
+  x
+  ^
+(C:$266d) x
+#4 (Stop on  exec 2fab)  270/$10e,  71/$47
+.C:2fab  AE B5 03    LDX $03B5      - A:14 X:00 Y:00 SP:f6 ..-...ZC 1708184051
+(C:$2fab) x
+#3 (Stop on store 03b3)  270/$10e,  82/$52
+.C:2fae  DE B3 03    DEC $03B3,X    - A:14 X:00 Y:00 SP:f6 ..-...ZC 1708184062
+(C:$2fb1) x
+#2 (Stop on store 0c33)  271/$10f,  53/$35
+.C:2bf8  99 31 0C    STA $0C31,Y    - A:2A X:FE Y:02 SP:f4 N.-....C 1708184147
+(C:$2bfb) x
+#3 (Stop on store 03b3)  174/$0ae,   0/$00
+.C:2430  9D 33 03    STA $0333,X    - A:00 X:80 Y:00 SP:f6 N.-..... 1719412524
+(C:$2433) x
+#2 (Stop on store 0c33)  256/$100,  39/$27
+.C:2454  9D 00 0C    STA $0C00,X    - A:69 X:33 Y:00 SP:f6 ..-..... 1719421911
+(C:$2457) x
+#3 (Stop on store 03b3)  204/$0cc,  43/$2b
+.C:24e7  8D B3 03    STA $03B3      - A:03 X:00 Y:64 SP:f6 ..-....C 1722368131
+(C:$24ea) x
+#2 (Stop on store 0c33)  234/$0ea, 110/$6e
+.C:2b8a  9D 00 0C    STA $0C00,X    - A:03 X:33 Y:64 SP:f4 ..-..... 1722371618
+(C:$2b8d) x
+#3 (Stop on store 03b3)  283/$11b,  25/$19
+.C:300b  FE B3 03    INC $03B3,X    - A:03 X:00 Y:00 SP:f6 ..-..... 1895130895
+(C:$300e) x
+#2 (Stop on store 0c33)  283/$11b,  89/$59
+.C:2bf8  99 31 0C    STA $0C31,Y    - A:03 X:02 Y:02 SP:f4 ..-....C 1895130959
+(C:$2bfb) m 3c0 3c1
+>C:03c0  02 64                                                .d
+(C:$03c2) x
+(C:$2fa2) m 3c0 3c1
+>C:03c0  03 64                                                .d
+(C:$03c2) x
+(C:$2903) m 3c0 3c1
+>C:03c0  02 64                                                .d
+(C:$03c2) 
+
+
+
+
+
+
+3c0 3c1 = Glowworm Counter
+
+$266A = $0D = Infinite Glow Worm (Not worried about the LSB Timer count) for completeness though $265F = $0D will also work.
+
