@@ -1,3 +1,7 @@
+# Big Mac - Mastertronic - C16
+
+Cheats found by Jason Brooks 2022 - www.muckypaws.com
+
                    _                                                  
                   | |                                                  
  ____  _   _  ____| |  _ _   _ ____  _____ _ _ _  ___  ____ ___  ____  
@@ -6,11 +10,10 @@
 |_|_|_|____/ \____)_| \_)\__  |  __/\_____|\___/(___(_)____)___/|_|_|_|
                         (____/|_|                                      
                         
-                        
-This folder contains Cheats for Commodore C16/Plus4 Games
 
-Developed/Created by Jason Brooks
+Files :-
 
-## Cheats Completed
+**Big Mac Cheat.md**			<-- Type in program
+**Big Mac Cheat.tap**   		<-- Program in TAP format ready for loading
+**ScratchPad**					<-- My Notes
 
-### Big Mac - Mastertronic 
