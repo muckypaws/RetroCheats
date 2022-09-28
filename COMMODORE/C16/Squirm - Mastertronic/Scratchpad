@@ -1935,3 +1935,9 @@ ERROR -- Wrong syntax:
 
 $266A = $0D = Infinite Glow Worm (Not worried about the LSB Timer count) for completeness though $265F = $0D will also work.
 
+(C:$2f35) break
+WATCH: 2  C:$0c33  (Stop on store)
+WATCH: 3  C:$03b3  (Stop on store)
+BREAK: 4  C:$2fab  (Stop on exec)
+WATCH: 5  C:$0880  (Stop on store)
+	Condition: @:io:$0880 == $00
